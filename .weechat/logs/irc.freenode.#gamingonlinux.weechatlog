@@ -1,0 +1,527 @@
+2015-10-04 18:18:37	◥	evilcorp (~dean@c27-253-67-106.thoms4.vic.optusnet.com.au) has joined #gamingonlinux
+2015-10-04 18:18:37	ℹ 	Topic for #gamingonlinux is "Welcome to www.gamingonlinux.com IRC, feel free to talk about anything and be respectful! Please feed Liam crisps. Please speak English, bug Piratelv if the website dies"
+2015-10-04 18:18:37	ℹ 	Topic set by liamdawe (~liamdawe@cpc72901-newt33-2-0-cust102.19-3.cable.virginm.net) on Thu, 24 Sep 2015 20:15:14
+2015-10-04 18:18:38	ℹ 	Channel #gamingonlinux: 130 nicks (1 op, 0 voices, 129 normals)
+2015-10-04 18:18:40	ℹ 	Channel created on Tue, 02 Apr 2013 06:01:43
+2015-10-04 18:22:09	◥	millan (~millan@rrerror.sinus.cz) has joined #gamingonlinux
+2015-10-04 18:25:02	◥	linux_gamer (~linux_gam@p5B029CF1.dip0.t-ipconnect.de) has joined #gamingonlinux
+2015-10-04 18:30:10	◣	Smilex (~Smilex@80.77.132.31) has quit (Ping timeout: 265 seconds)
+2015-10-04 18:33:22	◣	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has quit (Read error: Connection reset by peer)
+2015-10-04 18:34:02	◥	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has joined #gamingonlinux
+2015-10-04 18:41:42	◥	Corben78 (~corben@unaffiliated/corben78) has joined #gamingonlinux
+2015-10-04 18:42:57	◥	ky0 (~ky0@53554024.cm-6-6b.dynamic.ziggo.nl) has joined #gamingonlinux
+2015-10-04 18:44:45	◥	frostwork (~frostwork@p5B355F41.dip0.t-ipconnect.de) has joined #gamingonlinux
+2015-10-04 18:58:50	◥	frankyboy_ (~franky@ppp109-252-17-38.pppoe.spdop.ru) has joined #gamingonlinux
+2015-10-04 19:13:58	◣	sigzz (~sigz@AClermont-Ferrand-654-1-504-203.w90-4.abo.wanadoo.fr) has quit (Ping timeout: 260 seconds)
+2015-10-04 19:14:24	◣	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has quit (Read error: Connection reset by peer)
+2015-10-04 19:14:44	◥	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has joined #gamingonlinux
+2015-10-04 19:15:38	◥	coeseta (~coeseta@ip5f5a1868.dynamic.kabel-deutschland.de) has joined #gamingonlinux
+2015-10-04 19:16:03	◣	Mony (~sobieski@deimos.bg3.biz) has quit (Ping timeout: 246 seconds)
+2015-10-04 19:18:17	◥	spartious (~spartious@c-50-191-156-199.hsd1.de.comcast.net) has joined #gamingonlinux
+2015-10-04 19:26:12	◣	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has quit (Quit: WeeChat 1.3)
+2015-10-04 19:27:04	◥	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has joined #gamingonlinux
+2015-10-04 19:36:50	◣	Nothing_Much (~nothing_m@unaffiliated/nothing-much/x-2931824) has quit (Remote host closed the connection)
+2015-10-04 19:48:00	◥	Coolg33k (~coolgeek@unaffiliated/coolgeek) has joined #gamingonlinux
+2015-10-04 19:51:41	◣	AcTiVaTe (~activate@195-241-203-245.ip.telfort.nl) has quit (Quit: Leaving)
+2015-10-04 19:51:47	◥	Samsai (~Samsai@dsl-espbrasgw1-54f9d0-63.dhcp.inet.fi) has joined #gamingonlinux
+2015-10-04 19:51:48	ℹ 	Mode #gamingonlinux [+o Samsai] by ChanServ
+2015-10-04 20:02:24	ky0	morning people
+2015-10-04 20:07:15	drumr7	morning
+2015-10-04 20:12:29	◣	zadock (~outsider@81.180.210.219) has quit (Quit: Leaving)
+2015-10-04 20:16:05	Future_Suture	lol, wtf? http://gaspull.geeksaresexytech.netdna-cdn.com/wp-content/uploads/2015/09/fake.jpg
+2015-10-04 20:16:05	GolBot	[ jpeg (600 x 501) ]
+2015-10-04 20:16:25	◥	mirv_ (~mirv@host81-157-243-243.range81-157.btcentralplus.com) has joined #gamingonlinux
+2015-10-04 20:17:16	Future_Suture	4 days to go, already funded, from a proven developer, but I am not sure if the gameplay will be for me. https://www.kickstarter.com/projects/kingartgames/the-dwarves-a-new-storydriven-fantasy-rpg/posts/1340409
+2015-10-04 20:17:17	GolBot	[ The Dwarves - A New Storydriven Fantasy RPG by KING Art Games — Kickstarter ]
+2015-10-04 20:17:38	drumr7	yeah more games
+2015-10-04 20:17:45	drumr7	as if we dont have enough of them to play
+2015-10-04 20:18:18	@Samsai	games are bad, we shouldn't get more
+2015-10-04 20:24:07	lemon_snowCone	that is a lot of platforms they are going support Future_Suture
+2015-10-04 20:24:10	lemon_snowCone	for just 250K
+2015-10-04 20:24:50	Future_Suture	lemon_snowCone, yea, but they are a proven developer, and I guess they're getting funding from publishers as well. Kickstarter helps them argue better terms, I'm sure.
+2015-10-04 20:25:13	lemon_snowCone	probably
+2015-10-04 20:25:21	lemon_snowCone	looks like they got funding from else where too
+2015-10-04 20:28:11	drumr7	they probably start in linux and port elsewhere maybe that is why cost is low
+2015-10-04 20:28:16	drumr7	anyway someone is probably matching it
+2015-10-04 20:28:39	◥	murray (~murray@p200300678F7C7187F66D04FFFE5C12D1.dip0.t-ipconnect.de) has joined #gamingonlinux
+2015-10-04 20:28:50	drumr7	i know one company needed some funds to make the 5 minute demo to show the publisher who was going to fund it
+2015-10-04 20:29:01	drumr7	they already had a committment from them
+2015-10-04 20:29:18	drumr7	obviously they had to like the demo but some of the graphics and stuff was already done but just not in the engine
+2015-10-04 20:30:20	Future_Suture	Funds for a 5 minute demo? o.o
+2015-10-04 20:30:38	drumr7	yeah
+2015-10-04 20:30:43	drumr7	it was all privately funded
+2015-10-04 20:31:07	Future_Suture	Just how difficult and how long does it take to make a 5 minute demo? >_<
+2015-10-04 20:31:27	lemon_snowCone	" obviously they had to like the demo but some of the graphics and stuff was already done but just not in the engine"
+2015-10-04 20:31:30	drumr7	well its more involved
+2015-10-04 20:31:33	lemon_snowCone	^ there is your answer Future_Suture
+2015-10-04 20:31:34	lemon_snowCone	:P
+2015-10-04 20:31:36	lemon_snowCone	DOES IT READ?!?!
+2015-10-04 20:32:36	Future_Suture	Graphics and stuff were done, but not in the engine. How hard is it to put them in the engine, lemonY_snowCone?
+2015-10-04 20:32:44	@Samsai	Future_Suture, remember that the cost of a game isn't directly proportional to the length of the game
+2015-10-04 20:33:19	@Samsai	you need plenty of initial funding to lay down the groundwork, after that you are basically just building on top of that
+2015-10-04 20:34:38	@Samsai	so a 5 minute demo might very well end up costing so much money that you need some extra funding, depends on the kind of demo naturally
+2015-10-04 20:35:59	drumr7	thats right the game is well on the way to finish it
+2015-10-04 20:36:14	drumr7	once you have the base laid
+2015-10-04 20:37:48	drumr7	id do the quest designer
+2015-10-04 20:37:51	drumr7	package
+2015-10-04 20:39:23	drumr7	sometimes people will match the game
+2015-10-04 20:39:30	drumr7	fund raising goal
+2015-10-04 20:39:39	drumr7	there can be more funding behind the scenes
+2015-10-04 20:39:59	drumr7	im glad to see the dwarves made their goal
+2015-10-04 20:40:40	drumr7	hmmm
+2015-10-04 20:40:49	drumr7	transformers devastation comes out tuesday
+2015-10-04 20:41:27	Lurgy	Is that out on Linux as well? :o
+2015-10-04 20:41:35	drumr7	doubtful but i hope so
+2015-10-04 20:41:38	drumr7	its beautiful
+2015-10-04 20:41:50	Lurgy	Yeah, it looked surprisingly good for a Transformers title
+2015-10-04 20:42:22	drumr7	well high moon did a great job
+2015-10-04 20:43:05	◣	unshadow (~unshadow@bzq-109-65-69-165.red.bezeqint.net) has quit (Quit: leaving)
+2015-10-04 20:43:30	drumr7	i played the universe beta
+2015-10-04 20:43:33	drumr7	it was ok
+2015-10-04 20:43:43	drumr7	its was like planetside with transformers
+2015-10-04 20:44:00	drumr7	you could download it and play or use in a web browser
+2015-10-04 20:44:03	drumr7	it looks as good
+2015-10-04 20:53:56	◥	EXetoC (~exe@109-124-185-221.customer.t3.se) has joined #gamingonlinux
+2015-10-04 20:56:30	◥	Spl-it (~ik@5ED5FF8D.cm-7-6d.dynamic.ziggo.nl) has joined #gamingonlinux
+2015-10-04 21:03:52	◣	Wyn (~Wyn@unaffiliated/wyn) has quit (Ping timeout: 265 seconds)
+2015-10-04 21:04:07	◥	Wyn (~Wyn@unaffiliated/wyn) has joined #gamingonlinux
+2015-10-04 21:07:46	◥	Jahwis (~private@unaffiliated/jhw) has joined #gamingonlinux
+2015-10-04 21:09:19	◥	Mony (~sobieski@deimos.bg3.biz) has joined #gamingonlinux
+2015-10-04 21:12:04	◣	Wyn (~Wyn@unaffiliated/wyn) has quit (Ping timeout: 240 seconds)
+2015-10-04 21:13:46	◣	Spl-it (~ik@5ED5FF8D.cm-7-6d.dynamic.ziggo.nl) has quit (Ping timeout: 264 seconds)
+2015-10-04 21:15:58	◣	Mony (~sobieski@deimos.bg3.biz) has quit (Ping timeout: 246 seconds)
+2015-10-04 21:16:17	◥	asciiwolf (~asciiwolf@ip4-83-240-88-144.cust.nbox.cz) has joined #gamingonlinux
+2015-10-04 21:19:13	linux_gamer	kitchen
+2015-10-04 21:19:26	linux_gamer	sry there was not strg+f
+2015-10-04 21:24:50	◥	Mony (~sobieski@deimos.bg3.biz) has joined #gamingonlinux
+2015-10-04 21:27:22	◥	Spl-it (~ik@5ED5FF8D.cm-7-6d.dynamic.ziggo.nl) has joined #gamingonlinux
+2015-10-04 21:30:19	Spl-it	morning
+2015-10-04 21:31:05	◥	stqn (~olivier@pdc38-1-82-246-180-56.fbx.proxad.net) has joined #gamingonlinux
+2015-10-04 21:31:22	stqn	hi
+2015-10-04 21:31:47	Spl-it	hey
+2015-10-04 21:34:09	◣	Future_Suture (~wat-kde@212095007071.public.telering.at) has quit (Remote host closed the connection)
+2015-10-04 21:34:35	◥	Future_Suture (~wat-kde@212095007071.public.telering.at) has joined #gamingonlinux
+2015-10-04 21:36:36	◥	FutureSuture (~wat-kde@213162068014.public.t-mobile.at) has joined #gamingonlinux
+2015-10-04 21:40:53	◣	Future_Suture (~wat-kde@212095007071.public.telering.at) has quit (Ping timeout: 272 seconds)
+2015-10-04 21:51:02	◣	baizon (~baizon@unaffiliated/baizon) has quit (Quit: Leaving)
+2015-10-04 21:53:57	FutureSuture	I see, Samsai
+2015-10-04 21:56:32	gkeen_	FutureSuture: bop
+2015-10-04 22:00:23	linux_gamer	hi Spl-it , stqn
+2015-10-04 22:01:05	gkeen_	linux_gamer: whats up?
+2015-10-04 22:02:42	◣	murray (~murray@p200300678F7C7187F66D04FFFE5C12D1.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2015-10-04 22:21:57	ℹ 	irc: disconnected from server
+2015-10-04 22:22:22	◥	evilcorp (~dean@c27-253-67-106.thoms4.vic.optusnet.com.au) has joined #gamingonlinux
+2015-10-04 22:22:22	ℹ 	Topic for #gamingonlinux is "Welcome to www.gamingonlinux.com IRC, feel free to talk about anything and be respectful! Please feed Liam crisps. Please speak English, bug Piratelv if the website dies"
+2015-10-04 22:22:22	ℹ 	Topic set by liamdawe (~liamdawe@cpc72901-newt33-2-0-cust102.19-3.cable.virginm.net) on Thu, 24 Sep 2015 20:15:14
+2015-10-04 22:22:22	ℹ 	Channel #gamingonlinux: 139 nicks (2 ops, 0 voices, 137 normals)
+2015-10-04 22:22:25	ℹ 	Channel created on Tue, 02 Apr 2013 06:01:43
+2015-10-04 22:26:07	◣	Deveu (~dan@187.240.34.116) has quit (Remote host closed the connection)
+2015-10-04 22:36:10	◣	Jahwis (~private@unaffiliated/jhw) has quit (Quit: leaving)
+2015-10-04 22:46:59	tumocs	good day
+2015-10-04 22:48:27	frostwork	hiho
+2015-10-04 22:48:41	GermainZ	good day
+2015-10-04 22:50:30	◣	ky0 (~ky0@53554024.cm-6-6b.dynamic.ziggo.nl) has quit (Ping timeout: 260 seconds)
+2015-10-04 22:55:30	◣	synth (~synth___@unaffiliated/synth) has quit (Ping timeout: 246 seconds)
+2015-10-04 23:02:45	◥	ky0 (~ky0@53554024.cm-6-6b.dynamic.ziggo.nl) has joined #gamingonlinux
+2015-10-04 23:07:07	◥	Goonzu (~mojtaba@cpc28-newt29-2-0-cust766.19-3.cable.virginm.net) has joined #gamingonlinux
+2015-10-04 23:15:47	gnarface	where does steam in-home streaming use as an audio source by default? line-in?
+2015-10-04 23:16:09	gnarface	or mic, or whatever the first capture device in alsa is?
+2015-10-04 23:18:18	Piratelv	I would imagine that in-home streaming uses the monitors pulseaudio creates for each output to grab the game audio
+2015-10-04 23:19:58	gnarface	Piratelv: oh, so it requires pulseaudio for audio?  that would explain it
+2015-10-04 23:20:41	gnarface	i don't have pulseaudio installed, so my host isn't sending audio
+2015-10-04 23:24:39	Piratelv	well, I don't "know" if it needs pulseaudio, never actually checked. but bother steamos and ubuntu use that as default sound system so it's a fair guess
+2015-10-04 23:37:09	◥	Ysblokje (~Ysblokje@92-108-97-182.dynamic.upc.nl) has joined #gamingonlinux
+2015-10-04 23:39:04	stqn	also it’s kinda impossible to record audio with alsa on some/most motherboards
+2015-10-04 23:39:38	gnarface	no that's not true if you know what you're doing
+2015-10-04 23:39:38	Ysblokje	oh dear, did I stumble into another PA vs ALSA discussion ?
+2015-10-04 23:39:54	stqn	gnarface: yes, it is true, and I think it’s not the first time we have that conversation
+2015-10-04 23:40:29	gnarface	well it MIGHT be impossible to record the PCM output using only software without a patch cable, i think we did have that conversation
+2015-10-04 23:40:35	stqn	right
+2015-10-04 23:40:52	Ysblokje	1) PA should die, a horrible deatch at that. 2) ALSA should have more user friendly tools (which PA does have)
+2015-10-04 23:41:04	GermainZ	Why should PA die?
+2015-10-04 23:41:06	gnarface	but there were results to my google search suggesting this used to work and got broke in some update
+2015-10-04 23:41:17	gnarface	but i'm only trying it now so ...
+2015-10-04 23:41:38	◣	frostwork (~frostwork@p5B355F41.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2015-10-04 23:41:44	gnarface	maybe i'll try a patch cable
+2015-10-04 23:41:56	Ysblokje	GermainZ, its a laggy piece of ..... Everytime I play games or watch videos I get annoid(?) very quickly
+2015-10-04 23:42:13	gnarface	i just figured someone else might have tried it without pulseaudio
+2015-10-04 23:42:39	GermainZ	Ysblokje: haven't had problems when I last tried on another box ¯\o/¯ when have you last tried it?
+2015-10-04 23:43:17	Ysblokje	6 - 12 months ago. Then I just removed it.
+2015-10-04 23:43:37	Ysblokje	Now on Arch it didn't come with the first DE I installed :)
+2015-10-04 23:43:54	EXetoC	SDL2 y u ignore X11 mappings
+2015-10-04 23:44:35	Ysblokje	Btw I did try to get along with it for a few years.
+2015-10-04 23:44:51	Ysblokje	But first it was crashy as hell too
+2015-10-04 23:45:07	GermainZ	I just use alsa but pulseraudio hasn't been a broken piece of shit like it first was for a while now
+2015-10-04 23:45:12	GermainZ	pulseaudio*
+2015-10-04 23:46:05	◥	erkin (~erkin@unaffiliated/erkin) has joined #gamingonlinux
+2015-10-04 23:47:05	Ysblokje	I know, but as I said the lag is now my main problem. I am becomming more of a consumer type linux user. Too much to do, to little time/interest in solving issues on my machine
+2015-10-04 23:47:33	EXetoC	is redirecting sound easier with PA? say if you'd like to pass the audio output through the microphone at 20% gain or something
+2015-10-04 23:47:34	GermainZ	Oh, I'm not saying you should use it. If it doesn't work and something else does, then by all means switch to it if it's less effort :
+2015-10-04 23:47:34	Ysblokje	contradicts using arch a bit I know
+2015-10-04 23:47:35	GermainZ	p
+2015-10-04 23:47:49	GermainZ	but you said «PA should die, a horrible deatch at that»
+2015-10-04 23:47:56	Ysblokje	Yeah
+2015-10-04 23:48:17	Ysblokje	It belongs in a microkernel OS ;)
+2015-10-04 23:48:41	Ysblokje	The tools for alsa should just get better
+2015-10-04 23:49:58	EXetoC	someone also claimed that it would have been best to continue the development of OSS instead
+2015-10-04 23:50:03	EXetoC	so, what is going on :p
+2015-10-04 23:50:06	GermainZ	fun
+2015-10-04 23:50:41	Ysblokje	That would have been fine too, but I think a license problem with the original OSS spawned the ALSA development.
+2015-10-04 23:50:57	Ysblokje	or at least acted like a catalyst
+2015-10-04 23:51:15	EXetoC	ok
+2015-10-04 23:51:28	GermainZ	Ysblokje: uh, no. Catalyst is related to graphics, no audio!
+2015-10-04 23:51:32	⚡	GermainZ hides
+2015-10-04 23:51:37	GermainZ	also, not*
+2015-10-04 23:51:39	⚡	Ysblokje takes aim
+2015-10-04 23:51:43	⚡	GermainZ runs
+2015-10-04 23:51:44	EXetoC	bacon
+2015-10-04 23:51:58	⚡	Ysblokje shoots ,and misses... lucky bastard
+2015-10-04 23:52:06	GermainZ	woooo!
+2015-10-04 23:52:31	Ysblokje	But GermainZ didn't see the cliff he ran of eventually :P
+2015-10-04 23:52:56	GermainZ	I CAN FLY
+2015-10-04 23:53:16	Ysblokje	One day GermainZ, one day......
+2015-10-04 23:53:39	⚡	Half-Shot seals himself inside his bunker
+2015-10-04 23:54:31	Ysblokje	anyway, time to fill an sdcard with the new rasbian image.
+2015-10-04 23:54:53	Ysblokje	time to get the dust of the old pi.
+2015-10-04 23:54:55	◥	synth (~synth___@unaffiliated/synth) has joined #gamingonlinux
+2015-10-05 00:03:56	◣	Pyrus (~pyrus@unaffiliated/pyrus) has quit (Ping timeout: 256 seconds)
+2015-10-05 00:04:48	◣	Goonzu (~mojtaba@cpc28-newt29-2-0-cust766.19-3.cable.virginm.net) has quit (Quit: Konversation terminated!)
+2015-10-05 00:12:39	◥	sobkas (~sobkas@193.106.101.71) has joined #gamingonlinux
+2015-10-05 00:14:55	◣	murray (~murray@p200300678F7C7129F66D04FFFE5C12D1.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2015-10-05 00:27:07	◥	Pyrus (~pyrus@unaffiliated/pyrus) has joined #gamingonlinux
+2015-10-05 00:33:41	◥	Algram (~raphaelg@2a02:8070:628a:1800:be5f:f4ff:febf:aac1) has joined #gamingonlinux
+2015-10-05 00:33:46	ℹ 	Algram is now known as Algram_
+2015-10-05 00:48:30	◣	EXetoC (~exe@109-124-185-221.customer.t3.se) has quit (Ping timeout: 255 seconds)
+2015-10-05 00:52:55	◣	Corben78 (~corben@unaffiliated/corben78) has quit (Quit: Cye)
+2015-10-05 00:59:35	◥	Corben78 (~corben@unaffiliated/corben78) has joined #gamingonlinux
+2015-10-05 01:13:07	◥	Raven67854 (~Raven6785@70-33-140-24.unassigned.ntelos.net) has joined #gamingonlinux
+2015-10-05 01:21:50	◥	EXetoC (~exe@109-124-185-221.customer.t3.se) has joined #gamingonlinux
+2015-10-05 01:24:15	◣	SteamPoweredH (~SteamPowe@cpe-65-27-241-63.cinci.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-10-05 01:24:49	◥	SteamPoweredH (~SteamPowe@cpe-65-27-241-63.cinci.res.rr.com) has joined #gamingonlinux
+2015-10-05 01:32:38	◥	preppie (~piyush@116.75.3.36) has joined #gamingonlinux
+2015-10-05 01:34:41	preppie	nobody online?
+2015-10-05 01:34:41	◣	linux_gamer (~linux_gam@p5B029CF1.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2015-10-05 01:34:43	preppie	wow
+2015-10-05 01:35:48	◣	ky0 (~ky0@53554024.cm-6-6b.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2015-10-05 01:35:49	Raven67854	what?
+2015-10-05 01:35:57	◣	JasonO (~HL@188.166.81.168) has quit (Changing host)
+2015-10-05 01:35:57	◥	JasonO (~HL@unaffiliated/hereticlocke) has joined #gamingonlinux
+2015-10-05 01:36:02	preppie	oh hey!
+2015-10-05 01:36:04	preppie	what's up?
+2015-10-05 01:36:05	tumocs	?
+2015-10-05 01:36:05	stqn	probably a dry addict :P
+2015-10-05 01:36:07	◣	Spl-it (~ik@5ED5FF8D.cm-7-6d.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.3)
+2015-10-05 01:36:08	stqn	err
+2015-10-05 01:36:11	stqn	drug*
+2015-10-05 01:36:26	◥	ky0 (~ky0@53554024.cm-6-6b.dynamic.ziggo.nl) has joined #gamingonlinux
+2015-10-05 01:36:34	tadzik	 hello, and welcome to IRC!
+2015-10-05 01:36:50	Raven67854	Yeah see we exist
+2015-10-05 01:36:54	tadzik	all of us are technically online, but only glance at this window every 10 minutes or so
+2015-10-05 01:37:02	Raven67854	tadzik, !
+2015-10-05 01:37:04	preppie	ah!
+2015-10-05 01:37:05	tadzik	and possibly stick for a while longer if something interesting is going on
+2015-10-05 01:37:10	ky0	aloha :P
+2015-10-05 01:37:15	Raven67854	Hey ky0
+2015-10-05 01:37:16	tadzik	so don't be discouraged it everyone seems offline at a glance :)
+2015-10-05 01:37:18	tadzik	Raven67854!
+2015-10-05 01:37:22	preppie	Well its the people that makes it interesting right?
+2015-10-05 01:37:25	Raven67854	Sup tadzik ?
+2015-10-05 01:37:29	tadzik	Raven67854: cool
+2015-10-05 01:37:34	tumocs	I have this on my second monitor all the time, it's only hidden when I use bitwig
+2015-10-05 01:37:35	tadzik	Raven67854: just had my episode with pixelart
+2015-10-05 01:37:41	preppie	I'm on a laptop :(
+2015-10-05 01:37:54	Raven67854	tadzik, I er what? :P
+2015-10-05 01:38:02	ky0	anyone on 15.10 yet?
+2015-10-05 01:38:06	Raven67854	ky0, I am
+2015-10-05 01:38:13	ky0	which distro?
+2015-10-05 01:38:18	Raven67854	Ubuntu
+2015-10-05 01:38:24	tadzik	Raven67854: I figured that all "pixel art editors" suck ass
+2015-10-05 01:38:30	ky0	hmm ok, are you able to install wine 1.7?
+2015-10-05 01:38:31	Raven67854	tadzik, I use Krita
+2015-10-05 01:38:32	◥	linux_gamer (~linux_gam@p5B029CF1.dip0.t-ipconnect.de) has joined #gamingonlinux
+2015-10-05 01:38:36	Raven67854	ky0, No idea why?
+2015-10-05 01:38:41	◥	Spl-it (~ik@5ED5FF8D.cm-7-6d.dynamic.ziggo.nl) has joined #gamingonlinux
+2015-10-05 01:38:43	tadzik	and that I'm probably better off adding a preview window to gimp or something
+2015-10-05 01:38:44	Raven67854	Not sure if the wine ppa's have a wily bit yet
+2015-10-05 01:38:53	Raven67854	tadzik, use Krita
+2015-10-05 01:38:56	ky0	won't install for me, unmet dependencies
+2015-10-05 01:38:58	tadzik	Raven67854: will try
+2015-10-05 01:39:03	Raven67854	ky0, bummer
+2015-10-05 01:39:10	ky0	wine ppa is there for willy is seems, but doesn't work
+2015-10-05 01:39:13	Raven67854	ky0, 15.10 is awesome though.. Also the Ubuntu Browser isn't half bad
+2015-10-05 01:39:18	ky0	so wondering if it's be being derpy or not
+2015-10-05 01:39:20	tadzik	ubuntu browser!
+2015-10-05 01:39:26	ky0	I'm using Mate :P
+2015-10-05 01:39:27	tadzik	what a time to be alive
+2015-10-05 01:39:33	ky0	but I am getting frustrated with it
+2015-10-05 01:39:34	Half-Shot	tadzik, haha
+2015-10-05 01:39:49	Raven67854	tadzik, its for the convergence thing man.. Not sure its included in the desktop version though
+2015-10-05 01:39:49	Half-Shot	I like how gnome have their own browser
+2015-10-05 01:40:18	tadzik	Raven67854: ah, fair enough
+2015-10-05 01:40:29	Raven67854	why its*
+2015-10-05 01:40:36	Raven67854	Firefox is and will remain the default though
+2015-10-05 01:40:38	tadzik	seems like absolutely everybody didn't learn their lesson about "don't make your own browser"
+2015-10-05 01:40:50	Raven67854	tadzik, It's basically just webkit in a qt window :p
+2015-10-05 01:41:02	tadzik	yeah, and that's why nobody will like it :)
+2015-10-05 01:41:03	Raven67854	Supports WebGL really well
+2015-10-05 01:41:17	Raven67854	tadzik, It uses barely any ram actually
+2015-10-05 01:41:26	Raven67854	Because unlike chrome/firefox it has no extensions
+2015-10-05 01:41:32	Raven67854	It's even lighter than midori
+2015-10-05 01:42:05	tadzik	opera manages to be a ram hog on mobile even without extensions :P
+2015-10-05 01:42:13	tadzik	but it has its own crazy stuff
+2015-10-05 01:42:33	tadzik	what I see is, whenever a company rolls out their own browser, user keep coming out with feature requests
+2015-10-05 01:42:45	tadzik	and after a while they want so much that you may as well just take a readymade browser anyway
+2015-10-05 01:42:52	◣	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Quit: Leaving)
+2015-10-05 01:44:31	◥	linux_gamer_ (~linux_gam@p5B028930.dip0.t-ipconnect.de) has joined #gamingonlinux
+2015-10-05 01:45:11	@Samsai	hah! my 70 warriors managed to humiliate a king with a 300 man army
+2015-10-05 01:45:15	◣	linux_gamer (~linux_gam@p5B029CF1.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2015-10-05 01:46:05	@Samsai	mount & blade: warband is such a fun game
+2015-10-05 01:46:18	tadzik	I should really try the singleplayer
+2015-10-05 01:46:38	tadzik	someone got me to play with him the online battles thing
+2015-10-05 01:46:47	tadzik	which was quite amusing, but didn't entertain me for too long
+2015-10-05 01:46:52	@Samsai	i haven't touched the multiplayer
+2015-10-05 01:47:08	@Samsai	but i have nearly 40 hours in the singleplayer
+2015-10-05 01:47:17	◣	Raven67854 (~Raven6785@70-33-140-24.unassigned.ntelos.net) has quit (Ping timeout: 268 seconds)
+2015-10-05 01:48:22	◣	Pyrus (~pyrus@unaffiliated/pyrus) has quit (Ping timeout: 240 seconds)
+2015-10-05 01:48:24	preppie	The only thing I play is Dota 2
+2015-10-05 01:48:29	preppie	I'm using Linux Mint by the way
+2015-10-05 01:48:33	preppie	17.2 is pretty awesome
+2015-10-05 01:48:46	@Samsai	preppie, remember to also play something else every now and then
+2015-10-05 01:49:08	preppie	:P
+2015-10-05 01:49:11	@Samsai	otherwise you'll become one of those brainless dota 2 players that yell toxic nonsense 24/7
+2015-10-05 01:49:26	preppie	I don't yell toxic nonsense
+2015-10-05 01:49:36	preppie	Mostly I try to look for a bunch of friendly people
+2015-10-05 01:49:38	@Samsai	good, that means you still have a chance
+2015-10-05 01:49:47	preppie	Rare occurrence
+2015-10-05 01:50:08	preppie	I meant I only play Dota on Linux
+2015-10-05 01:50:14	preppie	I have a desktop for gaming
+2015-10-05 01:50:19	preppie	Laptop is mostly for work and stuff
+2015-10-05 01:50:24	preppie	Sometimes Dota
+2015-10-05 01:50:33	◥	sigz (~sigz@AClermont-Ferrand-654-1-504-203.w90-4.abo.wanadoo.fr) has joined #gamingonlinux
+2015-10-05 01:51:48	preppie	Desktop is Windows
+2015-10-05 01:51:57	preppie	Sadly
+2015-10-05 01:51:58	tadzik	haha
+2015-10-05 01:52:01	tadzik	preppie | Mostly I try to look for a bunch of friendly people
+2015-10-05 01:52:05	tadzik	I see why you play singleplayer
+2015-10-05 01:52:29	preppie	I have a few friends from college who play
+2015-10-05 01:52:34	preppie	If they're online, it's fun
+2015-10-05 01:53:02	tadzik	is the lack of communication as gamebreaking in dota as it is in cs?
+2015-10-05 01:53:25	tadzik	I mean, in CS I usually mute people the moment they become annoying
+2015-10-05 01:53:44	GermainZ	I just mute everyone
+2015-10-05 01:53:46	tadzik	if that's more than half of the team it usually equals losing the game, but I think I'm still better off
+2015-10-05 01:53:47	GermainZ	\o/
+2015-10-05 02:01:14	preppie	no comms in dota is pretty much a fail
+2015-10-05 02:01:21	preppie	you need coordination
+2015-10-05 02:01:28	◣	SilverCode (~SilverCod@196-215-28-65.dynamic.isadsl.co.za) has quit (Ping timeout: 268 seconds)
+2015-10-05 02:01:47	preppie	it's way too dependent on team spirit
+2015-10-05 02:02:30	preppie	Which is why when you play online, you get a load of toxic kids who just want to play for themselves
+2015-10-05 02:03:10	tadzik	right
+2015-10-05 02:03:57	tadzik	the thing in CS is teammates often don't give you info before/when they die, but when they're dead and they spectate you they rant how bad you are not knowing what's going on on the map
+2015-10-05 02:05:02	preppie	pretty much how it is in Dota
+2015-10-05 02:05:20	preppie	you'll have people going in for a gank without support, or you expecting support and you don't get any
+2015-10-05 02:05:54	◥	Raven67854 (~Raven6785@70-33-140-24.unassigned.ntelos.net) has joined #gamingonlinux
+2015-10-05 02:06:22	◥	SilverCode (~SilverCod@196-215-28-65.dynamic.isadsl.co.za) has joined #gamingonlinux
+2015-10-05 02:08:13	tadzik	yeah
+2015-10-05 02:08:31	tadzik	I know of a bit of how dota works :) I read a bit on it when the source2 thing came around
+2015-10-05 02:08:45	tadzik	my knowledge is comparable to knowing how a horse moves in chess I guess
+2015-10-05 02:09:10	tadzik	I played a few matches with a friend and we beat the easiest bots like 50% of the time :P
+2015-10-05 02:15:01	preppie	Easiest bots are duds
+2015-10-05 02:15:03	pdq	tadzik you watching http://www.twitch.tv/pgl ?
+2015-10-05 02:15:05	GolBot	[ Twitch ]
+2015-10-05 02:15:18	preppie	You don't play chess?
+2015-10-05 02:15:23	tadzik	pdq: no
+2015-10-05 02:15:29	pdq	since you say you play cs
+2015-10-05 02:15:35	tadzik	yeah
+2015-10-05 02:15:40	tadzik	I do watch some matches occasionally
+2015-10-05 02:15:46	tadzik	but I'd rather do some coding right now :)
+2015-10-05 02:15:55	pdq	hehe, nice
+2015-10-05 02:16:12	tadzik	preppie: oh, I can kind of play chess, I was just saying that my dota knowledge is pretty basic :)
+2015-10-05 02:16:40	preppie	tadzik: Ah, got it
+2015-10-05 02:18:03	tadzik	pdq: I also have a little bit of a CS-crisis recently :P
+2015-10-05 02:18:28	tadzik	I ranked up to this eagle thing, which is like a hurr-durr-big-deal in some circles, mine included
+2015-10-05 02:18:45	pdq	legendary eagle master thingie?
+2015-10-05 02:18:50	tadzik	and I'm thinking that if I wanted to get back to training, getting good and playing competitively I'd much rather reassemble my old TF2 team
+2015-10-05 02:18:58	tadzik	yeah, minus the "master" part, that's one rank higher
+2015-10-05 02:19:04	pdq	ahh
+2015-10-05 02:19:14	tadzik	but basically it's top 5% of the players, according to valve's statistics that I once saw
+2015-10-05 02:19:31	pdq	what's the crisis?
+2015-10-05 02:19:36	◥	nitroflow (~nitroflow@195-23-140-248.net.novis.pt) has joined #gamingonlinux
+2015-10-05 02:20:00	tadzik	this exactly; I don't want another competitive game in my life, and if I did, I wouldn't want that to be CS
+2015-10-05 02:20:18	pdq	lol
+2015-10-05 02:20:23	tadzik	I played TF2 in a league and in a tournament and only once I met people that weren't nice
+2015-10-05 02:20:29	pdq	ah, i love cs, best game ever :P
+2015-10-05 02:20:35	tadzik	CSGO people are dicks
+2015-10-05 02:20:38	pdq	but i mainly play kz/dm cause solo queue is hell
+2015-10-05 02:20:46	pdq	is good if have premade team
+2015-10-05 02:20:55	tadzik	people in MM are dicks, and I can't imagine what people are like if you play ESEA or something
+2015-10-05 02:21:18	pdq	well as long as you have your own team it not matter much, they took out team voice comms
+2015-10-05 02:21:28	◥	Pyrus (~pyrus@unaffiliated/pyrus) has joined #gamingonlinux
+2015-10-05 02:21:31	pdq	so cannot voice the other team at any time in mm now
+2015-10-05 02:21:32	tadzik	yes :)
+2015-10-05 02:21:34	tadzik	it's perfect
+2015-10-05 02:21:43	tadzik	well, it was never at any time
+2015-10-05 02:21:52	tadzik	only pre-game, half-time and post-game
+2015-10-05 02:21:54	pdq	i like the update yeah but i never experienced much mm yet as i am newish to cs
+2015-10-05 02:21:58	tadzik	they can still shit on you in voicechat :)
+2015-10-05 02:21:59	pdq	yeah
+2015-10-05 02:22:07	pdq	now is none at all
+2015-10-05 02:22:15	tadzik	I don't mint
+2015-10-05 02:22:18	pdq	as of last update 3 days ago
+2015-10-05 02:22:26	tadzik	it was fun when someone was micspamming some music
+2015-10-05 02:22:33	tadzik	but mostly it was just people throwing shit at each other
+2015-10-05 02:22:37	tadzik	I'm glad that it's gone
+2015-10-05 02:22:46	tadzik	now only your team can throw shit at each other, so it's way better
+2015-10-05 02:22:51	pdq	yeah your team can lol is why i don't solo queue
+2015-10-05 02:23:02	pdq	can meet some cool people but
+2015-10-05 02:23:05	◥	Wyn (~Wyn@unaffiliated/wyn) has joined #gamingonlinux
+2015-10-05 02:23:15	tadzik	occasionally, yes :)
+2015-10-05 02:26:46	pdq	is fun game though, addicting trying to better self at it, dota 2 i tried a few dozen games, seems hard but also very competitive and skill based
+2015-10-05 02:26:46	pdq	i never played lol or anything
+2015-10-05 02:27:48	tadzik	from what I heard lol is like a tricycle dota
+2015-10-05 02:27:55	pdq	i was so hoping the new tony hawk game was going to come to pc (windows) then hope also come to linux but looks cosole only, tony hawk pro skater games were like my fav games of all time, those are alo failry competitve and skill to learn
+2015-10-05 02:28:03	tadzik	the new game is garbage
+2015-10-05 02:28:14	tadzik	all the things that were good about thps are gone
+2015-10-05 02:28:30	tadzik	your best bet is dusting off thug2 or something probably :)
+2015-10-05 02:28:34	pdq	are they?
+2015-10-05 02:28:41	pdq	not coming to linux anyways
+2015-10-05 02:28:42	tadzik	yeah
+2015-10-05 02:29:25	tadzik	someone did a nice writeup on it on reddit
+2015-10-05 02:29:30	tadzik	can't find it now
+2015-10-05 02:29:46	tadzik	but the reviews trashed it, and from what I saw, rightfully so
+2015-10-05 02:29:52	pdq	ah
+2015-10-05 02:30:06	pdq	i seen on ign them doing gameplay etc but the player sucked bigtime
+2015-10-05 02:31:46	tadzik	https://www.youtube.com/watch?v=gY5_mpEHCUY looks like from someone who's familiar with the series
+2015-10-05 02:31:47	GolBot	[ Tony Hawk's Pro Skater 5 Review - The Worst "AAA" Game Of 2015 - YouTube ]
+2015-10-05 02:32:00	pdq	worst lol sheesh
+2015-10-05 02:32:17	pdq	is like the best IP imo, they fucked it up then
+2015-10-05 02:32:42	pdq	only jet set radio would be better
+2015-10-05 02:38:03	pdq	game still looks good if it was on pc and fixed all these menu and loading issues etc
+2015-10-05 02:38:10	pdq	looks like same engine
+2015-10-05 02:38:26	pdq	but they wont fix it or come to pc :P
+2015-10-05 02:40:43	◣	Raven67854 (~Raven6785@70-33-140-24.unassigned.ntelos.net) has quit (Remote host closed the connection)
+2015-10-05 02:41:57	◥	Marezz (~Marezz@unaffiliated/marezz) has joined #gamingonlinux
+2015-10-05 02:45:06	◣	preppie (~piyush@116.75.3.36) has quit (Quit: Leaving)
+2015-10-05 02:47:37	ky0	so what are you all gaming today/tonight?
+2015-10-05 02:48:58	pdq	i pretty much just play csgo, what about you ky0?
+2015-10-05 02:49:19	ky0	I was playing Rocket League... but pondering what to do now
+2015-10-05 02:52:20	◣	erkin (~erkin@unaffiliated/erkin) has quit (Quit: Ouch! Got SIGABRT, dying...)
+2015-10-05 02:53:27	◣	Pyrus (~pyrus@unaffiliated/pyrus) has quit (Quit: ZNC - http://znc.in)
+2015-10-05 02:55:25	◥	Pyrus (~pyrus@unaffiliated/pyrus) has joined #gamingonlinux
+2015-10-05 02:57:41	◥	baizon (~baizon@unaffiliated/baizon) has joined #gamingonlinux
+2015-10-05 02:59:32	◥	preppie (~piyush@116.75.3.36) has joined #gamingonlinux
+2015-10-05 03:00:41	◥	Raven67854 (~Raven6785@70-33-140-24.unassigned.ntelos.net) has joined #gamingonlinux
+2015-10-05 03:03:54	linux_gamer_	hi Raven67854
+2015-10-05 03:04:05	Raven67854	hi
+2015-10-05 03:04:24	linux_gamer_	masterhesis accepted, so Im officially unemployed now
+2015-10-05 03:04:41	linux_gamer_	Raven67854, that kitchen renderings were from?
+2015-10-05 03:06:00	Raven67854	linux_gamer_, A really awesome artist using UE4
+2015-10-05 03:06:15	linux_gamer_	just art no game etc?
+2015-10-05 03:06:56	Raven67854	its done inside of UE4
+2015-10-05 03:07:17	linux_gamer_	jes and the purpose?
+2015-10-05 03:07:19	linux_gamer_	yes
+2015-10-05 03:07:27	Raven67854	To add to his portfolio?
+2015-10-05 03:07:43	linux_gamer_	freelancer?
+2015-10-05 03:07:50	Raven67854	I severely doubt it
+2015-10-05 03:08:29	Raven67854	Why do you ask?
+2015-10-05 03:09:31	tadzik	linux_gamer_: join the club!
+2015-10-05 03:09:43	linux_gamer_	IF I COULD
+2015-10-05 03:09:51	tadzik	you can, it's easy
+2015-10-05 03:10:01	tadzik	though I admit, I just dusted off my CV after 2 years or so...
+2015-10-05 03:10:01	Raven67854	Join what club?
+2015-10-05 03:10:07	tadzik	club unemployed
+2015-10-05 03:10:39	Raven67854	I'm self employed
+2015-10-05 03:10:40	linux_gamer_	OGL is really annoying, but Vulkan isnt out...
+2015-10-05 03:10:42	Raven67854	I prefer my club
+2015-10-05 03:11:00	Raven67854	linux_gamer_, What do you find difficult/annoying about OGL?
+2015-10-05 03:11:13	Raven67854	Have you ever used a low level API like vulkan before?
+2015-10-05 03:11:59	tadzik	...sewing box
+2015-10-05 03:12:23	tadzik	I would've never find my multitool if I didn't put on pants with a hole in a pocket today
+2015-10-05 03:12:26	◣	SteamPoweredH (~SteamPowe@cpe-65-27-241-63.cinci.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-10-05 03:12:40	Raven67854	Because if you're having issues doing stuff in OpenGL.. Then haha gonna be great watching you flail about with something like vulkan
+2015-10-05 03:12:41	linux_gamer_	no im not a graphical programmer but sth like CUDA MPI or openmp is much nicer
+2015-10-05 03:12:52	◥	SteamPoweredH (~SteamPowe@cpe-65-27-241-63.cinci.res.rr.com) has joined #gamingonlinux
+2015-10-05 03:12:59	tadzik	brain works in funny ways
+2015-10-05 03:13:29	linux_gamer_	SteamPoweredH, ?
+2015-10-05 03:13:34	linux_gamer_	new user?
+2015-10-05 03:13:44	Raven67854	No idea
+2015-10-05 03:13:46	Raven67854	Doesn't matter
+2015-10-05 03:13:49	◣	Marezz (~Marezz@unaffiliated/marezz) has quit (Quit: Leaving)
+2015-10-05 03:14:28	Raven67854	You're going to have a lot of issues with vulkan though if you can't get a handle on OpenGL
+2015-10-05 03:14:35	Raven67854	Because it's even more work to get things done
+2015-10-05 03:15:38	tadzik	it's gotta be fun
+2015-10-05 03:15:44	tadzik	like writing assembly after using some HLL
+2015-10-05 03:15:48	Raven67854	Sometimes its fun
+2015-10-05 03:15:53	Raven67854	Othertimes its just damn frustrating
+2015-10-05 03:15:54	◥	Nothing_Much (~nothing_m@unaffiliated/nothing-much/x-2931824) has joined #gamingonlinux
+2015-10-05 03:16:05	Raven67854	hey Nothing_Much message me on steam
+2015-10-05 03:19:54	◣	Algram_ (~raphaelg@2a02:8070:628a:1800:be5f:f4ff:febf:aac1) has quit (Quit: Algram_)
+2015-10-05 03:21:45	◣	preppie (~piyush@116.75.3.36) has quit (Quit: Leaving)
+2015-10-05 03:23:44	◥	frostwork (~frostwork@p5B355F41.dip0.t-ipconnect.de) has joined #gamingonlinux
+2015-10-05 03:23:48	◥	Algram (~raphaelg@2a02:8070:628a:1800:be5f:f4ff:febf:aac1) has joined #gamingonlinux
+2015-10-05 03:23:52	ℹ 	Algram is now known as Algram_
+2015-10-05 03:24:11	◣	Algram_ (~raphaelg@2a02:8070:628a:1800:be5f:f4ff:febf:aac1) has quit (Client Quit)
+2015-10-05 03:32:46	Nothing_Much	Raven67854, steam went down
+2015-10-05 03:33:41	Raven67854	No kidding
+2015-10-05 03:34:22	tadzik	classic steam
+2015-10-05 03:34:26	Nothing_Much	derrrrrrrr
+2015-10-05 03:35:58	Raven67854	Yeah good times :P
+2015-10-05 03:38:07	Raven67854	Nothing_Much, 15.10 comes with Mir
+2015-10-05 03:38:11	tadzik	wow
+2015-10-05 03:39:11	tadzik	is 15.10 officially out?
+2015-10-05 03:39:28	tadzik	doesn't seem to
+2015-10-05 03:39:43	Raven67854	nah
+2015-10-05 03:39:45	Raven67854	end of october
+2015-10-05 03:39:48	Raven67854	24th I think
+2015-10-05 03:40:53	Nothing_Much	holy shit, really?
+2015-10-05 03:45:08	◥	Steam_Powered_H (~SteamPowe@cpe-65-27-241-63.cinci.res.rr.com) has joined #gamingonlinux
+2015-10-05 03:45:10	Raven67854	its october
+2015-10-05 03:45:13	◣	SteamPoweredH (~SteamPowe@cpe-65-27-241-63.cinci.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-10-05 03:45:14	Raven67854	always comes out in october you goof
+2015-10-05 03:46:06	EXetoC	of 2015 or every year?
+2015-10-05 03:48:07	magamo	The version number of an ubuntu release is the year (-2000) followed by the month in which its released. So Ubuntu 15.10 will only come out in October of 2015, but there's generally an X.04 and X.10 release every year.
+2015-10-05 03:48:40	magamo	Which means that they release every six months, April and October.
+2015-10-05 03:59:03	◥	Algram (~raphaelg@2a02:8070:628a:1800:be5f:f4ff:febf:aac1) has joined #gamingonlinux
+2015-10-05 03:59:09	ℹ 	Algram is now known as Algram_
+2015-10-05 04:07:52	◣	azizLIGHT (~azizLIGHT@unaffiliated/azizlight) has quit (Ping timeout: 272 seconds)
+2015-10-05 04:09:12	◥	nitroflow_ (~nitroflow@195-23-140-189.net.novis.pt) has joined #gamingonlinux
+2015-10-05 04:10:57	nitroflow_	It's usual for steam to go down but not this much time
+2015-10-05 04:11:16	◣	nitroflow (~nitroflow@195-23-140-248.net.novis.pt) has quit (Ping timeout: 250 seconds)
+2015-10-05 04:11:27	ℹ 	nitroflow_ is now known as nitroflow
+2015-10-05 04:15:07	tadzik	you can have this thing "It's been 0 days since steam was down" on a static website somewhere
+2015-10-05 04:15:13	tadzik	or hell, even carved in stone
+2015-10-05 04:16:16	linux_gamer_	Raven67854, lol
+2015-10-05 04:16:46	linux_gamer_	steam is up
+2015-10-05 04:18:25	frostwork	tadzik, a tatoo would be nice as well :}
+2015-10-05 04:19:22	◣	woznme (~ident@45.114.116.124) has quit (Ping timeout: 265 seconds)
+2015-10-05 04:19:46	tadzik	hahaha
+2015-10-05 04:19:48	tadzik	yes indeed
+2015-10-05 04:20:17	◥	disharmonic (~disharmon@unaffiliated/disharmonic) has joined #gamingonlinux
+2015-10-05 04:20:35	disharmonic	evening
+2015-10-05 04:20:47	tadzik	valve sysops are apparently better than adobe's security team
+2015-10-05 04:21:31	Raven67854	tadzik, least valve doesn't get hacked several times a year I guess
+2015-10-05 04:21:34	◥	woznme (~ident@45.114.116.124) has joined #gamingonlinux
+2015-10-05 04:21:53	tadzik	yes, that's why I'm comparing apples to oranges :)
+2015-10-05 04:22:46	◣	Yamagata (~james@c-50-172-149-151.hsd1.il.comcast.net) has quit (Ping timeout: 260 seconds)
+2015-10-05 04:23:07	◥	azizLIGHT (~azizLIGHT@unaffiliated/azizlight) has joined #gamingonlinux
+2015-10-05 04:23:10	cryorat	tadzik: do not compare anything to apple because of the fanboys :))
+2015-10-05 04:23:14	tadzik	heh
+2015-10-05 04:23:49	Raven67854	I dunno valves got some crazy fanboys as well
+2015-10-05 04:24:21	◥	Yamagata (~james@c-50-172-149-151.hsd1.il.comcast.net) has joined #gamingonlinux
+2015-10-05 04:26:12	cryorat	Raven67854: yep, but as a big multi million/billion worth company as MS/Apple/younameit I can't hate them... they'll bring games to linux
+2015-10-05 04:26:51	cryorat	and started a trend; now lot of devs port their games to Linux
+2015-10-05 04:27:14	tadzik	well, they're in business like everyone else, only now their business is in line with our
+2015-10-05 04:27:16	tadzik	s
+2015-10-05 04:27:26	tadzik	they're not bad though, I agree
+2015-10-05 04:27:41	cryorat	when ID stated they wont port anything to Linux anymore, it was a very dark day for me
+2015-10-05 04:27:55	tadzik	pff, they're dead anyway
+2015-10-05 04:28:11	tadzik	so I say to myself
+2015-10-05 04:28:17	cryorat	now, yes but back then...
+2015-10-05 04:28:18	tadzik	but I wouldn't mind playing the new wolfenstein
+2015-10-05 04:30:48	◣	MatthewAllan93 (~weechat@unaffiliated/matthewallan93) has quit (Ping timeout: 255 seconds)
+2015-10-05 04:33:05	disharmonic	Raven67854: I think the biggest difference between most large corps and Valve is that the people running Valve actually give a shit about games.(Of course they're also out to make money off games). Imo that's mostly due to Valve being a Private company
+2015-10-05 04:36:25	cryorat	I don't think anyone did foresee what will happen to linux/linuxgaming 5 years ago
+2015-10-05 04:37:24	Raven67854	It's still in the balance if it'll take off or not
+2015-10-05 04:37:34	Raven67854	next month when steam machines are out we'll see
+2015-10-05 04:39:55	◣	thaostra (~thaostra@c-24-63-112-2.hsd1.nh.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-10-05 04:42:22	cryorat	I hope it'll work out. Not for valve but for the customers
+2015-10-05 04:42:57	cryorat	I like the idea of the small and powerful machines, but just play games on it? No..

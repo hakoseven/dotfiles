@@ -1,0 +1,449 @@
+2015-09-25 09:48:05	ℹ 	irc: connecting to server 127.0.0.1:6667/6667...
+2015-09-25 09:48:05	⚠ 	irc: address "127.0.0.1:6667" not found
+2015-09-25 09:48:05	⚠ 	irc: error: Name or service not known
+2015-09-25 09:48:05	ℹ 	irc: reconnecting to server in 10 seconds
+2015-09-25 09:49:07	ℹ 	irc: connecting to server localhost:6667/6667...
+2015-09-25 09:49:07	⚠ 	irc: address "localhost:6667" not found
+2015-09-25 09:49:07	⚠ 	irc: error: Name or service not known
+2015-09-25 09:49:07	ℹ 	irc: reconnecting to server in 10 seconds
+2015-09-25 09:51:32	ℹ 	irc: connecting to server localhost/6667...
+2015-09-25 09:51:32	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-09-25 09:51:32	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-09-25 09:51:32	ℹ 	Welcome to the BitlBee gateway, dean
+2015-09-25 09:51:32	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-09-25 09:51:32	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-09-25 09:51:32	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-09-25 09:51:32	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-09-25 09:51:32	ℹ 	- localhost.localdomain Message Of The Day -
+2015-09-25 09:51:32	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-09-25 09:51:32	ℹ 	-
+2015-09-25 09:51:32	ℹ 	- This server is running BitlBee version 3.4.
+2015-09-25 09:51:32	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-09-25 09:51:32	ℹ 	-
+2015-09-25 09:51:32	ℹ 	- You are getting this message because the server administrator has not
+2015-09-25 09:51:32	ℹ 	- yet had the time (or need) to change it.
+2015-09-25 09:51:32	ℹ 	-
+2015-09-25 09:51:32	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-09-25 09:51:32	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-09-25 09:51:32	ℹ 	- information.
+2015-09-25 09:51:32	ℹ 	-
+2015-09-25 09:51:32	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-09-25 09:51:32	ℹ 	- -- BitlBee development team.
+2015-09-25 09:51:32	ℹ 	-
+2015-09-25 09:51:32	ℹ 	- ... Buzzing, haha, get it?
+2015-09-25 09:51:32	ℹ 	End of MOTD
+2015-09-25 09:51:32	ℹ 	User mode [+s] by dean
+2015-09-25 09:51:55	ℹ 	User mode [+R] by dean
+2015-10-02 13:00:45	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 13:00:45	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 13:00:45	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 13:00:45	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 13:00:45	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 13:00:45	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 13:00:45	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 13:00:45	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 13:00:45	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 13:00:45	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 13:00:45	ℹ 	-
+2015-10-02 13:00:45	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 13:00:45	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 13:00:45	ℹ 	-
+2015-10-02 13:00:45	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 13:00:45	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 13:00:45	ℹ 	-
+2015-10-02 13:00:45	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 13:00:45	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 13:00:45	ℹ 	- information.
+2015-10-02 13:00:45	ℹ 	-
+2015-10-02 13:00:45	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 13:00:45	ℹ 	- -- BitlBee development team.
+2015-10-02 13:00:45	ℹ 	-
+2015-10-02 13:00:45	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 13:00:45	ℹ 	End of MOTD
+2015-10-02 13:00:45	ℹ 	User mode [+s] by dean
+2015-10-02 13:00:49	ℹ 	User mode [+R] by dean
+2015-10-02 22:10:18	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 22:10:18	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 22:10:18	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 22:10:18	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 22:10:18	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 22:10:18	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 22:10:18	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 22:10:18	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 22:10:18	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 22:10:18	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 22:10:18	ℹ 	-
+2015-10-02 22:10:18	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 22:10:18	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 22:10:18	ℹ 	-
+2015-10-02 22:10:18	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 22:10:18	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 22:10:18	ℹ 	-
+2015-10-02 22:10:18	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 22:10:18	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 22:10:18	ℹ 	- information.
+2015-10-02 22:10:18	ℹ 	-
+2015-10-02 22:10:18	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 22:10:18	ℹ 	- -- BitlBee development team.
+2015-10-02 22:10:18	ℹ 	-
+2015-10-02 22:10:18	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 22:10:18	ℹ 	End of MOTD
+2015-10-02 22:10:18	ℹ 	User mode [+s] by dean
+2015-10-02 23:41:07	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:41:07	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:41:07	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:41:07	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:41:07	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:41:07	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:41:07	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:41:07	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:41:07	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:41:07	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:41:07	ℹ 	-
+2015-10-02 23:41:07	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:41:07	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:41:07	ℹ 	-
+2015-10-02 23:41:07	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:41:07	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:41:07	ℹ 	-
+2015-10-02 23:41:07	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:41:07	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:41:07	ℹ 	- information.
+2015-10-02 23:41:07	ℹ 	-
+2015-10-02 23:41:07	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:41:07	ℹ 	- -- BitlBee development team.
+2015-10-02 23:41:07	ℹ 	-
+2015-10-02 23:41:07	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:41:07	ℹ 	End of MOTD
+2015-10-02 23:41:07	ℹ 	User mode [+s] by dean
+2015-10-02 23:42:54	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:42:54	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:42:54	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:42:54	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:42:54	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:42:54	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:42:54	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:42:54	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:42:54	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:42:54	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:42:54	ℹ 	-
+2015-10-02 23:42:54	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:42:54	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:42:54	ℹ 	-
+2015-10-02 23:42:54	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:42:54	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:42:54	ℹ 	-
+2015-10-02 23:42:54	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:42:54	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:42:54	ℹ 	- information.
+2015-10-02 23:42:54	ℹ 	-
+2015-10-02 23:42:54	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:42:54	ℹ 	- -- BitlBee development team.
+2015-10-02 23:42:54	ℹ 	-
+2015-10-02 23:42:54	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:42:54	ℹ 	End of MOTD
+2015-10-02 23:42:54	ℹ 	User mode [+s] by dean
+2015-10-02 23:44:12	⚠ 	irc: this buffer is not a channel!
+2015-10-02 23:44:18	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:44:18	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:44:18	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:44:18	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:44:18	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:44:18	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:44:18	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:44:18	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:44:18	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:44:18	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:44:18	ℹ 	-
+2015-10-02 23:44:18	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:44:18	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:44:18	ℹ 	-
+2015-10-02 23:44:18	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:44:18	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:44:18	ℹ 	-
+2015-10-02 23:44:18	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:44:18	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:44:18	ℹ 	- information.
+2015-10-02 23:44:18	ℹ 	-
+2015-10-02 23:44:18	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:44:18	ℹ 	- -- BitlBee development team.
+2015-10-02 23:44:18	ℹ 	-
+2015-10-02 23:44:18	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:44:18	ℹ 	End of MOTD
+2015-10-02 23:44:18	ℹ 	User mode [+s] by dean
+2015-10-02 23:44:27	ℹ 	User mode [+R] by dean
+2015-10-02 23:45:22	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:45:22	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:45:22	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:45:22	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:45:22	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:45:22	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:45:22	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:45:22	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:45:22	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:45:22	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:45:22	ℹ 	-
+2015-10-02 23:45:22	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:45:22	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:45:22	ℹ 	-
+2015-10-02 23:45:22	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:45:22	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:45:22	ℹ 	-
+2015-10-02 23:45:22	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:45:22	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:45:22	ℹ 	- information.
+2015-10-02 23:45:22	ℹ 	-
+2015-10-02 23:45:22	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:45:22	ℹ 	- -- BitlBee development team.
+2015-10-02 23:45:22	ℹ 	-
+2015-10-02 23:45:22	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:45:22	ℹ 	End of MOTD
+2015-10-02 23:45:22	ℹ 	User mode [+s] by dean
+2015-10-02 23:48:20	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:48:20	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:48:20	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:48:20	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:48:20	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:48:20	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:48:20	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:48:20	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:48:20	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:48:20	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:48:20	ℹ 	-
+2015-10-02 23:48:20	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:48:20	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:48:20	ℹ 	-
+2015-10-02 23:48:20	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:48:20	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:48:20	ℹ 	-
+2015-10-02 23:48:20	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:48:20	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:48:20	ℹ 	- information.
+2015-10-02 23:48:20	ℹ 	-
+2015-10-02 23:48:20	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:48:20	ℹ 	- -- BitlBee development team.
+2015-10-02 23:48:20	ℹ 	-
+2015-10-02 23:48:20	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:48:20	ℹ 	End of MOTD
+2015-10-02 23:48:20	ℹ 	User mode [+s] by dean
+2015-10-02 23:50:07	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:50:07	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:50:07	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:50:07	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:50:07	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:50:07	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:50:07	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:50:07	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:50:07	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:50:07	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:50:07	ℹ 	-
+2015-10-02 23:50:07	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:50:07	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:50:07	ℹ 	-
+2015-10-02 23:50:07	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:50:07	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:50:07	ℹ 	-
+2015-10-02 23:50:07	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:50:07	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:50:07	ℹ 	- information.
+2015-10-02 23:50:07	ℹ 	-
+2015-10-02 23:50:07	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:50:07	ℹ 	- -- BitlBee development team.
+2015-10-02 23:50:07	ℹ 	-
+2015-10-02 23:50:07	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:50:07	ℹ 	End of MOTD
+2015-10-02 23:50:07	ℹ 	User mode [+s] by dean
+2015-10-02 23:50:19	ℹ 	User mode [+R] by dean
+2015-10-02 23:51:10	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:51:10	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:51:10	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:51:10	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:51:10	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:51:10	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:51:10	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:51:10	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:51:10	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:51:10	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:51:10	ℹ 	-
+2015-10-02 23:51:10	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:51:10	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:51:10	ℹ 	-
+2015-10-02 23:51:10	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:51:10	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:51:10	ℹ 	-
+2015-10-02 23:51:10	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:51:10	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:51:10	ℹ 	- information.
+2015-10-02 23:51:10	ℹ 	-
+2015-10-02 23:51:10	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:51:10	ℹ 	- -- BitlBee development team.
+2015-10-02 23:51:10	ℹ 	-
+2015-10-02 23:51:10	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:51:10	ℹ 	End of MOTD
+2015-10-02 23:51:10	ℹ 	User mode [+s] by dean
+2015-10-02 23:52:01	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:52:01	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:52:01	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:52:01	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:52:01	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:52:01	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:52:01	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:52:01	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:52:01	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:52:01	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:52:01	ℹ 	-
+2015-10-02 23:52:01	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:52:01	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:52:01	ℹ 	-
+2015-10-02 23:52:01	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:52:01	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:52:01	ℹ 	-
+2015-10-02 23:52:01	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:52:01	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:52:01	ℹ 	- information.
+2015-10-02 23:52:01	ℹ 	-
+2015-10-02 23:52:01	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:52:01	ℹ 	- -- BitlBee development team.
+2015-10-02 23:52:01	ℹ 	-
+2015-10-02 23:52:01	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:52:01	ℹ 	End of MOTD
+2015-10-02 23:52:01	ℹ 	User mode [+s] by dean
+2015-10-02 23:52:35	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:52:35	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:52:35	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:52:35	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:52:35	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:52:35	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:52:35	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:52:35	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:52:35	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:52:35	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:52:35	ℹ 	-
+2015-10-02 23:52:35	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:52:35	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:52:35	ℹ 	-
+2015-10-02 23:52:35	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:52:35	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:52:35	ℹ 	-
+2015-10-02 23:52:35	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:52:35	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:52:35	ℹ 	- information.
+2015-10-02 23:52:35	ℹ 	-
+2015-10-02 23:52:35	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:52:35	ℹ 	- -- BitlBee development team.
+2015-10-02 23:52:35	ℹ 	-
+2015-10-02 23:52:35	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:52:35	ℹ 	End of MOTD
+2015-10-02 23:52:35	ℹ 	User mode [+s] by dean
+2015-10-02 23:52:44	ℹ 	User mode [+R] by dean
+2015-10-02 23:53:46	ℹ 	irc: connecting to server localhost/6667...
+2015-10-02 23:53:46	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-02 23:53:46	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-02 23:53:46	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-02 23:53:46	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-02 23:53:46	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-02 23:53:46	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-02 23:53:46	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-02 23:53:46	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-02 23:53:46	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-02 23:53:46	ℹ 	-
+2015-10-02 23:53:46	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-02 23:53:46	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-02 23:53:46	ℹ 	-
+2015-10-02 23:53:46	ℹ 	- You are getting this message because the server administrator has not
+2015-10-02 23:53:46	ℹ 	- yet had the time (or need) to change it.
+2015-10-02 23:53:46	ℹ 	-
+2015-10-02 23:53:46	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-02 23:53:46	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-02 23:53:46	ℹ 	- information.
+2015-10-02 23:53:46	ℹ 	-
+2015-10-02 23:53:46	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-02 23:53:46	ℹ 	- -- BitlBee development team.
+2015-10-02 23:53:46	ℹ 	-
+2015-10-02 23:53:46	ℹ 	- ... Buzzing, haha, get it?
+2015-10-02 23:53:46	ℹ 	End of MOTD
+2015-10-02 23:53:46	ℹ 	User mode [+s] by dean
+2015-10-03 09:57:27	ℹ 	irc: connecting to server localhost/6667...
+2015-10-03 09:57:27	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-03 09:57:27	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-03 09:57:27	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-03 09:57:27	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-03 09:57:27	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-03 09:57:27	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-03 09:57:27	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-03 09:57:27	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-03 09:57:27	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-03 09:57:27	ℹ 	-
+2015-10-03 09:57:27	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-03 09:57:27	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-03 09:57:27	ℹ 	-
+2015-10-03 09:57:27	ℹ 	- You are getting this message because the server administrator has not
+2015-10-03 09:57:27	ℹ 	- yet had the time (or need) to change it.
+2015-10-03 09:57:27	ℹ 	-
+2015-10-03 09:57:27	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-03 09:57:27	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-03 09:57:27	ℹ 	- information.
+2015-10-03 09:57:27	ℹ 	-
+2015-10-03 09:57:27	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-03 09:57:27	ℹ 	- -- BitlBee development team.
+2015-10-03 09:57:27	ℹ 	-
+2015-10-03 09:57:27	ℹ 	- ... Buzzing, haha, get it?
+2015-10-03 09:57:27	ℹ 	End of MOTD
+2015-10-03 09:57:27	ℹ 	User mode [+s] by dean
+2015-10-03 09:57:31	ℹ 	User mode [+R] by dean
+2015-10-03 22:58:55	ℹ 	irc: connecting to server localhost/6667...
+2015-10-03 22:58:55	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-03 22:58:55	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-03 22:58:55	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-03 22:58:55	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-03 22:58:55	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-03 22:58:55	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-03 22:58:55	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-03 22:58:55	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-03 22:58:55	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-03 22:58:55	ℹ 	-
+2015-10-03 22:58:55	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-03 22:58:55	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-03 22:58:55	ℹ 	-
+2015-10-03 22:58:55	ℹ 	- You are getting this message because the server administrator has not
+2015-10-03 22:58:55	ℹ 	- yet had the time (or need) to change it.
+2015-10-03 22:58:55	ℹ 	-
+2015-10-03 22:58:55	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-03 22:58:55	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-03 22:58:55	ℹ 	- information.
+2015-10-03 22:58:55	ℹ 	-
+2015-10-03 22:58:55	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-03 22:58:55	ℹ 	- -- BitlBee development team.
+2015-10-03 22:58:55	ℹ 	-
+2015-10-03 22:58:55	ℹ 	- ... Buzzing, haha, get it?
+2015-10-03 22:58:55	ℹ 	End of MOTD
+2015-10-03 22:58:55	ℹ 	User mode [+s] by dean
+2015-10-03 22:58:57	ℹ 	User mode [+R] by dean
+2015-10-04 16:53:14	ℹ 	irc: connecting to server localhost/6667...
+2015-10-04 16:53:14	ℹ 	irc: connected to localhost/6667 (127.0.0.1)
+2015-10-04 16:53:14	ℹ 	localhost.localdomain: BitlBee-IRCd initialized, please go on
+2015-10-04 16:53:14	ℹ 	Welcome to the BitlBee gateway, dean
+2015-10-04 16:53:14	ℹ 	Host localhost.localdomain is running BitlBee 3.4 Linux/x86_64.
+2015-10-04 16:53:14	ℹ 	BitlBee <http://www.bitlbee.org/>
+2015-10-04 16:53:14	ℹ 	localhost.localdomain 3.4 abiswRo ntC
+2015-10-04 16:53:14	ℹ 	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2015-10-04 16:53:14	ℹ 	- localhost.localdomain Message Of The Day -
+2015-10-04 16:53:14	ℹ 	- Welcome to the BitlBee server at localhost.localdomain.
+2015-10-04 16:53:14	ℹ 	-
+2015-10-04 16:53:14	ℹ 	- This server is running BitlBee version 3.4.
+2015-10-04 16:53:14	ℹ 	- The newest version can be found on http://www.bitlbee.org/
+2015-10-04 16:53:14	ℹ 	-
+2015-10-04 16:53:14	ℹ 	- You are getting this message because the server administrator has not
+2015-10-04 16:53:14	ℹ 	- yet had the time (or need) to change it.
+2015-10-04 16:53:14	ℹ 	-
+2015-10-04 16:53:14	ℹ 	- For those who don't know it yet, this is not quite a regular Internet
+2015-10-04 16:53:14	ℹ 	- Relay Chat server. Please see the site mentioned above for more
+2015-10-04 16:53:14	ℹ 	- information.
+2015-10-04 16:53:14	ℹ 	-
+2015-10-04 16:53:14	ℹ 	- The developers of the Bee hope you have a buzzing time.
+2015-10-04 16:53:14	ℹ 	- -- BitlBee development team.
+2015-10-04 16:53:14	ℹ 	-
+2015-10-04 16:53:14	ℹ 	- ... Buzzing, haha, get it?
+2015-10-04 16:53:14	ℹ 	End of MOTD
+2015-10-04 16:53:14	ℹ 	User mode [+s] by dean
+2015-10-04 16:53:18	ℹ 	User mode [+R] by dean

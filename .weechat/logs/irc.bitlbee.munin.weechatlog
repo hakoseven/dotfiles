@@ -1,0 +1,99 @@
+2015-10-03 12:03:16	munin	Date:        03 Oct 12:01:35 +1000
+2015-10-03 12:03:16	munin	Host:        aneesh-ProLiant-MicroServer
+2015-10-03 12:03:16	munin	Service:     monit
+2015-10-03 12:03:16	munin	Action:      Alert
+2015-10-03 12:03:16	munin	Description: No report from Monit for 27 seconds: the network, the host or Monit is down. Last report was 03 Oct 2015 12:01:08 +1000
+2015-10-03 12:03:16	munin	 
+2015-10-03 12:03:16	munin	 
+2015-10-03 12:03:16	munin	Your faithful employee,
+2015-10-03 12:03:16	munin	M/Monit
+2015-10-03 12:28:35	munin	Date:        03 Oct 12:26:35 +1000
+2015-10-03 12:28:35	munin	Host:        aneesh-ProLiant-MicroServer
+2015-10-03 12:28:35	munin	Service:     monit
+2015-10-03 12:28:35	munin	Action:      Alert
+2015-10-03 12:28:35	munin	Description: No report from Monit for 26 seconds: the network, the host or Monit is down. Last report was 03 Oct 2015 12:26:09 +1000
+2015-10-03 12:28:35	munin	 
+2015-10-03 12:28:35	munin	 
+2015-10-03 12:28:35	munin	Your faithful employee,
+2015-10-03 12:28:35	munin	M/Monit
+2015-10-03 12:29:31	munin	Date:        03 Oct 12:27:50 +1000
+2015-10-03 12:29:31	munin	Host:        megan-wordpress
+2015-10-03 12:29:31	munin	Service:     monit
+2015-10-03 12:29:31	munin	Action:      Alert
+2015-10-03 12:29:31	munin	Description: No report from Monit for 101 seconds: the network, the host or Monit is down. Last report was 03 Oct 2015 12:26:09 +1000
+2015-10-03 12:29:31	munin	 
+2015-10-03 12:29:31	munin	 
+2015-10-03 12:29:31	munin	Your faithful employee,
+2015-10-03 12:29:31	munin	M/Monit
+2015-10-03 12:36:15	munin	Date:        03 Oct 12:34:20 +1000
+2015-10-03 12:36:15	munin	Host:        aneesh-ProLiant-MicroServer
+2015-10-03 12:36:15	munin	Service:     monit
+2015-10-03 12:36:15	munin	Action:      Alert
+2015-10-03 12:36:15	munin	Description: No report from Monit for 27 seconds: the network, the host or Monit is down. Last report was 03 Oct 2015 12:33:53 +1000
+2015-10-03 12:36:15	munin	 
+2015-10-03 12:36:15	munin	 
+2015-10-03 12:36:15	munin	Your faithful employee,
+2015-10-03 12:36:15	munin	M/Monit
+2015-10-04 05:25:38	munin	Date:        04 Oct 05:23:45 +1100
+2015-10-04 05:25:38	munin	Host:        aneesh-ProLiant-MicroServer
+2015-10-04 05:25:38	munin	Service:     monit
+2015-10-04 05:25:38	munin	Action:      Alert
+2015-10-04 05:25:38	munin	Description: No report from Monit for 29 seconds: the network, the host or Monit is down. Last report was 04 Oct 2015 05:23:16 +1100
+2015-10-04 05:25:38	munin	 
+2015-10-04 05:25:38	munin	 
+2015-10-04 05:25:38	munin	Your faithful employee,
+2015-10-04 05:25:38	munin	M/Monit
+2015-10-04 05:26:37	munin	Date:        04 Oct 05:25:00 +1100
+2015-10-04 05:26:37	munin	Host:        megan-wordpress
+2015-10-04 05:26:37	munin	Service:     monit
+2015-10-04 05:26:37	munin	Action:      Alert
+2015-10-04 05:26:37	munin	Description: No report from Monit for 104 seconds: the network, the host or Monit is down. Last report was 04 Oct 2015 05:23:16 +1100
+2015-10-04 05:26:37	munin	 
+2015-10-04 05:26:37	munin	 
+2015-10-04 05:26:37	munin	Your faithful employee,
+2015-10-04 05:26:37	munin	M/Monit
+2015-10-04 14:21:59	munin	Date:        04 Oct 14:20:19 +1100
+2015-10-04 14:21:59	munin	Host:        mkfs.io
+2015-10-04 14:21:59	munin	Service:     php5-fpm
+2015-10-04 14:21:59	munin	Action:      Restart
+2015-10-04 14:21:59	munin	Description: process is not running
+2015-10-04 14:21:59	munin	 
+2015-10-04 14:21:59	munin	 
+2015-10-04 14:21:59	munin	Your faithful employee,
+2015-10-04 14:21:59	munin	M/Monit
+2015-10-04 14:27:52	munin	Date:        04 Oct 14:26:14 +1100
+2015-10-04 14:27:52	munin	Host:        error418.info
+2015-10-04 14:27:52	munin	Service:     ssh
+2015-10-04 14:27:52	munin	Action:      Alert
+2015-10-04 14:27:52	munin	Description: process PID changed from 8528 to 11790
+2015-10-04 14:27:52	munin	 
+2015-10-04 14:27:52	munin	 
+2015-10-04 14:27:52	munin	Your faithful employee,
+2015-10-04 14:27:52	munin	M/Monit
+2015-10-04 14:28:19	munin	Date:        04 Oct 14:27:15 +1100
+2015-10-04 14:28:19	munin	Host:        error418.info
+2015-10-04 14:28:19	munin	Service:     ssh
+2015-10-04 14:28:19	munin	Action:      Alert
+2015-10-04 14:28:19	munin	Description: process PID changed from 11790 to 11972
+2015-10-04 14:28:19	munin	 
+2015-10-04 14:28:19	munin	 
+2015-10-04 14:28:19	munin	Your faithful employee,
+2015-10-04 14:28:19	munin	M/Monit
+2015-10-04 14:35:07	munin	Date:        04 Oct 14:33:31 +1100
+2015-10-04 14:35:07	munin	Host:        error418.info
+2015-10-04 14:35:07	munin	Service:     error418.info
+2015-10-04 14:35:07	munin	Action:      Alert
+2015-10-04 14:35:07	munin	Description: cpu system usage of 26.4% matches resource limit [cpu system usage>20.0%]
+2015-10-04 14:35:07	munin	 
+2015-10-04 14:35:07	munin	 
+2015-10-04 14:35:07	munin	Your faithful employee,
+2015-10-04 14:35:07	munin	M/Monit
+2015-10-04 14:35:51	munin	Date:        04 Oct 14:34:03 +1100
+2015-10-04 14:35:51	munin	Host:        error418.info
+2015-10-04 14:35:51	munin	Service:     apache2
+2015-10-04 14:35:51	munin	Action:      Restart
+2015-10-04 14:35:51	munin	Description: process is not running
+2015-10-04 14:35:51	munin	 
+2015-10-04 14:35:51	munin	 
+2015-10-04 14:35:51	munin	Your faithful employee,
+2015-10-04 14:35:51	munin	M/Monit

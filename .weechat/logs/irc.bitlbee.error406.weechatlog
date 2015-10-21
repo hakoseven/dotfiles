@@ -1,0 +1,68 @@
+2015-09-25 11:36:43	dean	late mornin' to ya
+2015-09-25 11:37:47	error406	hurrroooo!
+2015-09-25 11:37:53	error406	mmm nice blue sky day =D
+2015-09-25 11:38:08	dean	indeed
+2015-09-25 11:38:15	dean	wonderfully blue :)
+2015-09-25 11:42:10	dean	hopefully sat is blue?
+2015-09-25 11:42:37	error406	yeah tomorrows meant to be in the 20s woo
+2015-09-25 11:42:37	error406	looking fwd to a nice warm summer heheh
+2015-09-25 11:42:58	dean	haha yes, should be wonderful. we just need nsw beaches now
+2015-09-25 11:52:32	error406	lol yeah, tho a quick drive down the coast would do even!
+2015-09-25 11:52:32	error406	Got much on today?
+2015-09-25 11:53:15	dean	just catching up some old technical documentation that i've been putting off for eons
+2015-09-25 11:53:21	dean	my least favourite job in the world
+2015-09-25 11:53:25	dean	you?
+2015-09-25 11:57:58	error406	woo sounds like a great day! uuhhh heheh
+2015-09-25 11:57:58	error406	ahh was hoping to mess with zbrusdh all day but just got sent a maccas poop. ahh well, pays the bills - not gunna complain!
+2015-09-25 12:00:05	dean	haha
+2015-09-25 12:00:35	dean	macca quest: the search for minimum wage?
+2015-09-25 12:00:40	dean	there is a game for your 3d
+2015-09-25 12:05:26	error406	hahaha that's brillian =) I so wish I could get away with that without being sued by maccas and lose all my work XD
+2015-09-25 12:05:37	dean	haha i know right
+2015-09-25 12:07:59	error406	perhaps when I stop doin it, and then just rebrand it Moccos
+2015-09-25 12:08:26	dean	leisure suit larry: in pursuit of the passionate mcpatty
+2015-09-25 12:08:48	dean	bad images occur from that title
+2015-09-25 12:09:02	error406	hahahaha XD
+2015-09-25 12:09:02	error406	lol I should really do some work at some point, but it's just so much more fun fucking around on the internet
+2015-09-25 12:10:04	dean	haha
+2015-09-25 12:10:10	dean	i tempted to go have a cigarette in the sun
+2015-09-25 12:10:44	error406	mmm sounds good, pity I stopped smoking heheh
+2015-09-25 12:10:44	error406	 
+2015-09-25 12:10:44	error406	all ready for server setups tomoz
+2015-09-25 12:10:45	error406	?\
+2015-09-25 12:14:33	dean	yeah just getting the last of the user/pwds from the employees from all their mac machines.. sigh
+2015-09-25 12:14:44	dean	one good thing about that, no active directory is required
+2015-09-25 12:18:44	error406	lol u gotta deal with macs? ahh joy, hope it's not too painful!
+2015-09-25 12:19:09	dean	ehh. its fine
+2015-09-25 12:19:29	dean	the server is a linux box.. so actually making mac's talk to linux is easier than windows talking to linux
+2015-09-25 12:19:37	dean	especially when it comes to domain and user credentials
+2015-09-25 12:20:13	dean	windows 10 is fucked for guest networking for example.. if you created an account with an email address.. you cannot do guest network map drives
+2015-09-25 12:20:16	dean	fucking windows 10
+2015-09-25 12:20:18	dean	fuck microsoft
+2015-09-25 12:20:18	error406	oh yeah that's righ I forgot about that... lol yeah win/mac is such a pain still
+2015-09-25 12:20:24	error406	FUCK EVERYONE
+2015-09-25 12:21:48	dean	ps. south park is fucking amazing as always
+2015-09-25 12:21:53	dean	pc principal
+2015-09-25 12:22:00	dean	and the trump episode last night
+2015-09-25 12:22:11	dean	i'm so tired of ultra political correctness
+2015-09-25 12:22:15	error406	hehe that was a good ep =) forgot to get ep 2 last night damnit
+2015-09-25 12:47:43	dean	haha
+2015-09-25 12:47:47	dean	you'll love it as always
+2015-09-25 12:47:58	dean	really seems stan's dad is really the centre character of the show now. haha
+2015-09-25 12:48:34	error406	I think that's cuz now they have gotten older, they see the world more from his perspective hehe
+2015-09-25 13:23:54	dean	seems i'll be re-implementing all of scorptec's backend. haha
+2015-09-25 13:24:00	dean	i have to thank heero for that one
+2015-09-25 13:26:37	error406	hahahahah XD wtf
+2015-09-25 13:26:50	error406	ooohhh dear I'm surprised he hasn't been fired
+2015-09-25 13:27:01	dean	he actually does a really good job at his work
+2015-09-25 13:27:15	dean	i'll give him that
+2015-09-25 13:27:49	error406	what does he do for em? is he a salesperson or some other role?
+2015-09-25 13:27:58	dean	sales and build team
+2015-09-25 13:28:22	dean	i'll give him some cred he is way better builder than us, but thats his job none the less
+2015-09-25 13:28:41	dean	though building is not always the funnest part of pcs for me
+2015-09-25 13:34:09	error406	lol yeah when its yer job it's good to be good at it! I'm always just "A fuck, cram it in does it turn on? ok done"
+2015-09-25 13:36:04	dean	haha yeah, tell me about it. i have better things to do
+2015-09-25 13:36:23	dean	i removed gentoo btw, and put my old linux distro on.. too much fiddling for a production os. but i learnt a lot
+2015-09-25 13:38:15	dean	rebuilt my old os in just over an hour
+2015-09-25 13:38:24	dean	which is even quicker than doing a fresh windows install :)
+2015-09-25 15:45:24	◣	error406 (error406@error418.info) has quit (Leaving...)

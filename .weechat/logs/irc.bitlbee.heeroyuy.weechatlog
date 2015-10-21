@@ -1,0 +1,329 @@
+2015-09-25 11:34:58	HeeroYuy	Valve has officially announced they prefer vulkan and are pushing developers to use it.
+2015-09-25 11:36:27	HeeroYuy	true true,
+2015-09-25 11:36:30	HeeroYuy	nintendo has just joined as well
+2015-09-25 11:36:47	HeeroYuy	because they are going to be making mobile games
+2015-09-25 11:37:03	dean	vulkan is huge a thing in the open source community
+2015-09-25 11:37:28	dean	the vulkan api is being put into linux kernel 4.3 - the amdgpu gallium3d drivers inside the kernel will already support it
+2015-09-25 11:37:30	dean	a first for amd
+2015-09-25 11:37:35	HeeroYuy	I didn't know they had soooooooooooooooooooooooooooooooo many backers from large industries.
+2015-09-25 11:37:50	dean	haha, you don't read enough tech sites
+2015-09-25 11:38:08	HeeroYuy	Truth truth
+2015-09-25 11:38:13	HeeroYuy	I read newspapers >.<
+2015-09-25 11:38:40	dean	why i kept saying vulkan over directx in past fb posts that you've put up
+2015-09-25 11:39:00	dean	vulkan is multi-platform, makes development cheaper and easier and makes for consistancy overall
+2015-09-25 11:39:01	HeeroYuy	true true true true true
+2015-09-25 11:39:15	dean	where as dx is fucking windows centric, that it runs on nothing else
+2015-09-25 11:39:16	dean	for eg.
+2015-09-25 11:39:30	dean	ps3/ps4 had a 3d api that was forked from opengl with their own calls
+2015-09-25 11:39:44	dean	actually the backend to both the ps3/ps4 is actually bsd
+2015-09-25 11:39:53	dean	so its written on top of open source tech
+2015-09-25 11:40:01	dean	not sure about the wii u
+2015-09-25 11:40:04	dean	cause its a piece of shit
+2015-09-25 11:40:26	dean	the reason for vulkan is because opengl has a ton of legacy code that makes it confusing for devs.
+2015-09-25 11:40:37	dean	so they're essentially trimming it and making it easier to work with
+2015-09-25 11:40:46	dean	once upon a time vulkan used to be called "NextGL"
+2015-09-25 11:41:12	dean	..so says the dean wiki
+2015-09-25 11:42:26	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 11:43:55	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 11:44:19	HeeroYuy	haha
+2015-09-25 11:44:33	HeeroYuy	Should start your own tech blog/wiki/youtube etc etc
+2015-09-25 11:44:42	dean	if only i had the time
+2015-09-25 11:44:56	HeeroYuy	They busy lives we live.
+2015-09-25 11:45:15	dean	i have to go on-site tomorrow to build a whole network for a graphics design business in richmond
+2015-09-25 11:45:30	dean	me by myself in a swanky open floor business area
+2015-09-25 11:45:37	dean	i walked in and it reminded me of allsec
+2015-09-25 11:45:41	dean	even the ceo was gay
+2015-09-25 11:45:41	dean	haha
+2015-09-25 11:45:46	dean	mr robot comes back to haunt me
+2015-09-25 11:46:01	HeeroYuy	haha
+2015-09-25 11:46:05	HeeroYuy	you are living the shows life
+2015-09-25 11:46:09	HeeroYuy	I finished it last nght
+2015-09-25 11:46:11	HeeroYuy	night*
+2015-09-25 11:46:13	HeeroYuy	So good!
+2015-09-25 11:46:14	dean	i have been for a long time
+2015-09-25 11:46:20	HeeroYuy	SEASON 2 GET IN ME!
+2015-09-25 11:46:32	dean	the father thing in the show actually made break down and cry it is that similar
+2015-09-25 11:46:57	dean	i'm just not that neurotic
+2015-09-25 11:46:59	dean	i think
+2015-09-25 11:47:02	HeeroYuy	They may have been following.
+2015-09-25 11:47:12	HeeroYuy	Nah you're not that neurotic, but who knows :P
+2015-09-25 11:47:16	HeeroYuy	Don't get too involved!
+2015-09-25 11:47:22	dean	i definetly don't like being touched. haha
+2015-09-25 11:48:18	HeeroYuy	-touches-
+2015-09-25 11:48:26	dean	*takes a step back*
+2015-09-25 11:48:29	HeeroYuy	Haha
+2015-09-25 11:48:45	HeeroYuy	If you do start trying to get rid of all the worlds credit and debt problems
+2015-09-25 11:48:52	HeeroYuy	please start with me okay
+2015-09-25 11:48:58	dean	i can't wait to get the fsociety hoodie, i'm just waiting to freak fans of the show out on the train even more
+2015-09-25 11:49:56	dean	haha.. ask my dad about that one.. oh wait he is in my head
+2015-09-25 11:50:23	HeeroYuy	Haha
+2015-09-25 11:50:44	HeeroYuy	I'm glad I don't do drugs anymore or you'd freak me out  if I saw you and I'd just watched mr robot and not known you
+2015-09-25 11:51:57	dean	haha i still take drugs
+2015-09-25 11:52:03	dean	hence.. i'm elliot
+2015-09-25 11:52:17	dean	i do my best work under the influence. haha
+2015-09-25 11:52:23	dean	that whole frontend, under the influence
+2015-09-25 11:52:36	HeeroYuy	Let me supply you and get you to work haha
+2015-09-25 11:52:49	dean	hahahaha
+2015-09-25 11:52:54	dean	i started it on your machine
+2015-09-25 11:52:56	dean	have to finish it
+2015-09-25 11:53:01	HeeroYuy	when I was under I was paranoid and even after all these years I still am and can feel a the effects
+2015-09-25 11:53:38	HeeroYuy	Thats awesome man >.< cheers
+2015-09-25 11:53:44	dean	i'm pretty solid mind wise
+2015-09-25 11:53:51	HeeroYuy	my mind is a mash
+2015-09-25 11:54:00	HeeroYuy	I still hallucinate and twitch
+2015-09-25 11:54:02	dean	a bit short tempered at times, but that just comes from frustration of knowledge
+2015-09-25 11:54:15	dean	what were you? an ex-meth head. haha
+2015-09-25 11:54:20	HeeroYuy	the world can't handle the knowledge!
+2015-09-25 11:54:35	HeeroYuy	I was an ex-everything >.< from 16 till....21
+2015-09-25 11:54:43	dean	ahh i see
+2015-09-25 11:54:48	dean	yeah that would screw your mind up at that age
+2015-09-25 11:54:50	HeeroYuy	when I came back from backpacking in south east asia I cleaned up.
+2015-09-25 11:56:35	dean	ah i see
+2015-09-25 11:56:44	dean	i have my boughts of one and off
+2015-09-25 11:56:48	dean	on*
+2015-09-25 11:56:54	dean	depends on the situation at the time
+2015-09-25 11:57:14	dean	everything in moderation and as long as it doesn't affect your general life then its all good i say
+2015-09-25 11:57:20	HeeroYuy	I just drink and smoke :P
+2015-09-25 11:57:28	HeeroYuy	Moderation is the key to life
+2015-09-25 11:58:00	HeeroYuy	I wasn't moderate haha, locked myself in an apartment (that wasn't mine) with cocaine,acid and weed until I was vomiting blood and orange bile.
+2015-09-25 11:58:31	dean	damn
+2015-09-25 11:58:39	dean	sounds like a psychosis
+2015-09-25 11:58:51	HeeroYuy	I haven't touched any drugs for years now
+2015-09-25 11:58:56	dean	funnily enough people think drugs cause these things, they don't - they just enable what is already there.
+2015-09-25 11:59:06	HeeroYuy	not even caffeine
+2015-09-25 11:59:11	HeeroYuy	yeah
+2015-09-25 11:59:33	HeeroYuy	I have a lot of....problems but I can work them out myself and progress may be slow but ay (Y)
+2015-09-25 11:59:51	HeeroYuy	We all have problems and the way we deal with them is what is important.
+2015-09-25 12:02:45	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 12:02:54	dean	haha.. people just think im some fucking crazy l33t pc guru
+2015-09-25 12:02:54	ℹ 	[HeeroYuy] is away: Offline
+2015-09-25 12:03:03	dean	and just respond "err. okay"
+2015-09-25 12:03:12	dean	people don't have the facility to "google"
+2015-09-25 12:04:07	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 12:04:44	HeeroYuy	I prefer someone explaining to me some things rather then googling but at other times people should google and learn
+2015-09-25 12:05:04	dean	pfft i don't need anyone to explain me nudda
+2015-09-25 12:05:13	dean	this is why i'm good to hire
+2015-09-25 12:05:28	HeeroYuy	Send your resume (Y)
+2015-09-25 12:06:38	dean	seriously though, what would they hire me as
+2015-09-25 12:06:44	dean	imagine me at the front counter
+2015-09-25 12:06:49	HeeroYuy	haha
+2015-09-25 12:06:50	dean	i'd swear at all the customers
+2015-09-25 12:06:56	HeeroYuy	I would put you in Web dev
+2015-09-25 12:07:22	HeeroYuy	but our owner won't hire new people for those positions he prefers older people and indonesians :P
+2015-09-25 12:07:30	HeeroYuy	Indonesians*
+2015-09-25 12:07:57	dean	i do laugh at all these it specialists who come out of uni and think they know everything. i've had a few people come to my house with that mentality and they always so what courses have you done.  I respond "none".. haha
+2015-09-25 12:10:40	HeeroYuy	Haha
+2015-09-25 12:10:54	HeeroYuy	real life experience is usually better then a educated experience.
+2015-09-25 12:14:08	dean	problem solving skills, something they lack
+2015-09-25 12:15:18	HeeroYuy	You have expert problem solving skills for sure
+2015-09-25 12:15:27	HeeroYuy	I'm more of a lazy/ghetto problem solver
+2015-09-25 12:15:36	HeeroYuy	something wrong with your hardware? VELCRO!
+2015-09-25 12:15:38	dean	haha, its just practice and motivatioin really
+2015-09-25 12:15:54	dean	or just the way you look at a problem
+2015-09-25 12:16:11	dean	to be fair, i'd say you are better than me at putting pc's together
+2015-09-25 12:16:18	dean	i fucking hate doing that shit, but i do because its required of me
+2015-09-25 12:16:41	dean	i remember when i had to put a 486SX33 together, now that wasn't easy
+2015-09-25 12:16:45	dean	nothing is labelled
+2015-09-25 12:17:00	dean	you can put things in the wrong and fry all the components in a flick of a switch
+2015-09-25 12:17:01	HeeroYuy	I really like putting together systems
+2015-09-25 12:17:08	dean	i like at pc building now like lego
+2015-09-25 12:17:08	HeeroYuy	and doing some nice cable tying :P
+2015-09-25 12:17:19	dean	i look*
+2015-09-25 12:17:26	HeeroYuy	yeeeah that works lol
+2015-09-25 12:17:34	dean	unless you do ultra custom watercooling
+2015-09-25 12:17:48	dean	but fuck that, i'm done with that shit
+2015-09-25 12:17:57	dean	too much hassle
+2015-09-25 12:18:14	dean	when intel decide to actually create a decent upgrade (give it 10 years) then I'll change it
+2015-09-25 12:18:43	HeeroYuy	watercooling is more to look cool then performance.
+2015-09-25 12:19:05	HeeroYuy	Not going to look at the new Zen CPUs?
+2015-09-25 12:20:54	dean	haven't looked into them, but if the price per performance ratio isn't good enough i wont buy em
+2015-09-25 12:22:21	HeeroYuy	they are really pushing them but they won't be out til the end of next year
+2015-09-25 12:22:40	dean	yeah then i'll wait another 6 months so they iron out any production bugs
+2015-09-25 12:22:45	dean	don't trust intel as far as i can through them
+2015-09-25 12:22:49	dean	haven't got the best track record
+2015-09-25 12:23:00	HeeroYuy	Don't trust any hardware manufactures .
+2015-09-25 12:23:13	HeeroYuy	maybe kingston and seagate,,,and seasonic....but only sometimes.
+2015-09-25 12:23:30	dean	or you get great hardware and then they underdevelop the software for it
+2015-09-25 12:23:32	dean	*cough* dlink
+2015-09-25 12:23:46	dean	*COUGH* lacie
+2015-09-25 12:23:49	HeeroYuy	dlink has always had problems :P
+2015-09-25 12:24:03	dean	*starts fast cosbying lacie till it dies*
+2015-09-25 12:24:04	HeeroYuy	fuck laCie they got bought by seagate so they are going to have more problems.
+2015-09-25 12:30:01	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 12:35:18	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 12:35:28	HeeroYuy	they hired me :P
+2015-09-25 12:35:37	HeeroYuy	they really do need someone in web dev to fix all our issues
+2015-09-25 12:35:57	HeeroYuy	send me your resume, when our regional manager comes in I'll try and convince her
+2015-09-25 12:36:02	HeeroYuy	be like "WE NEED THIS!"
+2015-09-25 12:39:07	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 12:41:37	dean	haha, writing resumes suck
+2015-09-25 12:41:58	dean	i did start writing an outline for one a few months back, but fucking hell.. i'd have to tailor the skillset per job
+2015-09-25 12:42:04	dean	otherwise my resume would be 15 pages long
+2015-09-25 12:48:43	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 12:48:50	HeeroYuy	haha
+2015-09-25 12:48:55	HeeroYuy	I just keep one
+2015-09-25 12:49:06	HeeroYuy	and I update it everytime I get a skill or new job
+2015-09-25 12:49:18	dean	that doesn't work for me
+2015-09-25 12:49:25	dean	here take my novella resume
+2015-09-25 12:49:32	HeeroYuy	and then I have a cover letter I can attach which shows and highlights my skills and why I should get the job.
+2015-09-25 12:50:13	dean	i imagine your cover letter
+2015-09-25 12:50:27	dean	"if you hire me i will guarantee that the wages you give me will go directly back to you"
+2015-09-25 12:50:27	dean	haha
+2015-09-25 12:50:54	dean	mine
+2015-09-25 12:51:08	dean	"i promise i wont hack into your systems and create backdoors.. pink swear"
+2015-09-25 12:53:51	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 13:06:34	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 13:06:41	HeeroYuy	hahaha
+2015-09-25 13:06:45	HeeroYuy	got to be honest
+2015-09-25 13:09:57	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 13:16:22	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 13:16:30	HeeroYuy	I'm honest >.<
+2015-09-25 13:24:11	dean	haha, im pretty blunt
+2015-09-25 13:24:17	dean	my filter is low
+2015-09-25 13:24:41	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 13:41:09	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 13:41:16	HeeroYuy	like my smokes
+2015-09-25 13:41:36	dean	haha fair enough
+2015-09-25 13:42:06	dean	i'll be coming from work to your birthday tomorrow
+2015-09-25 13:42:10	dean	i'll be one tired mofo
+2015-09-25 13:44:16	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 13:46:14	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 13:46:14	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 13:46:51	HeeroYuy	I'm coming from work as well :P
+2015-09-25 13:47:05	HeeroYuy	its just a small thing
+2015-09-25 13:47:22	dean	i have to create a business-grade server from scratch and network up about 30 pcs
+2015-09-25 13:48:05	dean	but i get a grand
+2015-09-25 13:48:07	dean	so i dont mind
+2015-09-25 13:48:12	HeeroYuy	okay okay you beat me
+2015-09-25 13:48:16	HeeroYuy	and oooh thats a nice pay
+2015-09-25 13:49:04	dean	yeah thats only the first part
+2015-09-25 13:49:15	dean	the second part is then create a private email server and cloud service for him
+2015-09-25 13:49:28	dean	that will be another grand
+2015-09-25 13:49:29	dean	haha
+2015-09-25 13:49:55	dean	whats that dean i could triple-sli
+2015-09-25 13:49:56	dean	haha
+2015-09-25 13:50:15	HeeroYuy	don't triple sli come on
+2015-09-25 13:50:17	dean	i would like to buy another high-end card to do pci passthrough to a virtual machine though
+2015-09-25 13:50:27	dean	so i wont be sli'ing
+2015-09-25 13:50:39	dean	one card for the host os, and one for the virtual os
+2015-09-25 13:50:53	HeeroYuy	both nvidia yeeees?
+2015-09-25 13:51:03	dean	amd drivers on linux are awful
+2015-09-25 13:51:06	dean	amd drivers in general are awful
+2015-09-25 13:51:34	HeeroYuy	haha
+2015-09-25 13:51:36	dean	i've been a loyal nvidia purchaser since my 8800gts
+2015-09-25 13:51:38	HeeroYuy	yay
+2015-09-25 13:51:40	dean	though not my first nvidia card
+2015-09-25 13:51:47	HeeroYuy	oooh i loved my 8800gts
+2015-09-25 13:51:54	dean	first nvidia card was actually a geforce mx440 (which is just a shitty geforce2)
+2015-09-25 13:51:54	HeeroYuy	would you get a 980ti?
+2015-09-25 13:52:20	dean	i had both 8800gts's actually
+2015-09-25 13:52:24	dean	the 384mb model and the 640mb
+2015-09-25 13:52:33	dean	then it was a geforce gtx 275 896mb
+2015-09-25 13:52:41	dean	then the geforce gtx 670 1gb
+2015-09-25 13:52:49	dean	and now this geforce gtx 970 :)
+2015-09-25 13:53:31	HeeroYuy	970s are so goooood
+2015-09-25 13:54:58	HeeroYuy	lol
+2015-09-25 13:55:06	HeeroYuy	I like them because they overclock well
+2015-09-25 13:55:10	HeeroYuy	no need for a 980
+2015-09-25 14:01:02	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 14:04:57	dean	haha true
+2015-09-25 14:06:01	dean	i shall write this resume up for you
+2015-09-25 14:06:12	dean	but i will say this, i'll only do it freelance
+2015-09-25 14:12:44	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 14:12:54	HeeroYuy	oh god haha :P
+2015-09-25 14:16:01	dean	only way i wont is if they offer me a higher pay grade
+2015-09-25 14:17:49	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 14:18:57	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 14:19:06	HeeroYuy	how much an hour?
+2015-09-25 14:23:27	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 14:26:39	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 14:26:59	HeeroYuy	Mhmm hopefully they can match
+2015-09-25 14:27:52	dean	we shall see
+2015-09-25 14:28:00	dean	otherwise i can do it freelance and on-call
+2015-09-25 14:30:08	HeeroYuy	possibly
+2015-09-25 14:31:51	dean	we shall see
+2015-09-25 14:31:55	dean	any work colleagues going tomorrow night
+2015-09-25 14:32:07	HeeroYuy	nope
+2015-09-25 14:32:08	HeeroYuy	:P
+2015-09-25 14:32:29	HeeroYuy	I separate work and private life.
+2015-09-25 14:33:55	dean	haha.. who is going?
+2015-09-25 14:34:00	dean	i probably won't know anyone mind you
+2015-09-25 14:36:03	HeeroYuy	I'm not sure :P
+2015-09-25 14:36:11	HeeroYuy	No one has really giving me any confirmation
+2015-09-25 14:37:11	dean	on the 23rd i'm holding a mega guitar hero drunk-a-thon
+2015-09-25 14:37:18	dean	of october.. well the 24th
+2015-09-25 14:38:55	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 14:39:31	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 14:40:23	HeeroYuy	haha cool :P
+2015-09-25 14:40:26	HeeroYuy	I can only play using a controller
+2015-09-25 14:41:21	dean	haha.. naa
+2015-09-25 14:41:23	dean	then you can sing
+2015-09-25 14:41:24	dean	HAHAHAHA
+2015-09-25 14:41:44	HeeroYuy	oh god
+2015-09-25 14:41:48	HeeroYuy	I wouldn't want to punish anyon
+2015-09-25 14:42:42	dean	..just another drink 
+2015-09-25 14:42:44	dean	..and another
+2015-09-25 14:42:47	dean	..oh here have this
+2015-09-25 14:42:52	dean	..what you finished it already
+2015-09-25 14:42:59	dean	...no no.. please drink this
+2015-09-25 14:43:04	dean	..out comes fast cosby
+2015-09-25 14:44:27	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 14:48:05	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 14:48:33	HeeroYuy	haha
+2015-09-25 14:48:36	HeeroYuy	nah wont happn
+2015-09-25 14:48:48	dean	slow cosby?
+2015-09-25 14:49:39	HeeroYuy	no cosby!
+2015-09-25 14:54:18	dean	awwwwww
+2015-09-25 14:54:26	HeeroYuy	>.>
+2015-09-25 14:55:03	dean	party pooper
+2015-09-25 14:55:03	dean	lol
+2015-09-25 14:55:33	HeeroYuy	I'm not a fun loving guy haha I'm all serious .
+2015-09-25 14:55:48	dean	riiiight
+2015-09-25 14:55:55	dean	and you said you are always honest
+2015-09-25 14:58:26	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 15:07:15	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 15:07:42	HeeroYuy	haha I am!
+2015-09-25 15:07:46	HeeroYuy	and unless I'm jokng
+2015-09-25 15:07:48	HeeroYuy	joking*
+2015-09-25 15:08:00	dean	slllooow cosby
+2015-09-25 15:08:12	HeeroYuy	is that your new thing now haha
+2015-09-25 15:11:44	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 15:54:38	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 16:00:44	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 16:05:48	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 16:09:50	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 16:19:33	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 16:22:31	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 16:36:14	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 16:42:44	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-09-25 16:46:53	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-09-25 16:49:46	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 14:25:50	HeeroYuy	Howdy
+2015-10-02 14:28:47	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 14:43:26	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-10-02 14:46:42	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 14:48:43	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-10-02 14:48:49	HeeroYuy	Working?
+2015-10-02 14:49:10	HeeroYuy	That's good :p 
+2015-10-02 14:49:20	HeeroYuy	How's your day
+2015-10-02 14:52:11	HeeroYuy	Haha so true. 
+2015-10-02 14:52:24	HeeroYuy	It's only going to get hotter as well -dies-
+2015-10-02 14:53:23	HeeroYuy	I can't afford air con >.< 
+2015-10-02 14:57:12	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 14:58:03	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-10-02 14:59:20	HeeroYuy	I pay the utility bills >.<
+2015-10-02 14:59:44	HeeroYuy	My mum does not have a job lol
+2015-10-02 15:03:39	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 15:06:52	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-10-02 15:09:36	HeeroYuy	I don't think people understand that about what I do..I study full time and work nearly full time because I pay rent, utilities and for people to renovate the house so can sell it >.<
+2015-10-02 15:13:14	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 15:14:05	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-10-02 15:18:58	◣	HeeroYuy (100003606552380@facebook) has quit (Leaving...)
+2015-10-02 15:34:03	◥	HeeroYuy (100003606552380@facebook) is back on server
+2015-10-02 15:34:31	HeeroYuy	I'm not being used. I'm paying back my mother for all she did for me when I was growing up :P
+2015-10-02 15:35:47	HeeroYuy	We are Indian though, which is kind of like being Catholic lots of quilt haha
+2015-10-02 15:35:50	HeeroYuy	guilt*
+2015-10-02 15:36:45	HeeroYuy	Anywayanyway I was thinking the place you volunteer at do they accept hardware from companies that are old?
+2015-10-02 15:37:52	HeeroYuy	DDR2 style to recent stuff, because we have a lot of old hardware from customers who leave stuff here or don't need and it's building up.
+2015-10-02 15:38:58	HeeroYuy	okay cool =] do you mind if I give your email to the head of our marketing team?
+2015-10-02 15:41:50	HeeroYuy	the fsociety one

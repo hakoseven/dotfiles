@@ -1,0 +1,1954 @@
+2015-09-25 10:04:22	◥	evilcorp (~dean@c27-253-67-106.thoms4.vic.optusnet.com.au) has joined #archlinux
+2015-09-25 10:04:22	ℹ 	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> Be kind to the people who are helping you. Be kind to the people you are trying to help. <+> "Think before you type" —Earnestly"
+2015-09-25 10:04:22	ℹ 	Topic set by tigrmesh (~tigrmesh@archlinux/op/tigrmesh) on Wed, 09 Sep 2015 12:24:54
+2015-09-25 10:04:23	ℹ 	Channel #archlinux: 1563 nicks (0 ops, 0 voices, 1563 normals)
+2015-09-25 10:04:25	ℹ 	Channel created on Sun, 15 Feb 2004 16:08:31
+2015-09-25 10:04:26	escondida	heh
+2015-09-25 10:04:36	halosghost	bougyman: lol
+2015-09-25 10:04:37	◥	zrl (sid22717@gateway/web/irccloud.com/x-swppspskryuuioro) has joined #archlinux
+2015-09-25 10:04:47	halosghost	bougyman: they're pretty great in some situations
+2015-09-25 10:04:52	◥	sublimate (sid85402@gateway/web/irccloud.com/x-abbttpffhabxwmjr) has joined #archlinux
+2015-09-25 10:04:54	halosghost	but yeah, they're hilariously bad at a lot of things
+2015-09-25 10:05:07	bougyman	halosghost: they're great for one-offs.
+2015-09-25 10:05:14	◣	raehik (~raehik@cpc1-rdng20-2-0-cust636.15-3.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2015-09-25 10:05:14	Earnestly	halosghost: They're bad at non-regular languages...
+2015-09-25 10:05:16	bougyman	they don't belong in long-maintenance codebases
+2015-09-25 10:05:25	Earnestly	Which is what people use regex on quite a lot ...
+2015-09-25 10:05:31	halosghost	Earnestly: wel, yeah
+2015-09-25 10:05:33	halosghost	s/wel/well/
+2015-09-25 10:05:46	escondida	wel+, yeah
+2015-09-25 10:05:48	Earnestly	html comes to mi.. o̹̗̲͖̝͍̕f͙ ̬̤̥̮ͅc̭̜̟̝͖̗h̥̩͓̻a̲̺o̥̤̕ş̬.̯̣̺͈̤̝̥ ͖̠͎̣̪͟Z̶̥̝̘̯a̞̣l͉̜̟̯̫̮̰͠g͈o.̷̬̳͇̫̖. ̢̟̤̱͇͉̞̟H͇̹͎͇e̩o̹̗̲͖̝͍̕f͙ ̬̤̥̮ͅc̭̜̟̝͖̗h̥̩͓̻a̲̺o̥̤̕ş̬.̯̣̺͈̤̝̥ ͖̠͎̣̪͟Z̶̥̝̘̯a̞̣l͉̜̟̯̫̮̰͠g͈o.̷̬̳͇̫̖. ̢̟̤̱͇͉̞̟H͇̹͎͇e̩
+2015-09-25 10:05:58	halosghost	escondida: wel{2}, yeah
+2015-09-25 10:05:58	mxci	Namarrgon: same behaviour 
+2015-09-25 10:05:59	◥	redpill (~redpill@unaffiliated/redpill) has joined #archlinux
+2015-09-25 10:05:59	CompanionCube	Zalgo comes.
+2015-09-25 10:06:05	halosghost	Earnestly: ++
+2015-09-25 10:06:06	◥	kurobeats (~fire@CPE-60-230-208-53.lnse1.wel.bigpond.net.au) has joined #archlinux
+2015-09-25 10:06:10	◥	sirblackheart (~sirblackh@chello084112103215.30.11.vie.surfer.at) has joined #archlinux
+2015-09-25 10:06:13	halosghost	Tony the Pony, he comes!
+2015-09-25 10:06:13	kurobeats	Am I able to change the font in the gnome shell panel? I can't seem to find a way to do it with 3.16 with the default theme.
+2015-09-25 10:06:15	Earnestly	And now my terminal is slightly messed up
+2015-09-25 10:06:21	bougyman	wel(?>l)
+2015-09-25 10:06:22	escondida	Earnestly: Oh, dear. You've summoned elder things.
+2015-09-25 10:06:27	Namarrgon	someone broke my terminal: https://ptpb.pw/rjOC.png
+2015-09-25 10:06:30	bougyman	how many ways can we match 'well' ?
+2015-09-25 10:06:32	Earnestly	escondida: I need to read more Wells
+2015-09-25 10:06:56	Earnestly	bougyman: Infinate
+2015-09-25 10:06:57	escondida	Earnestly: Most people do. He's dated in many ways, but I'd argue still worth reading.
+2015-09-25 10:07:06	Earnestly	bougyman: That is, for each match you apply, I can do match +1
+2015-09-25 10:07:17	Earnestly	bougyman: So by induction, infinate :p
+2015-09-25 10:07:17	afternuun	Namarrgon: I see nothing wrong there? Like your hieroglyhs though.
+2015-09-25 10:07:26	demonicmaniac3	http://i.imgur.com/pWUrutg.png
+2015-09-25 10:07:40	demonicmaniac3	funkay
+2015-09-25 10:07:47	bougyman	Earnestly: well, i'm discounting /.*.*.*.*.*.*<infinity>/
+2015-09-25 10:07:53	Earnestly	bougyman: I'm not :D
+2015-09-25 10:08:00	⚡	escondida has hardened her terminal against incursions by unknowable entities from beyond spacetime
+2015-09-25 10:08:11	CompanionCube	Broken unicode rendering  is broken
+2015-09-25 10:08:12	◥	Cyanid (~Cyanid@unaffiliated/cyanid) has joined #archlinux
+2015-09-25 10:08:21	◥	Kamilion (kamilion@copper.sllabs.com) has joined #archlinux
+2015-09-25 10:08:31	⚡	bougyman can handle any character
+2015-09-25 10:08:33	Earnestly	escondida: The trouble with Wells is that, the datedness can ruin it sometimes, like Gibson and Necromancer
+2015-09-25 10:08:47	◣	mt (mteufel@unaffiliated/supermat) has quit (Remote host closed the connection)
+2015-09-25 10:08:49	LambdaComplex	escondida: So you've prevented the Doctor from connecting to your computer via ssh?
+2015-09-25 10:08:49	Earnestly	CompanionCube: It's not broken, it's actually well defined
+2015-09-25 10:08:57	Earnestly	CompanionCube:  Better make sure your decoder can handle it
+2015-09-25 10:08:59	◥	ntzrmtthihu777 (~netz@unaffiliated/ntzrmtthihu777) has joined #archlinux
+2015-09-25 10:09:07	Earnestly	CompanionCube: Welcome to the insanity of Unicode, it's the best we've got
+2015-09-25 10:09:21	◥	mt (mteufel@unaffiliated/supermat) has joined #archlinux
+2015-09-25 10:09:25	Earnestly	escondida: But some of his stuff still maintains that perfect creepiness
+2015-09-25 10:09:26	demonicmaniac3	Earnestly: you should check out first edition cyberpunk2013 or shadowrun first edition XD
+2015-09-25 10:09:37	◣	t-ask (~t-ask@178-118-199-117.access.telenet.be) has quit (Quit: leaving)
+2015-09-25 10:09:40	afternuun	escondida: I came because my ether-nick was pinged by Earnestly. Am I an elder thing?
+2015-09-25 10:09:40	escondida	Earnestly: Indeedy. Interestingly, the probably-first cyberpunk novel, _City Come A-Walkin'_, is in some ways *less* dated than its successors, because it doesn't concentrate on any specific tech
+2015-09-25 10:09:43	Earnestly	escondida: Like the book... who's name I forget...
+2015-09-25 10:09:59	Earnestly	escondida: Where they go into this hidden crypt under this mansion and find a massive cave full of bones
+2015-09-25 10:10:12	Earnestly	escondida: Yeah
+2015-09-25 10:10:22	demonicmaniac3	Earnestly: i think you mean the rats in the walls
+2015-09-25 10:10:23	Earnestly	demonicmaniac3: Altered Carbon is awesome btw, thanks for that
+2015-09-25 10:10:25	demonicmaniac3	by lovecraft
+2015-09-25 10:10:26	Earnestly	demonicmaniac3: Yeah
+2015-09-25 10:10:32	Earnestly	Not wells, of course
+2015-09-25 10:10:36	Earnestly	Derp
+2015-09-25 10:10:46	escondida	Earnestly: What, do you mean the Morlocks, from the Time Machine?
+2015-09-25 10:10:46	Earnestly	Wait
+2015-09-25 10:10:46	demonicmaniac3	wee cool :) yeah morgan is fun
+2015-09-25 10:10:54	◥	nemith (~bbennett@cyanogenmod/maintainer/Nemith) has joined #archlinux
+2015-09-25 10:10:59	◥	kain (~mavick@unaffiliated/mavick) has joined #archlinux
+2015-09-25 10:11:00	◣	redpill (~redpill@unaffiliated/redpill) has quit (Ping timeout: 240 seconds)
+2015-09-25 10:11:04	Earnestly	escondida: No I was thinking of Lovecraft
+2015-09-25 10:11:05	Halfwit	Earnestly: Doesn't sound like Wells. 
+2015-09-25 10:11:17	Earnestly	Halfwit: As demonicmaniac3 pointed out yeah
+2015-09-25 10:11:21	demonicmaniac3	the idea that we can't transcend the matter and lightspeed thing is great 
+2015-09-25 10:11:23	escondida	Earnestly: Ah, okay
+2015-09-25 10:11:27	demonicmaniac3	and instead just beam consciousness
+2015-09-25 10:11:31	◥	mys_721tx (~mys_721tx@wikipedia/mys-721tx) has joined #archlinux
+2015-09-25 10:11:31	Earnestly	escondida: For some reason HG Wells was in my head
+2015-09-25 10:11:34	Halfwit	And he was pretty damn prophetic, but for the details :p
+2015-09-25 10:11:44	escondida	Earnestly: Well, Lovecraft read Wells (-:
+2015-09-25 10:11:49	Halfwit	(My favorite author)
+2015-09-25 10:11:58	◣	kain (~mavick@unaffiliated/mavick) has quit (Client Quit)
+2015-09-25 10:12:03	◥	HoNgOuRu (~hongo@r167-57-149-219.dialup.adsl.anteldata.net.uy) has joined #archlinux
+2015-09-25 10:12:20	Earnestly	demonicmaniac3: For a first book, Altered Carbon was just brilliant
+2015-09-25 10:12:24	Halfwit	Earnestly: I read that later, yeah. 
+2015-09-25 10:12:29	Earnestly	demonicmaniac3: It's what I'd call pretty much pure cyberpunk
+2015-09-25 10:12:42	HoNgOuRu	grub does not detect windows partitions, how can I fix this ?
+2015-09-25 10:12:47	Earnestly	As in, gets all the tropes right
+2015-09-25 10:12:51	Earnestly	And does it well
+2015-09-25 10:13:08	escondida	HoNgOuRu: https://wiki.archlinux.org/index.php/GRUB#Dual-booting
+2015-09-25 10:13:09	phrik	Title: GRUB - ArchWiki (at wiki.archlinux.org)
+2015-09-25 10:13:34	demonicmaniac3	Earnestly: i like them all really - also market forces, black man, thirteen
+2015-09-25 10:13:37	Namarrgon	mxci: try it with a clean user account
+2015-09-25 10:13:52	demonicmaniac3	market forces is old school post apocalyptic punk kinda 
+2015-09-25 10:14:10	mxci	Namarrgon: Wouldn't just deleting .config/cmus be enough ?
+2015-09-25 10:14:27	demonicmaniac3	i was recommended the fantasy series as well - but i haven't read it yet
+2015-09-25 10:14:32	Namarrgon	mxci: it might be something else in you ~
+2015-09-25 10:14:32	escondida	demonicmaniac3: His fantasy is also interesting.
+2015-09-25 10:14:32	◣	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has quit (Ping timeout: 260 seconds)
+2015-09-25 10:14:37	Namarrgon	mxci: but you can try that first
+2015-09-25 10:14:52	Earnestly	demonicmaniac3: I'll get there
+2015-09-25 10:14:53	escondida	demonicmaniac3: Often disturbing, but hey, better disturbing than watered-down (-:
+2015-09-25 10:14:54	mxci	Namarrgon: ok, I'm going to do that
+2015-09-25 10:15:10	demonicmaniac3	hmhm, i'm more of a cyberpunk/futuristic guy simply
+2015-09-25 10:15:19	Earnestly	escondida: Who's fantasies?
+2015-09-25 10:15:22	demonicmaniac3	but i might give it a try 
+2015-09-25 10:15:26	demonicmaniac3	Earnestly: morgan's
+2015-09-25 10:15:26	escondida	Earnestly: Morgan's
+2015-09-25 10:15:30	demonicmaniac3	a land not fit for heroes
+2015-09-25 10:15:33	Earnestly	Oh
+2015-09-25 10:15:37	escondida	Earnestly: The first book in the series is _The Steel Remains_
+2015-09-25 10:15:38	◣	HoNgOuRu (~hongo@r167-57-149-219.dialup.adsl.anteldata.net.uy) has quit (Remote host closed the connection)
+2015-09-25 10:15:52	Earnestly	escondida: I recall that, have not read any of them though
+2015-09-25 10:15:59	escondida	demonicmaniac3: I tend to prefer science fiction in general. *shrug*
+2015-09-25 10:16:16	demonicmaniac3	though i do love brust's dragaera stuff
+2015-09-25 10:16:20	demonicmaniac3	and generally all of brust really
+2015-09-25 10:16:22	escondida	Brust is fun
+2015-09-25 10:16:31	mxci	Namarrgon: I guess I can copy my dotfiles which haven't change in like a month 
+2015-09-25 10:16:38	demonicmaniac3	to reign in hell is one of my most favouritistest ever
+2015-09-25 10:16:40	◥	jrahmy (~jrahmy@cpe-76-172-76-132.socal.res.rr.com) has joined #archlinux
+2015-09-25 10:16:47	escondida	And he's one of the few authors who uses made-up words with *consistent* pronunciation, and one of the few who provides a pronunciation key (-:
+2015-09-25 10:16:58	Namarrgon	mxci: copy them where?
+2015-09-25 10:17:11	demonicmaniac3	escondida: what i loved the most about brust and dragaera was that book about 1000 years earlier
+2015-09-25 10:17:18	mxci	Namarrgon: in the home folder of the new profile ?
+2015-09-25 10:17:29	demonicmaniac3	khaavren romances or something?
+2015-09-25 10:17:30	niemal	Due to a certain conflict between the intel driver and the AMD's catalyst-legacy driver, for them to co-exist the legacy-driver needs to drop the requirement for low version of xorg. Can this be bypassed or something?
+2015-09-25 10:17:31	escondida	demonicmaniac3: Haven't gotten there yet. I've only read the first couple Taltos books
+2015-09-25 10:17:32	Namarrgon	mxci: no, copy nothing. just log in and start cmus
+2015-09-25 10:17:36	◥	triplc (~tri@103.9.196.17) has joined #archlinux
+2015-09-25 10:17:42	triplc	hi all
+2015-09-25 10:18:00	demonicmaniac3	escondida: ah. it's cool really
+2015-09-25 10:18:08	demonicmaniac3	escondida: it's written in the style of the musketeers kinda
+2015-09-25 10:18:10	triplc	i run "pacman-key -r 962DDE58" and get error: "gpg: keyserver receive failed: Address family not supported by protocol"
+2015-09-25 10:18:15	demonicmaniac3	escondida: and shows many of the characters in their youth 
+2015-09-25 10:18:16	triplc	how to fix this?
+2015-09-25 10:18:22	demonicmaniac3	as adventuring young dragaerans
+2015-09-25 10:18:35	◣	BlueRavenGT (~BlueRaven@8-22-13-219.utopiafiber.net) has quit (Read error: No route to host)
+2015-09-25 10:18:49	mxci	Namarrgon: same behaviour assuming I did this right. I just created a new user and then logged into it from a vt and started cmus 
+2015-09-25 10:19:05	⚡	triplc takes that command from the guide: https://bbs.archlinux.org/viewtopic.php?id=162098
+2015-09-25 10:19:06	◥	BlueRavenGT (~BlueRaven@8-22-13-219.utopiafiber.net) has joined #archlinux
+2015-09-25 10:19:06	phrik	Title: infinality-bundle: good looking fonts made (even) easier / Community Contributions / Arch Linux Forums (at bbs.archlinux.org)
+2015-09-25 10:19:13	Earnestly	triplc: Hm, why are you...
+2015-09-25 10:19:29	triplc	Earnestly: ?
+2015-09-25 10:19:42	Earnestly	triplc: What keyserver are you using?
+2015-09-25 10:19:47	◣	horlux (uid39507@gateway/web/irccloud.com/x-ryrksxuljybnmcrt) has quit (Quit: Connection closed for inactivity)
+2015-09-25 10:19:47	demonicmaniac3	escondida: i do have them all as hardcover somewhere XD
+2015-09-25 10:19:48	◣	suffer (9671cfaa@unaffiliated/suffer) has quit (Quit: Hey!  Where'd my controlling terminal go?)
+2015-09-25 10:19:52	Earnestly	triplc: /etc/pacman.d/gnupg/gpg.conf
+2015-09-25 10:20:13	escondida	demonicmaniac3: Nice (-:
+2015-09-25 10:20:14	demonicmaniac3	at least until tiassa
+2015-09-25 10:20:21	demonicmaniac3	i forget if i've read hawk...
+2015-09-25 10:20:28	triplc	"cat /etc/pacman.d/gnupg/gpg.conf" ==> "hkp://pool.sks-keyservers.net"
+2015-09-25 10:20:33	◣	DomThePorcupine (~dominic@cl-130-49-4-176.wireless.pitt.edu) has quit (Quit: WeeChat 1.3)
+2015-09-25 10:20:56	Earnestly	triplc: It might be that your network is not allowing hkp
+2015-09-25 10:21:00	triplc	Earnestly: is that the correct server? i did not change anything
+2015-09-25 10:21:06	◥	cewood (~cewood@pa49-181-202-202.pa.nsw.optusnet.com.au) has joined #archlinux
+2015-09-25 10:21:09	Earnestly	triplc: Yeah, sure
+2015-09-25 10:21:14	Earnestly	triplc: There's loads of pools
+2015-09-25 10:21:17	escondida	demonicmaniac3: If you want something inspired by classic adventure tales, check out Bester's The Stars My Destination. It's one of the best revenge stories ever penned, and it gave us the use of "jaunt" for "teleport" (-:
+2015-09-25 10:21:39	Earnestly	triplc: Try http://pgp.mit.edu/
+2015-09-25 10:21:40	phrik	Title: MIT PGP Key Server (at pgp.mit.edu)
+2015-09-25 10:21:45	triplc	ok
+2015-09-25 10:21:50	escondida	demonicmaniac3: Not SF, but Anthony Hope's _Prisoner of Zenda_ is also one of the best adventure stories out there. And Sabatini's _Scaramouche_ and _Captain Blood_, of course.
+2015-09-25 10:21:53	◣	sirblackheart (~sirblackh@chello084112103215.30.11.vie.surfer.at) has quit (Remote host closed the connection)
+2015-09-25 10:22:05	Earnestly	triplc: Or https
+2015-09-25 10:22:06	◣	theannihilator (~Sanjuro03@108.61.226.8) has quit (Read error: Connection reset by peer)
+2015-09-25 10:22:40	ℹ 	vociferous is now known as vocigone
+2015-09-25 10:22:44	◥	davidmarichal (~davidmari@128.90.89.180) has joined #archlinux
+2015-09-25 10:23:37	◣	h3xc0d3r (~h3xc0d3r@88.233.102.207) has quit (Ping timeout: 264 seconds)
+2015-09-25 10:23:42	triplc	I see, hkp://pgp.mit.... works
+2015-09-25 10:23:43	◥	hellkiller (~ricardo@177.107.9.111) has joined #archlinux
+2015-09-25 10:23:45	◥	theannihilator (~Sanjuro03@108.61.226.8) has joined #archlinux
+2015-09-25 10:23:55	◥	NeverDie (~NeverDie@207.251.80.226) has joined #archlinux
+2015-09-25 10:23:57	triplc	Hmm how come the default config does not work!!!
+2015-09-25 10:25:20	◣	s00pcan (~chris@209.197.20.203) has quit (Ping timeout: 255 seconds)
+2015-09-25 10:25:59	Earnestly	triplc: It usually does
+2015-09-25 10:26:13	Earnestly	triplc: Some peoples networks are just odd, don't worry about it too much
+2015-09-25 10:26:35	◥	wymillerlinux (~wymillerl@166.170.25.113) has joined #archlinux
+2015-09-25 10:26:44	◣	Debesis (0x@unaffiliated/debesis) has quit (Ping timeout: 250 seconds)
+2015-09-25 10:26:46	demonicmaniac3	escondida: thanks, noted. i still have to catch up with latest taltos and stephenson - and rainwild traders i'm also missing the latest
+2015-09-25 10:27:05	Namarrgon	mxci: journalctl -b
+2015-09-25 10:27:07	◥	s00pcan (~chris@108-208-65-111.lightspeed.livnmi.sbcglobal.net) has joined #archlinux
+2015-09-25 10:27:17	◥	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has joined #archlinux
+2015-09-25 10:27:22	mxci	Namarrgon: On my active user or the one I created ?
+2015-09-25 10:27:50	Namarrgon	mxci: as root or with sudo, should be the same output
+2015-09-25 10:27:55	◥	Gaming4JC (~Gaming4JC@gateway/vpn/privateinternetaccess/gaming4jc) has joined #archlinux
+2015-09-25 10:28:31	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Ping timeout: 240 seconds)
+2015-09-25 10:28:33	Gaming4JC	How do you deal with NPM and GO packages? Like they won't compile with build tools because they keep going out on the internet and getting thousands of dependencies in addition to the original source..
+2015-09-25 10:28:43	◥	ssalenik (~smuxi@135-23-193-210.cpe.pppoe.ca) has joined #archlinux
+2015-09-25 10:29:06	mxci	Namarrgon: https://my.mixtape.moe/derxur.txt
+2015-09-25 10:29:41	Earnestly	 pun useradd[4497]: add 'pun2' to group 'network
+2015-09-25 10:29:45	Earnestly	Tis odd
+2015-09-25 10:29:51	◥	Cay (~leaf@unaffiliated/cay) has joined #archlinux
+2015-09-25 10:29:59	Earnestly	4.1.6?
+2015-09-25 10:30:05	Cay	Alright this is quickly getting irritating 
+2015-09-25 10:30:09	mxci	Earnestly: yes
+2015-09-25 10:30:10	Earnestly	Either way, odd
+2015-09-25 10:30:20	Earnestly	Not sure why useradd is being used like this
+2015-09-25 10:30:27	Cay	modprobe zfs then go to get the list of mountable zfs partitions and it says it's not loaded
+2015-09-25 10:30:28	Namarrgon	why did you add the user to all these groups?
+2015-09-25 10:30:51	◣	davidmarichal (~davidmari@128.90.89.180) has quit (Quit: Leaving)
+2015-09-25 10:30:53	Earnestly	!give Cay ku
+2015-09-25 10:30:54	phrik	Cay: When you upgrade the kernel package, it removes all modules for the old version and installs ones for the new version, so module loading doesn't work anymore until you reboot.
+2015-09-25 10:30:58	Earnestly	Cay: Also, zfs not supported
+2015-09-25 10:31:11	◥	foozle (~foozle@office181.kiec.kh.edu.tw) has joined #archlinux
+2015-09-25 10:31:12	Cay	I just want to mount a zfs partition
+2015-09-25 10:31:14	Cay	not use it
+2015-09-25 10:31:16	mxci	Namarrgon: Honestly I have no idea. I never read up on groups and completly forgot about it. Should I not ?
+2015-09-25 10:31:23	Namarrgon	no
+2015-09-25 10:31:24	Cay	well I guess that's using it
+2015-09-25 10:31:35	Earnestly	Yeah
+2015-09-25 10:31:47	Earnestly	Cay: Since the module is not part of the kernel (licensing issues)
+2015-09-25 10:31:47	LambdaComplex	^
+2015-09-25 10:31:48	Namarrgon	mxci: logind will take care of this in most cases for local users
+2015-09-25 10:32:05	LambdaComplex	Mounting a kernel is definitely using it :p
+2015-09-25 10:32:30	◥	ob1mod (~ob1mod@unaffiliated/ob1mod) has joined #archlinux
+2015-09-25 10:32:36	Earnestly	mxci: systemd tends to prefer ACLs which can be applied via logind accordingly (posix ACLs are just more fine grained than groups)
+2015-09-25 10:32:46	mxci	Namarrgon: So I just create a user without adding it to any groups nex time ?
+2015-09-25 10:32:53	Namarrgon	mxci: yup
+2015-09-25 10:32:54	Earnestly	mxci: acl(5) explains them in some detail if you're interested
+2015-09-25 10:33:06	◣	tecuani (~tecuani@port-92-196-3-99.dynamic.qsc.de) has quit (Quit: Lost terminal)
+2015-09-25 10:33:13	mxci	Earnestly: I'm going to read on it now since I don't really have anything else to do 
+2015-09-25 10:33:17	◥	MichaelTiebesl (~MichaelTi@49.144.115.58) has joined #archlinux
+2015-09-25 10:33:24	◥	Ctrl-Alt-Del (~Control@177-177-83-6.user.veloxzone.com.br) has joined #archlinux
+2015-09-25 10:34:06	◥	davidmarichal (~davidmari@128.90.89.180) has joined #archlinux
+2015-09-25 10:34:27	MichaelTiebesl	what is better to have in arch with nvidia. the long or short live branch driver?
+2015-09-25 10:34:56	◣	ParkerR (~ParkerR@unaffiliated/parkerr) has quit (Read error: Connection reset by peer)
+2015-09-25 10:35:04	dacoit	kdbus poll, 0 or 1?
+2015-09-25 10:35:11	Namarrgon	0.5
+2015-09-25 10:35:38	Namarrgon	MichaelTiebesl: 'nvidia' if your gpu isn't too old
+2015-09-25 10:37:12	Ctrl-Alt-Del	does anyone know a command to install optional dependencies of a package automatically when you install it?
+2015-09-25 10:37:14	mxci	Earnestly: If it's handled by acl why does the arch wiki still recommend adding the newly created user to wheel ?
+2015-09-25 10:37:25	◥	pwcjr (~pwcjr@pool-173-79-51-148.washdc.fios.verizon.net) has joined #archlinux
+2015-09-25 10:37:51	◣	davidmarichal (~davidmari@128.90.89.180) has quit (Quit: Leaving)
+2015-09-25 10:37:53	◣	Narrat (~Crebiz@p548DD63B.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-09-25 10:38:41	◣	freestyl3r (~free@ppp005054031155.access.hol.gr) has quit (Quit: WeeChat 1.3)
+2015-09-25 10:38:45	Namarrgon	Ctrl-Alt-Del: there isn't one
+2015-09-25 10:38:49	◣	weemsledeux (~textual@unaffiliated/weems) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-25 10:39:29	◣	Tazmain (~Tazmain@105.210.73.224) has quit (Remote host closed the connection)
+2015-09-25 10:39:32	◣	aaro (~aaro@unaffiliated/xyox/x-040147) has quit (Ping timeout: 268 seconds)
+2015-09-25 10:39:44	◣	tpowa (~tpowa@archlinux/developer/tpowa) has quit (Ping timeout: 250 seconds)
+2015-09-25 10:40:08	MichaelTiebesl	Namarrgon:i have nvidia-352 installed because its a long live, but know i get a update for nvidia-lts
+2015-09-25 10:40:13	◣	zyxelthrone (~nepgear@2601:18a:c303:8e18:6618:bb97:f7e4:bce9) has quit (Ping timeout: 252 seconds)
+2015-09-25 10:40:37	◥	tpowa (~tpowa@archlinux/developer/tpowa) has joined #archlinux
+2015-09-25 10:40:42	Earnestly	mxci: Mostly because the concept of the wheel <http://www.catb.org/jargon/html/W/wheel.html> doesn't really apply very well to ACLs
+2015-09-25 10:40:43	phrik	Title: wheel (at www.catb.org)
+2015-09-25 10:40:48	Namarrgon	MichaelTiebesl: "nvidia" is built for the 'linux' package, "nvidia-lts" is built for the 'linux-lts' package
+2015-09-25 10:41:15	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 10:41:22	Namarrgon	MichaelTiebesl: they are the same version, just built for different kernels
+2015-09-25 10:41:22	◥	davidmarichal (~davidmari@128.90.89.180) has joined #archlinux
+2015-09-25 10:41:25	◣	Cay (~leaf@unaffiliated/cay) has quit (Quit: Lost terminal)
+2015-09-25 10:41:35	escondida	Ctrl-Alt-Del: pacman -S foo; [[ -n "$(expac -o foo)" ]] && pacman -S $(expac -o foo)
+2015-09-25 10:42:01	MichaelTiebesl	Namarrgon:that makes things a bit clear now
+2015-09-25 10:42:03	Namarrgon	MichaelTiebesl: usually, that is. nvidia 355.11-2 is stuck in [testing] right now
+2015-09-25 10:42:22	mxci	Earnestly: thank you 
+2015-09-25 10:42:30	◣	kotto (~kotto@189-74-61-51.cbace700.dsl.brasiltelecom.net.br) has quit (Quit: WeeChat 1.3)
+2015-09-25 10:43:02	Earnestly	mxci: As in, the wheel group doesn't actually do anything.  Device files don't have wheel groups and such
+2015-09-25 10:43:04	MichaelTiebesl	Namarrgon:so after 355 in testing i have from upgrade 352 to 355
+2015-09-25 10:43:23	◣	Proinsias (~gary@cpc8-thor5-2-0-cust32.14-2.cable.virginm.net) has quit (Quit: leaving)
+2015-09-25 10:43:30	Namarrgon	MichaelTiebesl: yup, it will be moved to extra together with the new kernel
+2015-09-25 10:43:33	Earnestly	mxci: E.g. teapot earnest %i master ~ ll /dev/snd/controlC0 
+2015-09-25 10:43:35	Earnestly	crw-rw----+ 1 root audio 116, 2 Sep 12 04:58 /dev/snd/controlC0
+2015-09-25 10:43:43	Ctrl-Alt-Del	escondida, expac: invalid option -- 'o'
+2015-09-25 10:43:58	◥	Defcronyke (~Defcronyk@121.92.148.146.bc.googleusercontent.com) has joined #archlinux
+2015-09-25 10:43:58	◣	wymillerlinux (~wymillerl@166.170.25.113) has left #archlinux ("Leaving the channel...")
+2015-09-25 10:43:58	◣	Defcronyke (~Defcronyk@121.92.148.146.bc.googleusercontent.com) has quit (Excess Flood)
+2015-09-25 10:44:06	escondida	Ctrl-Alt-Del: Pardon me; I meant %o
+2015-09-25 10:44:10	Earnestly	mxci: You can see the audio group there, this is what it means to be in the audio group.  However you can also see the + at the end of those ----- permissions
+2015-09-25 10:44:11	◣	ziocroc (~ziocroc3@151.74.35.66) has quit (Remote host closed the connection)
+2015-09-25 10:44:23	◥	aphirst (~aphirst@ipb21a5da7.dynamic.kabel-deutschland.de) has joined #archlinux
+2015-09-25 10:44:35	Earnestly	mxci: The + means ACLs are in effect, you can view them with `chacl -l /dev/snd/...`, try it
+2015-09-25 10:44:57	MichaelTiebesl	Namarrgon:but i have only the latest lts kernel
+2015-09-25 10:45:23	◥	ParkerR (~ParkerR@unaffiliated/parkerr) has joined #archlinux
+2015-09-25 10:45:23	◣	coolsa_ (~coolsa@unaffiliated/coolsa) has quit (Read error: Connection reset by peer)
+2015-09-25 10:45:31	Namarrgon	MichaelTiebesl: if you use the -lts kernel then you should be on 355.11 already
+2015-09-25 10:45:32	◣	triplc (~tri@103.9.196.17) has quit (Quit: leaving)
+2015-09-25 10:45:32	Ctrl-Alt-Del	escondida, perfect i love you S2
+2015-09-25 10:46:00	escondida	Ctrl-Alt-Del: expac's a useful tool to know in general
+2015-09-25 10:46:24	◥	utack (~utack@x5d874b20.dyn.telefonica.de) has joined #archlinux
+2015-09-25 10:46:31	escondida	Ctrl-Alt-Del: Essentially, any time you think to yourself "Maybe I should write a script to parse pacman's output," what you mean is "maybe I should use expac"
+2015-09-25 10:46:41	◥	Proinsias (~gary@cpc8-thor5-2-0-cust32.14-2.cable.virginm.net) has joined #archlinux
+2015-09-25 10:46:54	MichaelTiebesl	Namarrgon:so i have to upgrade now or wait until 355 is out of testing?
+2015-09-25 10:47:18	Namarrgon	MichaelTiebesl: if your box is up to date then you should have nvidia-lts 355.11 already
+2015-09-25 10:47:30	Namarrgon	MichaelTiebesl: otherwise you have to update
+2015-09-25 10:47:43	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Ping timeout: 240 seconds)
+2015-09-25 10:48:14	◥	sirblackheart (~sirblackh@chello084112103215.30.11.vie.surfer.at) has joined #archlinux
+2015-09-25 10:48:14	◥	llinguini (~llinguini@mobile-130-126-255-80.near.illinois.edu) has joined #archlinux
+2015-09-25 10:48:21	◣	sirblackheart (~sirblackh@chello084112103215.30.11.vie.surfer.at) has quit (Client Quit)
+2015-09-25 10:48:22	Ctrl-Alt-Del	escondida, =D
+2015-09-25 10:48:47	demonicmaniac3	or just ask libalpm directly
+2015-09-25 10:48:48	escondida	Ctrl-Alt-Del: Enjoy (-:
+2015-09-25 10:48:57	◣	utack_ (~utack@x5d86cdf9.dyn.telefonica.de) has quit (Ping timeout: 256 seconds)
+2015-09-25 10:49:14	escondida	demonicmaniac3: Yes, or that...but expac does the heavy lifting for you if you're shell scripting or whatever (-:
+2015-09-25 10:49:51	◥	captainkraft (~captainkr@cpe-76-84-92-205.neb.res.rr.com) has joined #archlinux
+2015-09-25 10:50:21	demonicmaniac3	by the way, unrelated but - the yahtzee mgs5 review is wonderful
+2015-09-25 10:50:42	demonicmaniac3	"yes kojima, we know it's directed by you. there's a mentally damaged woman with her titties hanging out. of course it's by you"
+2015-09-25 10:50:46	◣	nvnehi (~nvnehi@c-73-207-49-33.hsd1.ga.comcast.net) has quit (Quit: Leaving)
+2015-09-25 10:51:03	escondida	demonicmaniac3: "What do you read, my lord?" "Words. Words words words"
+2015-09-25 10:51:25	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 10:51:39	◥	stardiviner (~stardivin@unaffiliated/stardiviner) has joined #archlinux
+2015-09-25 10:52:54	demonicmaniac3	thou qouth hamlet
+2015-09-25 10:53:01	demonicmaniac3	*quoth
+2015-09-25 10:53:38	dacoit	quoth the escondida
+2015-09-25 10:53:38	MichaelTiebesl	Namarrgon:would be great to tell me how to upgrade from 352 to 355, i dont wanna make a mistake with my lts kernel, maybe i forget something
+2015-09-25 10:53:53	◥	NerdTaco (~Eleuin@unaffiliated/eleuin) has joined #archlinux
+2015-09-25 10:54:03	Namarrgon	the same way you update everything else on arch: pacman -Syu
+2015-09-25 10:54:06	escondida	dacoit: This is my oh-so-subtle way of saying "I don't understand what you just said"
+2015-09-25 10:54:09	Namarrgon	nice and simple
+2015-09-25 10:54:37	demonicmaniac3	escondida: https://www.youtube.com/watch?v=zziU0IbEU-Q
+2015-09-25 10:54:38	phrik	Title: Metal Gear Solid V: The Phantom Pain (Zero Punctuation) - YouTube (at www.youtube.com)
+2015-09-25 10:54:55	◥	apt-get (~apt-get@41.142.181.242) has joined #archlinux
+2015-09-25 10:55:09	◣	apt-get (~apt-get@41.142.181.242) has quit (Read error: Connection reset by peer)
+2015-09-25 10:55:37	◣	maletor (~maletor@unaffiliated/maletor) has quit
+2015-09-25 10:55:38	ℹ 	el3ctrik is now known as el3ctrik-away
+2015-09-25 10:56:01	◣	captainkraft (~captainkr@cpe-76-84-92-205.neb.res.rr.com) has quit (Quit: Leaving)
+2015-09-25 10:56:02	escondida	Oh, neat
+2015-09-25 10:56:28	escondida	demonicmaniac3: Somebody else just told me about this guy yesterday, but he called him by realname, which I can't recall this instant.
+2015-09-25 10:56:54	demonicmaniac3	ben croshaw
+2015-09-25 10:57:17	◥	cl4p-tp (~claptrap@unaffiliated/cl4p-tp) has joined #archlinux
+2015-09-25 10:57:21	◣	Proinsias (~gary@cpc8-thor5-2-0-cust32.14-2.cable.virginm.net) has quit (Remote host closed the connection)
+2015-09-25 10:57:44	◣	argent0 (~aner@190.176.175.162) has quit (Ping timeout: 255 seconds)
+2015-09-25 10:57:51	MichaelTiebesl	Namarrgon:thanks
+2015-09-25 10:58:21	◣	aimrie (443e9d24@gateway/web/freenode/ip.68.62.157.36) has quit (Quit: Page closed)
+2015-09-25 10:58:27	◥	kotto (~kotto@189-74-61-51.cbace700.dsl.brasiltelecom.net.br) has joined #archlinux
+2015-09-25 10:59:43	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Ping timeout: 240 seconds)
+2015-09-25 11:00:51	◥	bb010g (uid21050@gateway/web/irccloud.com/x-iekgpkabgcoqpawa) has joined #archlinux
+2015-09-25 11:00:59	ntzrmtthihu777	MichaelTiebesl: just use the nvidia-dkms package from the aur :)
+2015-09-25 11:01:13	◣	NeverDie (~NeverDie@207.251.80.226) has quit (Quit: http://radiux.io/)
+2015-09-25 11:01:27	Namarrgon	MichaelTiebesl: don't forget to merge all .pacnews
+2015-09-25 11:03:07	NerdTaco	prefer the dkms packages if available
+2015-09-25 11:03:13	◥	ap0_deta1hed (~ap0calyps@unaffiliated/ap0calypse) has joined #archlinux
+2015-09-25 11:03:18	NerdTaco	they don't break after every little kernel update
+2015-09-25 11:03:19	◣	Xenoth (~Xenoth@104-56-166-31.lightspeed.cicril.sbcglobal.net) has quit (Ping timeout: 246 seconds)
+2015-09-25 11:03:23	◥	Big_G (~Big_G@c-76-104-131-61.hsd1.wa.comcast.net) has joined #archlinux
+2015-09-25 11:03:46	ntzrmtthihu777	so how is everyone tonight?
+2015-09-25 11:04:01	◣	EgoFelix (~EgoFelix@2002:4d02:497c:0:2f50:cc4c:dd85:3ae2) has quit (Ping timeout: 246 seconds)
+2015-09-25 11:04:04	ntzrmtthihu777	MichaelTiebesl: also, make sure to get nvidia-hook as well, and add it to the mkinitcpio hooks array
+2015-09-25 11:04:18	◣	ap0_detached (~ap0calyps@unaffiliated/ap0calypse) has quit (Ping timeout: 272 seconds)
+2015-09-25 11:04:57	Namarrgon	why would he want -dkms an -hook if all he uses is linux-lts from the repo?
+2015-09-25 11:05:35	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 11:06:45	◥	pjpants3k (~pjpants3k@ip70-170-61-5.lv.lv.cox.net) has joined #archlinux
+2015-09-25 11:07:36	◣	dukebarman (~dukebarma@91.226.164.13) has quit
+2015-09-25 11:07:51	◣	pjpants3k (~pjpants3k@ip70-170-61-5.lv.lv.cox.net) has quit (Client Quit)
+2015-09-25 11:08:05	◣	cewood (~cewood@pa49-181-202-202.pa.nsw.optusnet.com.au) has quit (Ping timeout: 255 seconds)
+2015-09-25 11:08:25	◥	triplc (~tri@103.9.196.17) has joined #archlinux
+2015-09-25 11:08:25	◥	pjpants3k (~pjpants3k@ip70-170-61-5.lv.lv.cox.net) has joined #archlinux
+2015-09-25 11:08:29	triplc	hi all
+2015-09-25 11:09:08	triplc	nvidia-lts 355 in Extra while nvidia-utils 355 still in Testing. So update failed
+2015-09-25 11:09:30	◥	pks_ (~pks@f052140157.adsl.alicedsl.de) has joined #archlinux
+2015-09-25 11:09:42	◣	hellkiller (~ricardo@177.107.9.111) has quit (Quit: hellkiller)
+2015-09-25 11:09:49	◥	weemsledeux (~textual@unaffiliated/weems) has joined #archlinux
+2015-09-25 11:10:52	◥	EgoFelix (~EgoFelix@2002:4d08:265a:0:ea5b:640a:d47f:a7f4) has joined #archlinux
+2015-09-25 11:11:00	◥	inefarius (~inefarius@164.107.243.225) has joined #archlinux
+2015-09-25 11:11:08	◥	doublehelix1020 (~julian@72-185-242-137.res.bhn.net) has joined #archlinux
+2015-09-25 11:11:58	◥	archmint (~archmint@unaffiliated/m1ntfr3sh) has joined #archlinux
+2015-09-25 11:12:07	◥	NeverDie (~NeverDie@207.251.80.226) has joined #archlinux
+2015-09-25 11:12:11	archmint	how to make double-finger touch == right click? :D
+2015-09-25 11:12:21	◣	pks (~pks@x55b3b82f.dyn.telefonica.de) has quit (Ping timeout: 240 seconds)
+2015-09-25 11:12:21	ℹ 	pks_ is now known as pks
+2015-09-25 11:12:30	archmint	I just spammed #freenode because apparently double-finger touch is paste :o
+2015-09-25 11:12:51	◥	captainkraft (~captainkr@cpe-76-84-92-205.neb.res.rr.com) has joined #archlinux
+2015-09-25 11:13:10	Dan39	ha
+2015-09-25 11:13:39	Dan39	i loved the default with scrolling with double-finger and double-finger middle-click
+2015-09-25 11:13:49	◣	e1080 (~e1080@14-202-98-69.static.tpgi.com.au) has quit (Ping timeout: 246 seconds)
+2015-09-25 11:13:56	archmint	how to ssseeeetttttttt please
+2015-09-25 11:14:01	◣	llinguini (~llinguini@mobile-130-126-255-80.near.illinois.edu) has quit (Ping timeout: 264 seconds)
+2015-09-25 11:14:27	archmint	oh synclient probs
+2015-09-25 11:15:34	◥	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has joined #archlinux
+2015-09-25 11:16:22	◥	plasma (plasma@neptun.plasmatrix.eu.org) has joined #archlinux
+2015-09-25 11:16:30	plasma	re
+2015-09-25 11:17:22	◣	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2015-09-25 11:17:46	archmint	darn it
+2015-09-25 11:18:03	archmint	halp please?
+2015-09-25 11:19:01	Dan39	archmint: with what, changing touch pad behavior?
+2015-09-25 11:19:05	Dan39	its in the wiki
+2015-09-25 11:19:07	MichaelTiebesl	Namarrgon:i cant make it i see
+2015-09-25 11:19:44	archmint	aha I fixed it... oh? it is?
+2015-09-25 11:19:44	MichaelTiebesl	Namarrgon:i got everytime the message that i cant install nvidia-utils 355
+2015-09-25 11:19:46	◣	comma8 (~comma8@c-71-59-251-114.hsd1.or.comcast.net) has quit (Ping timeout: 246 seconds)
+2015-09-25 11:19:59	◣	lonewulftp (~lwf`@unaffiliated/lonewulf/x-3292126) has quit (Quit: lonewulftp)
+2015-09-25 11:20:03	MichaelTiebesl	Namarrgon:i have utils-352 installed
+2015-09-25 11:20:14	◥	Nomenclatura (bbf5e1c6@gateway/web/freenode/ip.187.245.225.198) has joined #archlinux
+2015-09-25 11:20:37	MichaelTiebesl	Namarrgon:i guess its in testing
+2015-09-25 11:20:55	MichaelTiebesl	so i have to change pacman.conf right?
+2015-09-25 11:21:00	◥	lonewulftp (~lwf`@unaffiliated/lonewulf/x-3292126) has joined #archlinux
+2015-09-25 11:21:12	Nomenclatura	anybody knows what is the syslinux's .msg charset support?
+2015-09-25 11:21:49	◣	codemac (~j@archlinux/fellow/codemac) has quit (Ping timeout: 264 seconds)
+2015-09-25 11:21:56	Dan39	archmint: im guessing this page -> https://wiki.archlinux.org/index.php/Touchpad_Synaptics
+2015-09-25 11:21:57	phrik	Title: Touchpad Synaptics - ArchWiki (at wiki.archlinux.org)
+2015-09-25 11:22:02	◣	triplc (~tri@103.9.196.17) has quit (Ping timeout: 272 seconds)
+2015-09-25 11:22:14	Nomenclatura	like, support for "☕"
+2015-09-25 11:22:21	◥	Johnny56 (~johnny56@unaffiliated/johnny56) has joined #archlinux
+2015-09-25 11:22:27	Dan39	Nomenclatura: all i see is a rectangle :(
+2015-09-25 11:22:39	Dan39	my fancy characters stopped working like a week ago randomly
+2015-09-25 11:22:47	Dan39	no idea why, i bet itll be fixed on reboot :P
+2015-09-25 11:22:50	Nomenclatura	Dan39: Then you are missing UTF8 support :v
+2015-09-25 11:23:02	◣	agjacome (~agjacome@46.27.63.128) has quit (Quit: leaving)
+2015-09-25 11:23:06	◥	toXel_ (~quassel@p5084D074.dip0.t-ipconnect.de) has joined #archlinux
+2015-09-25 11:23:07	Nomenclatura	or maybe just the wrong font
+2015-09-25 11:23:26	Dan39	well im using rxvt-unicode and the default font
+2015-09-25 11:23:29	Nomenclatura	or maybe just a reboot :)
+2015-09-25 11:23:41	Dan39	maybe the default font got changed, it use to show most weird characters
+2015-09-25 11:24:17	Dan39	no idea tbh
+2015-09-25 11:25:24	◣	krizz_ (~krizz_@CPE00fc8d360b63-CM00fc8d360b60.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2015-09-25 11:25:39	Namarrgon	MichaelTiebesl: only if you want to switch to the testing repos. the devs fucked up and only moved part of nvidia and the kernel packages to core/extra.
+2015-09-25 11:25:43	archmint	yup; I figured it out eventually. synclient TapButton2=3 thanks
+2015-09-25 11:25:47	◣	stamina (~stamina@177-211-128-083.dynamic.caiway.nl) has quit (Ping timeout: 256 seconds)
+2015-09-25 11:26:01	◣	ob1mod (~ob1mod@unaffiliated/ob1mod) has quit (Quit: perhaps, perhaps, perhaps...)
+2015-09-25 11:26:06	◥	redpill (~redpill@unaffiliated/redpill) has joined #archlinux
+2015-09-25 11:26:50	◣	szt (~szt@botters/szt) has quit (Ping timeout: 264 seconds)
+2015-09-25 11:27:07	◥	krizz_ (~krizz_@CPE00fc8d360b63-CM00fc8d360b60.cpe.net.cable.rogers.com) has joined #archlinux
+2015-09-25 11:27:20	◣	toXel (~quassel@p5084D3F7.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2015-09-25 11:27:36	MichaelTiebesl	Namarrgon:thats the proble with be that some is in testing and some not
+2015-09-25 11:27:43	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Ping timeout: 240 seconds)
+2015-09-25 11:27:47	◥	szt (~szt@botters/szt) has joined #archlinux
+2015-09-25 11:27:57	◣	faiden (~faiden@c-266171d5.05-89-626f723.cust.bredbandsbolaget.se) has quit (Ping timeout: 250 seconds)
+2015-09-25 11:28:23	◥	vash_ (~null@unaffiliated/vash) has joined #archlinux
+2015-09-25 11:28:28	◣	archmint (~archmint@unaffiliated/m1ntfr3sh) has left #archlinux ("o/ ciao")
+2015-09-25 11:28:35	◥	noughth (~noughth@unaffiliated/noughth) has joined #archlinux
+2015-09-25 11:28:51	◥	Nycroth (~Nycroth@23.233.16.195) has joined #archlinux
+2015-09-25 11:29:05	◥	chemist69_ (~apl@a89-182-123-235.net-htp.de) has joined #archlinux
+2015-09-25 11:29:48	noughth	I have a TV which doesn't like to do proper HDMI handshaking with my PC, which I have setup as a mythtv client
+2015-09-25 11:30:01	◣	j12t (~j12t@c-107-3-142-14.hsd1.ca.comcast.net) has quit (Read error: Connection timed out)
+2015-09-25 11:30:02	noughth	I'm able to force video output by manually setting modelines in my xorg configuration
+2015-09-25 11:30:13	◣	vash (~null@unaffiliated/vash) has quit (Ping timeout: 264 seconds)
+2015-09-25 11:30:43	noughth	Does anyone have any ideas for how to force sound output in a similar way? I've done a little research on alsa and haven't found a good way to force it to output over HDMI if the handshaking fails
+2015-09-25 11:30:54	◥	licensed (~licensed@unaffiliated/licensed) has joined #archlinux
+2015-09-25 11:30:54	MichaelTiebesl	Namarrgon:what do you mean with merge all .pacnews?
+2015-09-25 11:31:40	◣	chemist69 (~apl@a89-182-42-37.net-htp.de) has quit (Ping timeout: 246 seconds)
+2015-09-25 11:31:47	◥	faiden (~faiden@c-266171d5.05-89-626f723.cust.bredbandsbolaget.se) has joined #archlinux
+2015-09-25 11:31:52	◣	brainwash (~brainwash@unaffiliated/brainwash) has quit (Ping timeout: 240 seconds)
+2015-09-25 11:32:08	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 11:32:28	Namarrgon	!pacnews
+2015-09-25 11:32:30	Namarrgon	!pacnew
+2015-09-25 11:32:30	phrik	Take care of your .pacnew and .pacsave files! http://wiki.archlinux.org/index.php/Pacnew_and_Pacsave_Files
+2015-09-25 11:32:33	Namarrgon	MichaelTiebesl: ^
+2015-09-25 11:32:54	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Max SendQ exceeded)
+2015-09-25 11:33:06	MichaelTiebesl	thanks
+2015-09-25 11:34:07	◥	sangy (~sangy@unaffiliated/sangy) has joined #archlinux
+2015-09-25 11:34:17	◣	Ctrl-Alt-Del (~Control@177-177-83-6.user.veloxzone.com.br) has quit (Quit: Leaving)
+2015-09-25 11:34:32	◥	brainwash (~brainwash@unaffiliated/brainwash) has joined #archlinux
+2015-09-25 11:35:15	mxci	Is there any way I can see a list of recently updated packasges without look at /var/cache/pacman/pkg ?
+2015-09-25 11:35:15	◥	fertorresf (~fernando@186-105-126-73.baf.movistar.cl) has joined #archlinux
+2015-09-25 11:35:28	mxci	looking *
+2015-09-25 11:35:35	◥	hemite (~hemite@unaffiliated/hemite) has joined #archlinux
+2015-09-25 11:36:13	hemite	I just bought the cirago BTA7300 usb/wireless usb dongle but arch doesn't seem to recognize it
+2015-09-25 11:36:24	hemite	I'm not seeing this problem online, so I assume I'm doing something wrong
+2015-09-25 11:36:41	◣	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has quit (Read error: Connection reset by peer)
+2015-09-25 11:37:02	Namarrgon	mxci: pacman.log
+2015-09-25 11:37:14	◥	j12t (~j12t@c-107-3-142-14.hsd1.ca.comcast.net) has joined #archlinux
+2015-09-25 11:37:16	Namarrgon	hemite: uname -r; pacman -Q linux
+2015-09-25 11:37:41	hemite	Namarrgon, 4.1.6-1-ARCH
+2015-09-25 11:37:41	hemite	linux 4.1.6-1
+2015-09-25 11:37:57	Namarrgon	what does dmesg show ufter you plug it in?
+2015-09-25 11:38:31	hemite	Namarrgon,  [  590.728512] usb 3-1.4: new full-speed USB device number 8 using xhci_hcd
+2015-09-25 11:38:44	hemite	Also a mac address
+2015-09-25 11:38:46	hemite	and some other stuff
+2015-09-25 11:38:56	hemite	[  590.660886] rtl8192cu: Loading firmware rtlwifi/rtl8192cufw_TMSC.bin
+2015-09-25 11:39:03	hemite	I mean this all looks promising
+2015-09-25 11:39:06	Namarrgon	"ip link" doesn't show an interface for it?
+2015-09-25 11:39:25	hemite	Namarrgon, Ah, I do see wlan1
+2015-09-25 11:39:34	hemite	but ifconfig wasn't showing it
+2015-09-25 11:39:43	Namarrgon	forget about ifconfig
+2015-09-25 11:39:55	◣	dgtlchlk (~uhmm@2001:470:1f11:5a0::20) has quit (Quit: bye bye)
+2015-09-25 11:39:55	Namarrgon	pacman -R net-tools
+2015-09-25 11:40:52	hemite	Namarrgon, I have those installed
+2015-09-25 11:40:58	◥	sunshavi- (~aramirez@190.234.106.10) has joined #archlinux
+2015-09-25 11:41:16	Namarrgon	you really shouldn't anymore
+2015-09-25 11:41:25	Namarrgon	it's broken and dead
+2015-09-25 11:41:36	◥	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has joined #archlinux
+2015-09-25 11:41:43	◣	sunshavi- (~aramirez@190.234.106.10) has left #archlinux ("Using Circe, the loveliest of all IRC clients")
+2015-09-25 11:41:43	◥	aajjbb (~aajjbb@177.193.235.18) has joined #archlinux
+2015-09-25 11:41:49	◣	mattprelude (~mprelude@unaffiliated/mprelude) has quit (Ping timeout: 268 seconds)
+2015-09-25 11:41:56	◥	infandum (~gw@pool-96-245-4-74.phlapa.fios.verizon.net) has joined #archlinux
+2015-09-25 11:41:59	liq	man ss
+2015-09-25 11:42:15	◥	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has joined #archlinux
+2015-09-25 11:42:34	hemite	So what should I use instead?
+2015-09-25 11:42:41	◣	krisman (~krisman@201-43-244-208.dsl.telesp.net.br) has quit (Ping timeout: 244 seconds)
+2015-09-25 11:42:44	◣	jeremydei (~jeremy@4.16.87.162) has quit (Ping timeout: 260 seconds)
+2015-09-25 11:42:58	Namarrgon	iproute2
+2015-09-25 11:43:10	◣	mandragore (~mandragor@athedsl-173997.home.otenet.gr) has quit (Quit: Leaving.)
+2015-09-25 11:43:21	hemite	oh I have that installed as well
+2015-09-25 11:43:27	hemite	unfortunately wicd requires net-tools
+2015-09-25 11:43:28	◣	q9 (~q9@p2003004C697F992BCA0E14FFFE4D3510.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2015-09-25 11:43:33	infandum	On my other, newer computer where I new what I was doing, libreoffice looks wonderful with the arc theme. On this computer, it looks like windows 95 and is hideous. I don't know what the difference is, they both are set to arc theme on lxappearance and the gnome settings application. I do have kde installed but that had no effect. I'm using the same configuration of i3 on both
+2015-09-25 11:44:11	◣	flecha (~flecha@177.32.216.17) has quit (Quit: WeeChat 1.3)
+2015-09-25 11:44:52	Namarrgon	hemite: isn't wicd's upstream dead, too?
+2015-09-25 11:45:08	Namarrgon	or was that some other network tool?
+2015-09-25 11:45:27	afternuun	infandum: I don't remember exactly how. Check SAL something
+2015-09-25 11:45:28	hemite	wicd is "dead"
+2015-09-25 11:45:32	◣	yorrd (~yorrd@x4d00ba52.dyn.telefonica.de) has quit (Ping timeout: 240 seconds)
+2015-09-25 11:45:40	hemite	but I don't know another curses based network tool
+2015-09-25 11:45:42	afternuun	!give infandum aw libreoffice SAL
+2015-09-25 11:45:43	phrik	infandum: https://wiki.archlinux.org/index.php/LibreOffice
+2015-09-25 11:45:45	hemite	other than using ip for everything
+2015-09-25 11:45:51	Namarrgon	hemite: nm works fine
+2015-09-25 11:45:55	◥	luuuciano (~luuuciano@unaffiliated/luuuciano) has joined #archlinux
+2015-09-25 11:46:03	infandum	afternuun: I edited /etc/profile.d/libreoffice-still.sh to uncomment gtk, still does not work after reboot
+2015-09-25 11:46:11	johntramp	hi,  trying to update a system I am getting "warning: GPGME error: Invalid crypto engine"  "File XYZ is corrupted (invalid vor corrupted package (PGP signature)"
+2015-09-25 11:46:14	hemite	nm>
+2015-09-25 11:46:16	hemite	nm?
+2015-09-25 11:46:19	mxci	Namarrgon: I should have thought of this earlier but I downgraded the libpulse packasge and now cmus works as intended. What are the next steps ? Should I flag the package asking for a rebuild against the new libpulse ?
+2015-09-25 11:46:21	Namarrgon	hemite: networkmanager
+2015-09-25 11:46:25	infandum	phrik: I tried all of that in the wiki and it wasn't working
+2015-09-25 11:46:27	afternuun	infandum: there is gtk3 too
+2015-09-25 11:46:28	◣	Big_G (~Big_G@c-76-104-131-61.hsd1.wa.comcast.net) has quit (Quit: Leaving)
+2015-09-25 11:46:31	johntramp	anyone else come across this?  is this because the keychain is out of date or something?
+2015-09-25 11:46:45	infandum	afternuun: Sorry, it was the gtk3 one I did, because arc is gtk3
+2015-09-25 11:46:46	afternuun	infandum: alternate until one has the proper effect.
+2015-09-25 11:47:14	afternuun	infandum: also, you should be able to source the environment setting instead of rebooting.
+2015-09-25 11:47:26	afternuun	maybe login out then in is enough to proc it.
+2015-09-25 11:47:42	mxci	The libpulse dependency is optional, I have no idea why cmus is affected by this version change or maybe I have a poor understanding of how optional dependencies work similar to groups and acl stuff.
+2015-09-25 11:48:12	infandum	afternuun: I tried sourcing as well (I assume it's an environmental variable and I'm using fish so it's "set VARIABLE VALUE"
+2015-09-25 11:48:22	◣	GarBage (~Garbage@83.170.165.83.dynamic.mundo-r.com) has quit (Ping timeout: 244 seconds)
+2015-09-25 11:48:23	◥	norkle (~norkle@unaffiliated/norkle) has joined #archlinux
+2015-09-25 11:48:44	afternuun	infandum: how are you launching the application?
+2015-09-25 11:48:47	Namarrgon	mxci: you are using pa in general, right?
+2015-09-25 11:49:09	◣	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has quit (Quit: Konversation terminated!)
+2015-09-25 11:49:29	◥	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has joined #archlinux
+2015-09-25 11:49:35	mxci	Namarrgon: no
+2015-09-25 11:49:41	infandum	dmenu and/or cli
+2015-09-25 11:49:47	mxci	Namarrgon: I just use alsamixer
+2015-09-25 11:50:01	◣	foozle (~foozle@office181.kiec.kh.edu.tw) has quit (Ping timeout: 264 seconds)
+2015-09-25 11:50:12	afternuun	fish is a bit much to configure.
+2015-09-25 11:50:36	afternuun	did you migrate all necessary stuff from /etc/profile.d to your fish setup?
+2015-09-25 11:50:36	infandum	afternuun: Is it? For environmental variables it's pretty ok
+2015-09-25 11:50:43	◣	vash_ (~null@unaffiliated/vash) has quit (Ping timeout: 256 seconds)
+2015-09-25 11:50:49	afternuun	no. It does not use /etc/profile.d stuff
+2015-09-25 11:50:50	infandum	afternuun: No I don't think so
+2015-09-25 11:50:59	infandum	but it works on my other computer...
+2015-09-25 11:51:04	infandum	the arc libreoffice theme
+2015-09-25 11:51:17	afternuun	with same launching method?
+2015-09-25 11:51:21	infandum	yeah
+2015-09-25 11:51:22	afternuun	and same fish shell?
+2015-09-25 11:51:24	infandum	yeah
+2015-09-25 11:51:27	infandum	:/
+2015-09-25 11:51:54	afternuun	you could apply it in ~/.pam_environment.
+2015-09-25 11:52:05	afternuun	shell-agnostic stuff.
+2015-09-25 11:52:27	◥	jheretic (~jheretic@208-58-72-228.c3-0.129-ubr2.lnh-129.md.cable.rcn.com) has joined #archlinux
+2015-09-25 11:52:38	◣	hardfalcon (~hardfalco@f048177003.adsl.alicedsl.de) has quit (Ping timeout: 264 seconds)
+2015-09-25 11:53:02	infandum	hm
+2015-09-25 11:53:09	MichaelTiebesl	Namarrgon:i just put nvidia at the last line with hooks in /etc/mkinitcpio.conf?
+2015-09-25 11:53:27	MichaelTiebesl	Namarrgon:i installed dkms from yaourt
+2015-09-25 11:53:45	afternuun	nvidia in hooks?
+2015-09-25 11:53:49	afternuun	there is a hook for that?
+2015-09-25 11:53:57	◣	cl4p-tp (~claptrap@unaffiliated/cl4p-tp) has quit (Ping timeout: 250 seconds)
+2015-09-25 11:54:13	afternuun	MichaelTiebesl: mkinitcpio -H?
+2015-09-25 11:54:31	afternuun	rather -L
+2015-09-25 11:54:51	◣	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has quit (Quit: Konversation terminated!)
+2015-09-25 11:55:07	◥	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has joined #archlinux
+2015-09-25 11:55:27	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 11:56:18	MichaelTiebesl	afternuun:thanks i found it
+2015-09-25 11:57:04	MichaelTiebesl	lets reboot
+2015-09-25 11:57:06	◣	MichaelTiebesl (~MichaelTi@49.144.115.58) has quit (Quit: Effe wat anders doen!)
+2015-09-25 11:57:08	afternuun	wait
+2015-09-25 11:57:14	infandum	haha too late
+2015-09-25 11:57:27	afternuun	it's dangerous to go reboot! Here, take this!
+2015-09-25 11:57:48	◥	e1080 (~e1080@14-202-98-69.static.tpgi.com.au) has joined #archlinux
+2015-09-25 11:58:09	afternuun	dkms is in community. Yaourt addicts: always stabbing themselves all over with many pains.
+2015-09-25 11:58:32	◥	foozle (~foozle@office181.kiec.kh.edu.tw) has joined #archlinux
+2015-09-25 11:58:58	◣	captainkraft (~captainkr@cpe-76-84-92-205.neb.res.rr.com) has quit (Quit: Leaving)
+2015-09-25 11:59:17	◥	GarBage (~Garbage@83.170.165.83.dynamic.mundo-r.com) has joined #archlinux
+2015-09-25 11:59:19	◣	glanzi (~glanzi@unaffiliated/psyl0n) has quit (Quit: Leaving)
+2015-09-25 11:59:23	◥	ob1mod (~ob1mod@unaffiliated/ob1mod) has joined #archlinux
+2015-09-25 11:59:51	◣	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has quit (Ping timeout: 246 seconds)
+2015-09-25 11:59:53	◥	vash_ (~null@unaffiliated/vash) has joined #archlinux
+2015-09-25 12:00:03	◥	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has joined #archlinux
+2015-09-25 12:00:38	◥	BShaftoe29234 (~BShaftoe2@c-73-170-57-138.hsd1.ca.comcast.net) has joined #archlinux
+2015-09-25 12:00:39	◣	A124 (~Username@unaffiliated/a124) has quit (Read error: Connection reset by peer)
+2015-09-25 12:01:12	◣	stardiviner (~stardivin@unaffiliated/stardiviner) has quit (Ping timeout: 250 seconds)
+2015-09-25 12:01:28	e5229	aaaaaaaaaaaaand I'm single 
+2015-09-25 12:01:49	NerdTaco	e5229, your single
+2015-09-25 12:02:00	afternuun	loseher?
+2015-09-25 12:02:00	NerdTaco	and im not, and just found out my gf's parents are deadly weapons
+2015-09-25 12:02:14	◥	krisman (~krisman@201-43-244-208.dsl.telesp.net.br) has joined #archlinux
+2015-09-25 12:02:17	Gaming4JC	e5229, unofficial survey: most people using Arch Linux are
+2015-09-25 12:02:33	e5229	I did not get dumped, I just figured out that I can't do this shit anymore 
+2015-09-25 12:02:56	infandum	yeah, but sex and stuff
+2015-09-25 12:02:58	afternuun	she was better at mind games
+2015-09-25 12:02:59	◣	BShaftoe29234 (~BShaftoe2@c-73-170-57-138.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2015-09-25 12:03:08	afternuun	you though you dumped her
+2015-09-25 12:03:12	afternuun	thought*
+2015-09-25 12:03:19	◣	EgoFelix (~EgoFelix@2002:4d08:265a:0:ea5b:640a:d47f:a7f4) has quit (Ping timeout: 240 seconds)
+2015-09-25 12:03:29	e5229	no one dumped anyone
+2015-09-25 12:03:31	◥	Stanley00 (7645dc5b@gateway/web/freenode/ip.118.69.220.91) has joined #archlinux
+2015-09-25 12:03:42	◣	Batch (~Batch@unaffiliated/batch) has quit (Quit: Yak yak yak)
+2015-09-25 12:03:49	e5229	I was talking with mother and she told me, dude, WTF
+2015-09-25 12:04:07	Gaming4JC	hacking from basement... happenz
+2015-09-25 12:04:36	e5229	I have my own apartment, I was talking with mother on the phone
+2015-09-25 12:04:38	◥	ixeous (~owner@cfw-mse3251.chemistry.gatech.edu) has joined #archlinux
+2015-09-25 12:04:43	Gaming4JC	ah :p
+2015-09-25 12:04:49	◥	justintv90 (~justintv9@42.113.152.108) has joined #archlinux
+2015-09-25 12:05:15	◥	A124 (~Username@unaffiliated/a124) has joined #archlinux
+2015-09-25 12:05:19	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Ping timeout: 240 seconds)
+2015-09-25 12:07:14	◥	samperand (~samperand@118-93-33-119.dsl.dyn.ihug.co.nz) has joined #archlinux
+2015-09-25 12:07:18	◣	Gaming4JC (~Gaming4JC@gateway/vpn/privateinternetaccess/gaming4jc) has left #archlinux ("Are you a good person? Find out! NeedGod.com")
+2015-09-25 12:08:37	◥	EgoFelix (~EgoFelix@2002:4d02:5f56:0:4571:c190:ee82:8545) has joined #archlinux
+2015-09-25 12:08:47	◥	flavouredfags (ac5b69ec@gateway/web/freenode/ip.172.91.105.236) has joined #archlinux
+2015-09-25 12:08:51	flavouredfags	i hate niggers and i want them gone #whitelivesmatter
+2015-09-25 12:09:31	◣	krizz_ (~krizz_@CPE00fc8d360b63-CM00fc8d360b60.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2015-09-25 12:10:30	zerol0g1k	shame that yours does not
+2015-09-25 12:10:46	afternuun	zerol0g1k: mine what?
+2015-09-25 12:11:01	◥	holomorph (~holomorph@unaffiliated/holomorph) has joined #archlinux
+2015-09-25 12:11:06	zerol0g1k	afternuun, not you
+2015-09-25 12:11:29	◥	meowpolice (~meowpolic@99-34-181-124.lightspeed.hstntx.sbcglobal.net) has joined #archlinux
+2015-09-25 12:11:46	afternuun	zerol0g1k: you mean Gaming4JC? or e5229? haven't seen any recent statements.
+2015-09-25 12:12:49	afternuun	!help ops
+2015-09-25 12:12:50	phrik	afternuun: (ops <an alias, 0 arguments>) -- Alias for "pingops $*".
+2015-09-25 12:12:56	◣	meowpolice (~meowpolic@99-34-181-124.lightspeed.hstntx.sbcglobal.net) has quit (Client Quit)
+2015-09-25 12:12:58	afternuun	!help pingops
+2015-09-25 12:12:59	phrik	afternuun: (pingops <an alias, 0 arguments>) -- Alias for "echo [listops] – [opspinged]".
+2015-09-25 12:13:18	◣	mudkip1123 (~Kyle@104.38.105.189) has quit (Quit: Leaving)
+2015-09-25 12:13:18	◥	sunshavi (~aramirez@190.234.106.10) has joined #archlinux
+2015-09-25 12:13:24	◣	gimp335 (~fido@99-23-91-5.lightspeed.okcbok.sbcglobal.net) has quit (Quit: WeeChat 1.2)
+2015-09-25 12:14:20	◣	sunshavi (~aramirez@190.234.106.10) has left #archlinux
+2015-09-25 12:14:22	◣	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2015-09-25 12:14:23	◣	infandum (~gw@pool-96-245-4-74.phlapa.fios.verizon.net) has quit (Quit: WeeChat 1.3)
+2015-09-25 12:15:14	◥	Guest53478 (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 12:15:47	◣	ob1mod (~ob1mod@unaffiliated/ob1mod) has quit (Quit: perhaps, perhaps, perhaps...)
+2015-09-25 12:16:29	◣	flavouredfags (ac5b69ec@gateway/web/freenode/ip.172.91.105.236) has quit (Ping timeout: 246 seconds)
+2015-09-25 12:16:30	◥	dgtlchlk (~uhmm@2001:470:1f11:5a0::20) has joined #archlinux
+2015-09-25 12:16:58	tigrmesh	aww.  they left
+2015-09-25 12:17:10	tigrmesh	afternuun, just do !pingops
+2015-09-25 12:17:16	tigrmesh	no
+2015-09-25 12:17:24	◣	saddad (~saddad@pool-71-252-183-56.dllstx.fios.verizon.net) has quit (Quit: WeeChat 1.4-dev)
+2015-09-25 12:17:32	tigrmesh	or !ops
+2015-09-25 12:17:34	afternuun	didn't want to call ops on a lame cause
+2015-09-25 12:17:43	afternuun	it's a hit-and-run
+2015-09-25 12:17:45	tigrmesh	that wasn't lame
+2015-09-25 12:18:11	◥	Kirito_ (~Kirito@pdpc/supporter/student/kirito) has joined #archlinux
+2015-09-25 12:18:11	afternuun	it was boston tea party all over again
+2015-09-25 12:18:17	tigrmesh	nah
+2015-09-25 12:18:39	Tea	better than the boston afternuun party
+2015-09-25 12:18:46	afternuun	;p
+2015-09-25 12:18:50	◣	holomorph (~holomorph@unaffiliated/holomorph) has left #archlinux
+2015-09-25 12:18:53	tigrmesh	the person in here who's wondering if it's ok to say stuff like that will see that it's not ok.  
+2015-09-25 12:19:13	◥	stardiviner (~stardivin@unaffiliated/stardiviner) has joined #archlinux
+2015-09-25 12:19:27	afternuun	I think freenode service may have to check out that channel
+2015-09-25 12:19:28	◣	NeverDie (~NeverDie@207.251.80.226) has quit (Quit: http://radiux.io/)
+2015-09-25 12:19:32	afternuun	I think it exists
+2015-09-25 12:19:47	tigrmesh	it's a twitter hashtag
+2015-09-25 12:19:51	afternuun	oh
+2015-09-25 12:20:02	tigrmesh	#blacklivesmatter
+2015-09-25 12:20:11	◣	Earnestly (~Earnestly@unaffiliated/earnestly) has quit (Ping timeout: 256 seconds)
+2015-09-25 12:20:19	afternuun	I remember that one
+2015-09-25 12:20:21	tigrmesh	except that person changed it   #whitelivesmatter
+2015-09-25 12:20:41	afternuun	tigrmesh: am sorry. My society just has me so jaded.
+2015-09-25 12:20:45	tigrmesh	as.  if.  we.  didn't.  know.
+2015-09-25 12:21:03	◥	gimp335 (~fido@99.23.91.5) has joined #archlinux
+2015-09-25 12:21:15	◣	Hypersurface (~hypersurf@c-71-235-219-158.hsd1.ct.comcast.net) has quit (Quit: WeeChat 1.3)
+2015-09-25 12:21:21	sudokode	some people are just too dumb to see their own ironic existence
+2015-09-25 12:21:40	afternuun	it's called herd mentality I think?
+2015-09-25 12:21:57	tigrmesh	i'm going to change this:   as.  if.  we.  didn't.  know.  that white lives are super important
+2015-09-25 12:22:06	◥	pemb (~pemb@DHCP-129-59-57-137.n1.vanderbilt.edu) has joined #archlinux
+2015-09-25 12:22:08	afternuun	you forgot the periods
+2015-09-25 12:22:45	tigrmesh	i'm white.  and that "we're being left out!" attitude really bugs me.
+2015-09-25 12:23:07	afternuun	ever wondered what would happen if a new 
+2015-09-25 12:23:09	◣	fatbotgw (~fatbotgw@66.103.105.66) has quit (Quit: Warp core breach in 3...2...1...)
+2015-09-25 12:23:15	afternuun	"race" appeared?
+2015-09-25 12:23:52	afternuun	blue people?
+2015-09-25 12:24:04	afternuun	or maybe green
+2015-09-25 12:24:06	sudokode	those are called whales
+2015-09-25 12:24:12	sudokode	those are leprechauns
+2015-09-25 12:24:34	afternuun	I only know of one type of blue whale?
+2015-09-25 12:24:41	◥	netz (~netz@unaffiliated/ntzrmtthihu777) has joined #archlinux
+2015-09-25 12:24:52	pemb	how to prevent my external HD from spinning down? a non-polling solution is desired. already tried # hdparm -S 0 -B 255 /dev/sdb
+2015-09-25 12:24:53	afternuun	and leprechauns are sage
+2015-09-25 12:25:05	sudokode	semantics
+2015-09-25 12:25:06	◥	sertsa (~sertsa@69.39.10.225) has joined #archlinux
+2015-09-25 12:25:26	netz	Namarrgon: because maybe he might install alternative kernels and that covers all the bases. Personally I wish nvidia-dkms was *the* nvidia driver package in the repos. Would solve a lot of issues mayhaps :)
+2015-09-25 12:25:30	afternuun	pemb: connected how?
+2015-09-25 12:25:35	afternuun	USB?
+2015-09-25 12:25:38	◣	e1080 (~e1080@14-202-98-69.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2015-09-25 12:25:42	pemb	USB, yes.
+2015-09-25 12:25:46	netz	afternuun: they exist, blue people.
+2015-09-25 12:25:59	◣	fmscott1 (~fmscott1@ip98-166-249-201.hr.hr.cox.net) has left #archlinux ("??????")
+2015-09-25 12:26:00	afternuun	netz: you mean blue man group?
+2015-09-25 12:26:12	netz	afternuun: no, I mean deep inbred folks in america
+2015-09-25 12:26:15	afternuun	or bluetooth users?
+2015-09-25 12:26:22	afternuun	oh
+2015-09-25 12:26:46	netz	I don't believe they are actually 'blue' per se, but that's what they are called.
+2015-09-25 12:27:21	◣	arei (~miyo@unaffiliated/miyo) has quit (Quit: Fly me to the moon.)
+2015-09-25 12:27:23	afternuun	pemb: are there other externals to that one?
+2015-09-25 12:27:40	◣	ntzrmtthihu777 (~netz@unaffiliated/ntzrmtthihu777) has quit (Ping timeout: 246 seconds)
+2015-09-25 12:27:51	◥	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has joined #archlinux
+2015-09-25 12:27:52	afternuun	pemb: try applying that to the uuid instead?
+2015-09-25 12:27:52	◣	sdothum (~sdothum@dsl-173-206-133-237.tor.primus.ca) has quit (Quit: ZNC - 1.6.0 - http://znc.in)
+2015-09-25 12:28:07	◣	Nycroth (~Nycroth@23.233.16.195) has quit (Quit: Nycroth)
+2015-09-25 12:28:08	netz	we need a flag to make sure the kernel packages are insalled after the header packages for that reason :/
+2015-09-25 12:28:19	pemb	I'll try it.
+2015-09-25 12:28:22	afternuun	are hdparm settings stored by the hdd?
+2015-09-25 12:28:48	◥	sdothum (~sdothum@dsl-173-206-133-237.tor.primus.ca) has joined #archlinux
+2015-09-25 12:28:48	afternuun	netz: what reason?
+2015-09-25 12:29:44	◥	fmscott1 (~fmscott1@ip98-166-249-201.hr.hr.cox.net) has joined #archlinux
+2015-09-25 12:30:00	netz	afternuun: for stuff like nvidia-hook; if the kernel is installed first, the hook is called before the needed headers are installed
+2015-09-25 12:30:34	◥	midorily (~mitsukiar@unaffiliated/mitsukiar) has joined #archlinux
+2015-09-25 12:30:49	netz	oh here is an idea... are'nt packages installed in more or less alphabetical order?
+2015-09-25 12:30:51	afternuun	netz: I bet kernel-install has such a feature.
+2015-09-25 12:31:06	afternuun	kernel-install is able to do the 00- stuff
+2015-09-25 12:31:46	◥	Xenoth (~Xenoth@104-56-166-31.lightspeed.cicril.sbcglobal.net) has joined #archlinux
+2015-09-25 12:32:01	◣	midorily (~mitsukiar@unaffiliated/mitsukiar) has quit (Client Quit)
+2015-09-25 12:32:06	◥	fatbotgw (~fatbotgw@66.103.105.66) has joined #archlinux
+2015-09-25 12:32:07	◥	exeviss (~leo@ip68-97-170-28.ok.ok.cox.net) has joined #archlinux
+2015-09-25 12:32:20	afternuun	tigrmesh: trending in Jamaica now is preteen dies during school is in session while on way to political rally, or something like that? So, my mind is really murky right now.
+2015-09-25 12:32:57	◣	chandan_ (~chandan@122.171.70.25) has quit (Ping timeout: 265 seconds)
+2015-09-25 12:33:02	tigrmesh	what?
+2015-09-25 12:33:28	pemb	afternuun, blkid only gives me UUIDs to partitions, not to the raw block device (I have a single GPT partition)
+2015-09-25 12:33:29	afternuun	tigrmesh: a little girl died on her way to some protest.
+2015-09-25 12:33:49	afternuun	she dropped dead.
+2015-09-25 12:33:54	tigrmesh	oh no!
+2015-09-25 12:33:58	◥	tong (~tong@114.241.14.229) has joined #archlinux
+2015-09-25 12:34:03	pemb	i did # hdparm -S 0 -B 255 /dev/disk/by-uuid/verylongidentifier
+2015-09-25 12:34:11	pemb	let's wait and see
+2015-09-25 12:34:11	afternuun	and the twists in media is like … I cannot even hear what killed her.
+2015-09-25 12:34:26	afternuun	pemb: it has multiple partitions?
+2015-09-25 12:34:35	pemb	no, just one
+2015-09-25 12:34:54	afternuun	a single GPT. That should be fine
+2015-09-25 12:34:59	◣	jheretic (~jheretic@208-58-72-228.c3-0.129-ubr2.lnh-129.md.cable.rcn.com) has quit (Quit: Leaving.)
+2015-09-25 12:35:00	exeviss	does anyone know any good multi hdmi input capture cards that work well with arch linux? I want to be able to view hdmi sources in different windows for a kind of all in one interface for my stuff.
+2015-09-25 12:35:36	◥	miyo (~mitsukiar@unaffiliated/mitsukiar) has joined #archlinux
+2015-09-25 12:35:41	◣	krisman (~krisman@201-43-244-208.dsl.telesp.net.br) has quit (Ping timeout: 240 seconds)
+2015-09-25 12:35:44	pemb	exeviss, I looked into that a while ago. there are ones that supposedly work, but they're crazy expensive
+2015-09-25 12:35:47	ℹ 	miyo is now known as meriko
+2015-09-25 12:36:09	afternuun	exeviss: there was some mention in pulseaudio freedesktop wiki. About best capture card being some Asus thing, IIRC.
+2015-09-25 12:36:22	afternuun	!g freedesktop pulseaudio best capture card
+2015-09-25 12:36:23	phrik	afternuun: PulseAudio/FAQ - Freedesktop.org: <http://www.freedesktop.org/wiki/Software/PulseAudio/FAQ/>
+2015-09-25 12:36:25	◣	Padawan_ (~weechat@unaffiliated/padawan) has quit (Ping timeout: 250 seconds)
+2015-09-25 12:36:31	netz	afternuun: kernel-install ?
+2015-09-25 12:36:31	◣	kotto (~kotto@189-74-61-51.cbace700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 240 seconds)
+2015-09-25 12:36:47	exeviss	yeah thats what I saw as well. some of those expensive cards don't work well from what I have read.
+2015-09-25 12:36:49	◥	yzld2002 (~Icedove@192.241.237.99) has joined #archlinux
+2015-09-25 12:36:52	afternuun	netz: yes. But it is not being used yet.
+2015-09-25 12:37:03	netz	afternuun: ooo nifty, links pls?
+2015-09-25 12:37:03	◥	NeverDie (~NeverDie@cpe-184-152-22-98.nyc.res.rr.com) has joined #archlinux
+2015-09-25 12:37:14	◥	Padawan_ (~weechat@unaffiliated/padawan) has joined #archlinux
+2015-09-25 12:37:15	afternuun	netz: man page
+2015-09-25 12:37:20	afternuun	man kernel-install
+2015-09-25 12:37:23	exeviss	I'll look at pulse audio
+2015-09-25 12:37:27	⚡	Nomenclatura : KungFu move out of the blue
+2015-09-25 12:37:35	◥	kotto (~kotto@189-74-61-51.cbace700.dsl.brasiltelecom.net.br) has joined #archlinux
+2015-09-25 12:37:37	netz	afternuun: nice nice!
+2015-09-25 12:37:41	◥	chandan_ (~chandan@122.171.70.25) has joined #archlinux
+2015-09-25 12:37:56	◥	chandan (~chandan@122.171.70.25) has joined #archlinux
+2015-09-25 12:38:17	◣	fertorresf (~fernando@186-105-126-73.baf.movistar.cl) has quit (Quit: leaving)
+2015-09-25 12:38:22	afternuun	exeviss: pulseaudio is software
+2015-09-25 12:38:42	afternuun	it could do some of the loopness you desire
+2015-09-25 12:38:44	netz	afternuun: oh this looks useful
+2015-09-25 12:38:54	◥	BossKonaSegwaY (~Michael@cpe-65-27-230-132.cinci.res.rr.com) has joined #archlinux
+2015-09-25 12:39:06	◣	justintv90 (~justintv9@42.113.152.108) has quit (Remote host closed the connection)
+2015-09-25 12:39:18	◥	Brett-L (32b9467c@gateway/web/cgi-irc/kiwiirc.com/ip.50.185.70.124) has joined #archlinux
+2015-09-25 12:39:33	Brett-L	Hello, I'm changing /etc/defaults/grub, but the changes aren't showing up
+2015-09-25 12:39:58	Brett-L	Am I doing something wrong?
+2015-09-25 12:40:08	afternuun	Brett-L: you have to put those settings to /boot/grub/grub.conf
+2015-09-25 12:40:22	afternuun	via grub-mkconfig or something like that
+2015-09-25 12:40:25	afternuun	read the wiki
+2015-09-25 12:40:25	◥	nisstyre (~yourstrul@oftn/member/Nisstyre) has joined #archlinux
+2015-09-25 12:40:38	afternuun	or grub install scriptlet, I think
+2015-09-25 12:40:50	◥	ntzrmtthihu777 (~netz@unaffiliated/ntzrmtthihu777) has joined #archlinux
+2015-09-25 12:41:01	afternuun	do you have pacscripts?
+2015-09-25 12:41:10	ntzrmtthihu777	afternuun: who, me?
+2015-09-25 12:41:21	◣	jrahmy (~jrahmy@cpe-76-172-76-132.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-09-25 12:41:27	◣	BossKonaSegwaY (~Michael@cpe-65-27-230-132.cinci.res.rr.com) has left #archlinux
+2015-09-25 12:41:27	afternuun	ntzrmtthihu777: depends.
+2015-09-25 12:41:58	◣	netz (~netz@unaffiliated/ntzrmtthihu777) has quit (Disconnected by services)
+2015-09-25 12:42:02	ℹ 	ntzrmtthihu777 is now known as netz
+2015-09-25 12:42:09	◣	exeviss (~leo@ip68-97-170-28.ok.ok.cox.net) has left #archlinux
+2015-09-25 12:42:10	Brett-L	the wiki tells me to edit /etc/defaults/grub
+2015-09-25 12:42:12	◣	weemsledeux (~textual@unaffiliated/weems) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-25 12:42:13	netz	afternuun: you mentioned pacscripts :P
+2015-09-25 12:42:30	afternuun	Brett-L: pacscripts grub
+2015-09-25 12:42:36	Aph3x-WL	Brett-L: after you change /etc/default/grub you have to run grub-mkconfig -o /boot/grub/grub.cfg for the changes to show
+2015-09-25 12:42:43	afternuun	right^
+2015-09-25 12:42:50	◣	Halfwit (~halfwit@unaffiliated/halfwit) has quit (Read error: No route to host)
+2015-09-25 12:43:07	◥	e1080 (~e1080@14-202-98-69.static.tpgi.com.au) has joined #archlinux
+2015-09-25 12:43:14	◥	NordiQ (~NordiQ@172.96.42.60) has joined #archlinux
+2015-09-25 12:44:34	◥	zyxelthrone (~nepgear@2601:18a:c303:8e18:6618:bb97:f7e4:bce9) has joined #archlinux
+2015-09-25 12:44:51	◥	Halfwit (~halfwit@unaffiliated/halfwit) has joined #archlinux
+2015-09-25 12:45:06	◥	captainkraft (~captainkr@cpe-76-84-92-205.neb.res.rr.com) has joined #archlinux
+2015-09-25 12:45:46	◣	sparetire_ (~sparetire@unaffiliated/sparetire) has quit (Quit: sparetire_)
+2015-09-25 12:45:49	◥	keenerd (~kyle@archlinux/trusteduser/keenerd) has joined #archlinux
+2015-09-25 12:46:04	◣	mxci (~m@unaffiliated/mxci) has left #archlinux ("WeeChat 1.3")
+2015-09-25 12:46:20	meriko	ping
+2015-09-25 12:47:01	Halfwit	ponf
+2015-09-25 12:47:08	netz	thong!
+2015-09-25 12:47:28	netz	is allan in channel right now?
+2015-09-25 12:47:49	◣	NordiQ (~NordiQ@172.96.42.60) has quit (Ping timeout: 252 seconds)
+2015-09-25 12:48:04	Brett-L	So I tried changing /etc/default/grub, and then ran "grub-mkconfig -o /boot/grub/grub.cfg", but the changes are still not showing up
+2015-09-25 12:48:29	netz	Brett-L: what changes did you make?
+2015-09-25 12:48:44	Brett-L	I uncommented the two lines to change the colors
+2015-09-25 12:48:48	◣	mrbanie (~mrbanie@unaffiliated/mrbanie) has quit (Ping timeout: 240 seconds)
+2015-09-25 12:49:13	◥	holomorph (~holomorph@unaffiliated/holomorph) has joined #archlinux
+2015-09-25 12:49:44	netz	Brett-L: perhaps the values set in the comments are the default colors already? try changing the values.
+2015-09-25 12:50:04	Brett-L	The default values are blue/black and light-cyan/blue
+2015-09-25 12:50:09	Brett-L	Grub shows up as black and white
+2015-09-25 12:50:27	afternuun	I think there is a module Brett-L has to load.
+2015-09-25 12:51:45	◥	mrbanie (~mrbanie@unaffiliated/mrbanie) has joined #archlinux
+2015-09-25 12:51:48	◣	vash_ (~null@unaffiliated/vash) has quit (Ping timeout: 265 seconds)
+2015-09-25 12:52:00	◣	Guest53478 (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Read error: Connection timed out)
+2015-09-25 12:52:00	◣	meriko (~mitsukiar@unaffiliated/mitsukiar) has quit (Quit: Fly me to the moon.)
+2015-09-25 12:52:19	◥	Riskii (~smuxi@ip24-251-178-61.ph.ph.cox.net) has joined #archlinux
+2015-09-25 12:52:53	◥	ariss (~miyo@unaffiliated/miyo) has joined #archlinux
+2015-09-25 12:53:38	◥	vash (~null@unaffiliated/vash) has joined #archlinux
+2015-09-25 12:54:41	Aph3x-WL	Brett-L: have you tried this? https://bbs.archlinux.org/viewtopic.php?id=163802
+2015-09-25 12:54:42	phrik	Title: [Solved]Customizing Grub / Newbie Corner / Arch Linux Forums (at bbs.archlinux.org)
+2015-09-25 12:55:15	Brett-L	Is that just for the colors?
+2015-09-25 12:55:25	Brett-L	I also tried putting in a background image but that didn't show up either
+2015-09-25 12:55:59	◣	|-\|-\ (~realHuman@173-171-160-172.res.bhn.net) has left #archlinux
+2015-09-25 12:56:11	Aph3x-WL	2nd post from the bottom someone posts a script that grub can load to change the colors
+2015-09-25 12:56:15	Aph3x-WL	Brett-L: ^
+2015-09-25 12:57:47	◥	hualet (~hualet@59.173.241.82) has joined #archlinux
+2015-09-25 12:58:20	◥	WindyDays (~WindyDays@unaffiliated/windydays) has joined #archlinux
+2015-09-25 12:58:22	◥	Kryxo (~Kryptron@unaffiliated/kryptron) has joined #archlinux
+2015-09-25 12:59:57	Brett-L	My issue is not just with the colors
+2015-09-25 13:00:00	Brett-L	No changes at all are showing up
+2015-09-25 13:00:24	◣	youngwolf (~unnamed@117.217.190.7) has quit (Ping timeout: 246 seconds)
+2015-09-25 13:00:39	◣	doublehelix1020 (~julian@72-185-242-137.res.bhn.net) has quit (Read error: Connection reset by peer)
+2015-09-25 13:00:51	◥	joshsyn (~swoorup@d122-111-247-244.per801.wa.optusnet.com.au) has joined #archlinux
+2015-09-25 13:01:12	◣	Namarrgon (~glei@55d40064.access.ecotel.net) has quit (Ping timeout: 240 seconds)
+2015-09-25 13:01:48	pemb	no luck, afternuun, it still spins down :(
+2015-09-25 13:02:07	Aph3x-WL	Brett-L: when grub loads press e and see if the changes were added
+2015-09-25 13:02:36	◣	hualet (~hualet@59.173.241.82) has quit (Client Quit)
+2015-09-25 13:03:24	Brett-L	Aph3x-WL: I pressed e and it brought up another screen that has some text in it that I can edit
+2015-09-25 13:03:53	netz	Aph3x-WL: I think that only lets you change menuentries :/
+2015-09-25 13:04:19	Aph3x-WL	you can edit it yes, but the changes from /etc/default/grub should be in there as well
+2015-09-25 13:04:43	Brett-L	the document that it lets me edit seems to be a bash script
+2015-09-25 13:05:39	netz	Brett-L: it more or less is.
+2015-09-25 13:05:57	netz	Aph3x-WL: I don't think edits that are outside of menuentry {} are shown
+2015-09-25 13:06:00	afternuun	!g hdparm permanent setting external
+2015-09-25 13:06:01	phrik	afternuun: hdparm - ArchWiki: <https://wiki.archlinux.org/index.php/Hdparm>
+2015-09-25 13:06:07	◣	tong (~tong@114.241.14.229) has quit (Remote host closed the connection)
+2015-09-25 13:06:39	afternuun	pemb: udev solution would be non-polling
+2015-09-25 13:07:21	afternuun	pemb: https://wiki.archlinux.org/index.php/Hdparm#Persistent_configuration_using_udev_rule
+2015-09-25 13:07:22	phrik	Title: hdparm - ArchWiki (at wiki.archlinux.org)
+2015-09-25 13:07:54	Aph3x-WL	netz: i haven't messed with grub colors so i'm just assuming they would be in there like most other changes are
+2015-09-25 13:07:59	pemb	that rule uses hdparm
+2015-09-25 13:08:07	pemb	setting the same parameters
+2015-09-25 13:08:28	pemb	and using hdparm directly isn't helping
+2015-09-25 13:08:33	afternuun	and works across reboots
+2015-09-25 13:08:50	afternuun	you mean it does not stop it?
+2015-09-25 13:09:01	afternuun	then the problem is powersaving in USB
+2015-09-25 13:10:01	niemal	Greetings everyone. I have encountered a difficult problem: I need dual monitors. In order to accomplish that, I need the xf86-video-intel driver (needs >= 1.16 xorg) for my onboard integrated graphics and the catalyst legacy driver (catalyst-hook, requires < xorg 1.13.0), which is the only thing that supports my VGA! Should I just give up on arch regarding this scenario, or is there an old intel driver which will help me? If so, would there be any
+2015-09-25 13:10:01	niemal	 problems in the future regarding upgrades?
+2015-09-25 13:10:27	◣	Padawan_ (~weechat@unaffiliated/padawan) has quit (Quit: WeeChat 1.1.1)
+2015-09-25 13:10:50	◣	holomorph (~holomorph@unaffiliated/holomorph) has quit (Quit: holomorph)
+2015-09-25 13:11:11	pemb	hmm, you might be right, powersaving seems to be enabled, i'll disable it and wait again
+2015-09-25 13:11:50	◣	ldiamond (~ldiamond@unaffiliated/ldiamond) has quit (Ping timeout: 264 seconds)
+2015-09-25 13:12:27	netz	niemal: isn't the intel driver in-tree?
+2015-09-25 13:13:19	niemal	netz: Could you be more specific? I searched around and couldn't find anything, perhaps my effort wasn't enough. Also apologies for my noobness, I firstly installed arch yesterday.
+2015-09-25 13:13:27	◣	diegoksp (~diegoksp@190.215.233.173) has quit (Quit: Leaving)
+2015-09-25 13:13:42	◥	exeviss (~leo@ip68-97-170-28.ok.ok.cox.net) has joined #archlinux
+2015-09-25 13:13:53	netz	I mean, isn't i915 a built-in kernel module?
+2015-09-25 13:13:54	◥	Failhogg (~Darkhogg@151.pool85-54-208.dynamic.orange.es) has joined #archlinux
+2015-09-25 13:14:16	netz	or is there actually an extra xf86-video-intel package needed? I must have forgotten :P
+2015-09-25 13:14:31	niemal	netz: I don't know, when loading a xorg.conf which had `Driver "intel"` in it, the Xorg wouldn't load the module complaining it doesn't exist.
+2015-09-25 13:14:34	◥	Namarrgon (~glei@55d45e12.access.ecotel.net) has joined #archlinux
+2015-09-25 13:14:46	niemal	Therefore yeah, I had to install it through pacman.
+2015-09-25 13:15:09	◣	Darkhogg (~Darkhogg@207.pool85-54-217.dynamic.orange.es) has quit (Ping timeout: 260 seconds)
+2015-09-25 13:15:24	◣	BlueRavenGT (~BlueRaven@8-22-13-219.utopiafiber.net) has quit (Ping timeout: 272 seconds)
+2015-09-25 13:15:36	netz	ah
+2015-09-25 13:16:02	◥	NordiQ (~NordiQ@172.96.42.60) has joined #archlinux
+2015-09-25 13:17:01	◣	ssalenik (~smuxi@135-23-193-210.cpe.pppoe.ca) has quit (Ping timeout: 260 seconds)
+2015-09-25 13:17:55	niemal	netz: So, what I am looking for is a xf86-video-intel version which doesn't conflict with lower Xorg versions.
+2015-09-25 13:18:02	niemal	If anyone knows a repo or something, I would appreciate.
+2015-09-25 13:18:18	exeviss	is the person I was talking to about multi input capture cards still here? I wanted to chat some more but got caught up with a phone call from work.
+2015-09-25 13:18:25	◥	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has joined #archlinux
+2015-09-25 13:20:04	netz	niemal: there is something called the rollback machine
+2015-09-25 13:20:05	◣	Brett-L (32b9467c@gateway/web/cgi-irc/kiwiirc.com/ip.50.185.70.124) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-09-25 13:20:09	afternuun	exeviss: what's up?
+2015-09-25 13:20:14	netz	never used it, but that should be where you're looking
+2015-09-25 13:20:28	◣	shining (~xav@unaffiliated/shining) has quit (Ping timeout: 272 seconds)
+2015-09-25 13:20:32	niemal	netz: Thanks, I will look into that.
+2015-09-25 13:20:47	escondida	niemal: No, the solution is to upgrade your system completely
+2015-09-25 13:20:50	pemb	exeviss, I may have said something
+2015-09-25 13:20:51	escondida	!give niemal partial
+2015-09-25 13:20:51	phrik	niemal: https://wiki.archlinux.org/index.php/Pacman#Partial_upgrades_are_unsupported
+2015-09-25 13:21:10	niemal	escondida: Yep, I feared for that worst case scenario.
+2015-09-25 13:21:11	netz	escondida: no, it won't. 
+2015-09-25 13:21:13	escondida	netz: partial upgrades have *never* been supported.
+2015-09-25 13:21:24	escondida	niemal: That's not a worst-case scenario
+2015-09-25 13:21:29	halosghost	netz: nor shall they ever be
+2015-09-25 13:21:31	netz	escondida: some drivers simply won't use newer things.
+2015-09-25 13:21:40	◣	TDSoul (~TDSoul@gateway.darpanet.org) has quit (Quit: ZNC - http://znc.in)
+2015-09-25 13:21:47	niemal	But as long as I don't upgrade anything Xorg require-specific, wouldn't it work ok?
+2015-09-25 13:21:48	escondida	That doesn't make any sense in this context
+2015-09-25 13:21:56	◥	coolsa (~coolsa@unaffiliated/coolsa) has joined #archlinux
+2015-09-25 13:21:57	escondida	niemal: No
+2015-09-25 13:22:03	◥	shining (~xav@unaffiliated/shining) has joined #archlinux
+2015-09-25 13:22:17	netz	escondida: yes, it does. some ati drivers simply will not work with newer x.org
+2015-09-25 13:22:20	◣	darkbasic_ (~quassel@niko.linuxsystems.it) has quit (Read error: Connection reset by peer)
+2015-09-25 13:23:04	netz	https://wiki.archlinux.org/index.php/AMD_Catalyst <<
+2015-09-25 13:23:05	◥	darkbasic (~quassel@niko.linuxsystems.it) has joined #archlinux
+2015-09-25 13:23:05	phrik	Title: AMD Catalyst - ArchWiki (at wiki.archlinux.org)
+2015-09-25 13:23:18	◥	tong (~tong@114.241.14.229) has joined #archlinux
+2015-09-25 13:23:27	exeviss	afternuun: hey I was just wondering what you found in your research. I'm finding that even the expensive cards are just kind of buggy from what people are saying.
+2015-09-25 13:23:35	escondida	netz: ¬,¬ given that I've been using Linux for nearly 10 years and have *never* seen a time in which ATI isn't incredibly broken, at this point if you still use ATI drivers, you have nobody to blame but yourself.
+2015-09-25 13:24:12	Halfwit	You're dating yourself slightly.
+2015-09-25 13:24:13	exeviss	afternuun: pretty sure you said you were trying to view hdmi sources in windows in arch linux too
+2015-09-25 13:24:30	afternuun	exeviss: I was just reading to understand how sound could be routed. There were many documents from OpenBSD, Gentoo, Arch and T2 linux, IIRC
+2015-09-25 13:24:31	netz	escondida: lol. hey, just don't tell me wrong when I'm not. I may not have as much experience as you (I'm jealous, really wish I got into linux when my interest in computers first arose) but I have a damned good memory :)
+2015-09-25 13:24:32	◥	TDSoul (~TDSoul@85.10.255.26) has joined #archlinux
+2015-09-25 13:24:57	afternuun	exeviss: I still do not understand hdmi. Wanted to get the theory of how it works.
+2015-09-25 13:25:24	◥	s4wtooth (~pope@ip72-211-108-22.no.no.cox.net) has joined #archlinux
+2015-09-25 13:25:25	netz	s/me wrong/me I'm wrong/ XD
+2015-09-25 13:25:51	afternuun	exeviss: all in all, I have none of the hardware. Just curiosity.
+2015-09-25 13:26:02	afternuun	!g openbsd sound cards blog
+2015-09-25 13:26:03	phrik	afternuun: To Section 13 - Multimedia - OpenBSD: <http://www.openbsd.org/faq/faq13.html>
+2015-09-25 13:26:05	escondida	netz: Nevertheless, Arch *really* isn't the distribution to use if you want to keep arbitrary packages at old versions.
+2015-09-25 13:26:28	niemal	That's true but as long as a conflict doesn't arise it could work.
+2015-09-25 13:26:31	netz	escondida: very true. I switched to arch to always have new things :P
+2015-09-25 13:26:34	sudokode	"It is said that Graff held the first fire hydrant patent, but this cannot be verified because an 1836 fire in the US Patent Office destroyed many patent records."
+2015-09-25 13:26:41	netz	hah.
+2015-09-25 13:27:00	exeviss	afternuun: you sound like you got way further than I did. I'm the same but I'm possibly shopping for hardware.
+2015-09-25 13:27:01	afternuun	exeviss: it was a long time ago, but I could point you to where I started
+2015-09-25 13:27:13	afternuun	!g state of sound linux
+2015-09-25 13:27:15	phrik	afternuun: Insane Coding: State of sound in Linux not so sorry after all: <http://insanecoding.blogspot.com/2009/06/state-of-sound-in-linux-not-so-sorry.html>
+2015-09-25 13:27:32	◥	Yayi (~Yayi@unaffiliated/yayi) has joined #archlinux
+2015-09-25 13:27:40	afternuun	!g linux pro audio supported capture
+2015-09-25 13:27:41	phrik	afternuun: Hardware support [Linux-Sound] - Linuxaudio.org: <http://wiki.linuxaudio.org/wiki/hardware_support>
+2015-09-25 13:28:19	◣	Failhogg (~Darkhogg@151.pool85-54-208.dynamic.orange.es) has quit (Remote host closed the connection)
+2015-09-25 13:30:07	s4wtooth	I'm having a hell of a time dual booting arch in pure 64bit efi on a mac pro 1,1 that's had its firmware flashed to load yosemite and piker-alpha's 64bit bootloader. is it even possible?
+2015-09-25 13:31:33	◣	gimp335 (~fido@99.23.91.5) has quit (Quit: WeeChat 1.3)
+2015-09-25 13:32:18	◥	jceb (~jceb@2001:6f8:900:8e46:6257:18ff:fe8b:63e3) has joined #archlinux
+2015-09-25 13:33:03	◣	TDSoul (~TDSoul@85.10.255.26) has quit (Quit: ZNC - http://znc.in)
+2015-09-25 13:34:12	exeviss	afternuun: thanks. this looks to be about audio but it is still very interesting. I'm interested in capturing multiple hdmi sources from things like game consoles and other computers. I'm trying to create a really badass all in one setup.
+2015-09-25 13:36:52	afternuun	exeviss: pulsevideo should be getting somewhere soon
+2015-09-25 13:37:02	afternuun	maybe next year?
+2015-09-25 13:37:55	exeviss	does pulse audio have a way to capture video as well? I'm not sure I understand.
+2015-09-25 13:38:03	◥	TDSoul_ (~TDSoul@85.10.255.26) has joined #archlinux
+2015-09-25 13:38:16	◥	hellslinger (~hellsling@c-76-113-59-113.hsd1.nm.comcast.net) has joined #archlinux
+2015-09-25 13:38:20	◣	LambdaComplex (~Lambda_Co@96-36-154-7.unas.gnvl.sc.charter.com) has quit (Quit: Leaving)
+2015-09-25 13:38:27	ℹ 	TDSoul_ is now known as TDSoul
+2015-09-25 13:38:36	◣	TDSoul (~TDSoul@85.10.255.26) has quit (Client Quit)
+2015-09-25 13:39:03	◥	TDSoul (~TDSoul@85.10.255.26) has joined #archlinux
+2015-09-25 13:39:31	afternuun	exeviss: no. Pulse audio is sound management only
+2015-09-25 13:39:39	TingPing	just a bad joke
+2015-09-25 13:39:40	bpeak	pulse is about audio, not video. If you want to capture video you want to use something like ffmpeg 
+2015-09-25 13:40:01	afternuun	!give bpeak g fedora magazine pulsevideo
+2015-09-25 13:40:02	phrik	bpeak: The State of Fedora: 2015 Edition - Fedora Magazine: <http://fedoramagazine.org/state-fedora-2015-edition/>
+2015-09-25 13:40:46	afternuun	hmmm
+2015-09-25 13:40:51	afternuun	not there?
+2015-09-25 13:40:59	afternuun	!give bpeak g fedora magazine pulse video
+2015-09-25 13:41:00	◥	schmodd (~schmodd@unaffiliated/schmodd) has joined #archlinux
+2015-09-25 13:41:00	phrik	bpeak: Fedora 11: Complete guide to fix PulseAudio and video/audio VLC ...: <http://forums.fedoraforum.org/showthread.php?t=225660>
+2015-09-25 13:41:05	afternuun	nevermind.
+2015-09-25 13:41:16	afternuun	someone had something more recent here the other day
+2015-09-25 13:41:40	NerdTaco	pulseAUDIO
+2015-09-25 13:41:41	bpeak	afternuun, on the article you're looking for they talk about using pulseaudio for recording video? :o 
+2015-09-25 13:42:01	afternuun	pulsevideo. Nickname, but it wasn't named that.
+2015-09-25 13:42:31	afternuun	for dealing with video inputs.
+2015-09-25 13:42:34	◥	LambdaComplex (~Lambda_Co@96-36-154-7.unas.gnvl.sc.charter.com) has joined #archlinux
+2015-09-25 13:42:41	TingPing	that project is named Pinos
+2015-09-25 13:42:42	afternuun	!g mankley pulsevideo
+2015-09-25 13:42:43	phrik	afternuun: No matches found.
+2015-09-25 13:42:45	afternuun	pinos
+2015-09-25 13:42:47	TingPing	origially jokingly called pulsevideo
+2015-09-25 13:42:48	afternuun	that's right
+2015-09-25 13:43:05	TingPing	https://blogs.gnome.org/uraeus/2015/06/30/introducing-pulse-video/
+2015-09-25 13:43:22	ℹ 	ariss is now known as luffy_
+2015-09-25 13:43:25	TingPing	it is to cameras as pulse is to microphones
+2015-09-25 13:43:26	◣	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has quit (Quit: Quit:  Catch you on the back nine.)
+2015-09-25 13:43:49	bpeak	interesting 
+2015-09-25 13:44:47	nando293921	!give gold
+2015-09-25 13:44:48	phrik	nando293921: give <an alias, at least 2 arguments>
+2015-09-25 13:45:00	nando293921	!give phrik gold
+2015-09-25 13:45:02	phrik	phrik: I hereby proclaim that you be dipped in 'awesome' and sprinkled with 'hell yeah'.
+2015-09-25 13:45:37	◣	captainkraft (~captainkr@cpe-76-84-92-205.neb.res.rr.com) has quit (Remote host closed the connection)
+2015-09-25 13:45:45	◣	escondida (~joyfulgir@archlinux/op/escondida) has quit (Quit: WeeChat 1.3)
+2015-09-25 13:46:24	sudokode	!give nando293921 welcome
+2015-09-25 13:46:25	phrik	nando293921: Welcome to #archlinux – Tell us how you fucked up.
+2015-09-25 13:46:44	◥	dr_rokowski (~dr_rokows@194.33.76.252) has joined #archlinux
+2015-09-25 13:47:43	afternuun	!give sudokode welcome3
+2015-09-25 13:47:44	phrik	sudokode: Welcome to #archlinux, where everyone sleeps with everyone.
+2015-09-25 13:48:03	nando293921	That is so funny. 
+2015-09-25 13:48:06	◥	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has joined #archlinux
+2015-09-25 13:48:07	◥	mithrandeer (~mithrande@pool-72-66-74-149.washdc.fios.verizon.net) has joined #archlinux
+2015-09-25 13:48:10	◣	jceb (~jceb@2001:6f8:900:8e46:6257:18ff:fe8b:63e3) has quit (Ping timeout: 246 seconds)
+2015-09-25 13:48:30	ℹ 	luffy_ is now known as _xluffy
+2015-09-25 13:48:31	sudokode	!give afternuun yt welcome to paradise
+2015-09-25 13:48:32	phrik	afternuun: Green Day - Welcome To Paradise - YouTube: <http://www.youtube.com/watch?v=p9Y-r-rs9W8>
+2015-09-25 13:48:43	◣	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has quit (Ping timeout: 246 seconds)
+2015-09-25 13:48:51	ℹ 	_xluffy is now known as ariss
+2015-09-25 13:49:00	netz	gaddammit, why no mingw-w64 repo :/
+2015-09-25 13:49:32	sudokode	how unreasonable
+2015-09-25 13:49:47	sangy	wait, why would you need mingw?
+2015-09-25 13:49:48	◣	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 240 seconds)
+2015-09-25 13:49:48	afternuun	sudokode: sounds like 80s beach music
+2015-09-25 13:50:05	sudokode	you've never heard green day?
+2015-09-25 13:50:14	afternuun	sudokode: like a Beverley Hills 90210 soundtrack
+2015-09-25 13:50:22	afternuun	sudokode: probably once?
+2015-09-25 13:50:27	netz	sangy: because some folks do dev for both linux and windows on a linux machine :P
+2015-09-25 13:50:27	sudokode	lol
+2015-09-25 13:50:33	sudokode	!yt island in the sun
+2015-09-25 13:50:34	phrik	sudokode: Weezer - Island In The Sun - YouTube: <http://www.youtube.com/watch?v=erG5rgNYSdk>
+2015-09-25 13:50:38	◥	mauke_ (~mauke@p3m/member/mauke) has joined #archlinux
+2015-09-25 13:51:06	◥	weemsledeux (~textual@unaffiliated/weems) has joined #archlinux
+2015-09-25 13:51:16	◣	DogPolice (~RJones@unaffiliated/rjones) has quit (Ping timeout: 252 seconds)
+2015-09-25 13:51:25	afternuun	sudokode: I remember this from a horror movie. Just cannot remember which.
+2015-09-25 13:51:48	sudokode	!w island in the sun
+2015-09-25 13:51:49	phrik	sudokode: Island in the Sun (song) - Wikipedia, the free encyclopedia: <https://en.wikipedia.org/wiki/Island_in_the_Sun_(song)>
+2015-09-25 13:52:06	◥	mgue (~mgue@x590f6980.dyn.telefonica.de) has joined #archlinux
+2015-09-25 13:52:22	◣	aajjbb (~aajjbb@177.193.235.18) has quit (Ping timeout: 252 seconds)
+2015-09-25 13:52:42	sudokode	nope
+2015-09-25 13:52:49	sudokode	that would be ironic though
+2015-09-25 13:53:25	afternuun	sudokode: oh, it was either Serendipity or Mr. Deeds.
+2015-09-25 13:53:28	◥	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #archlinux
+2015-09-25 13:53:47	◥	Derpadong (~derpadong@unaffiliated/derpadong) has joined #archlinux
+2015-09-25 13:54:01	◣	Derpadong (~derpadong@unaffiliated/derpadong) has quit (Client Quit)
+2015-09-25 13:54:02	◣	mauke (~mauke@p3m/member/mauke) has quit (Ping timeout: 272 seconds)
+2015-09-25 13:54:13	◣	mithrandeer (~mithrande@pool-72-66-74-149.washdc.fios.verizon.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-25 13:54:24	◥	Derpadong (~derpadong@unaffiliated/derpadong) has joined #archlinux
+2015-09-25 13:54:38	◥	darkbit (~darkbit@49.144.218.238) has joined #archlinux
+2015-09-25 13:54:40	◣	stardiviner (~stardivin@unaffiliated/stardiviner) has quit (Ping timeout: 272 seconds)
+2015-09-25 13:55:26	◥	llinguini (~llinguini@mobile-130-126-255-80.near.illinois.edu) has joined #archlinux
+2015-09-25 13:58:16	nando293921	!give phrik bricks
+2015-09-25 13:58:45	◥	stardiviner (~stardivin@unaffiliated/stardiviner) has joined #archlinux
+2015-09-25 13:59:36	ℹ 	mauke_ is now known as mauke
+2015-09-25 13:59:41	◣	CoreISP (~CoreISP@simplemachines/rootadmin/CoreISP) has quit (Quit: Quit)
+2015-09-25 14:00:16	◣	luuuciano (~luuuciano@unaffiliated/luuuciano) has quit (Remote host closed the connection)
+2015-09-25 14:00:16	nando293921	No bricks then. 
+2015-09-25 14:00:20	sudokode	https://youtu.be/WT2eLretCWE?t=1m30s
+2015-09-25 14:00:22	phrik	Title: The BIGGEST Turtle You've EVER seen! - YouTube (at youtu.be)
+2015-09-25 14:00:37	◣	l3lu3 (~l3lu3@unaffiliated/l3lu3) has quit (Quit: leaving)
+2015-09-25 14:00:47	◣	linux_dream (~linux_dre@unaffiliated/linux-dream/x-5839402) has quit (Quit: Leaving)
+2015-09-25 14:01:40	afternuun	sudokode: imagine swimming into the biggest man o' war!
+2015-09-25 14:01:56	nando293921	Wait should that be a tortoise. Tortoise can grow bigger then a turtle.
+2015-09-25 14:01:57	sudokode	icky
+2015-09-25 14:02:08	sudokode	it's an alligator snapping turtle
+2015-09-25 14:02:17	sudokode	the biggest freshwater turtle iirc
+2015-09-25 14:02:56	afternuun	!yt how not catch electric eel
+2015-09-25 14:02:57	phrik	afternuun: This is NOT How You Catch an Electric Eel ... - YouTube: <http://www.youtube.com/watch?v=QCISeCZAFC8>
+2015-09-25 14:02:58	Boohbah	galapagos giant tortoise versus texas snapping turtle cage death match fight!
+2015-09-25 14:03:00	Boohbah	who will win?
+2015-09-25 14:03:12	sudokode	afternuun: eels feel the same shock you do. don't be a baby
+2015-09-25 14:03:16	afternuun	the one with the shorter lifespan?
+2015-09-25 14:03:44	sudokode	Boohbah: aren't they extinct?
+2015-09-25 14:03:51	Boohbah	no
+2015-09-25 14:04:47	◣	J0k3r (~sysrq@unaffiliated/proximacentauri1) has quit (Ping timeout: 265 seconds)
+2015-09-25 14:05:08	sudokode	oh, that's pinta island tortoises
+2015-09-25 14:05:16	sudokode	lonsesome george is the last one
+2015-09-25 14:05:20	sudokode	poor george
+2015-09-25 14:05:37	sudokode	https://upload.wikimedia.org/wikipedia/commons/a/a5/Lonesome_George_in_profile.png
+2015-09-25 14:05:44	afternuun	but turtles are asexual? are tortoise also?
+2015-09-25 14:05:51	sudokode	what?
+2015-09-25 14:06:11	sudokode	turtles aren't asexual
+2015-09-25 14:06:21	Boohbah	i don't know; i'm not a herpetologist
+2015-09-25 14:06:23	nando293921	Check this irony though http://www.worldstarhiphop.com/videos/video.php?v=wshhByAmDm395F5Scae9
+2015-09-25 14:06:24	phrik	Title: SMH: Girl On Snapchat Thinks She's Saving Gopher Tortoise Life By Throwing It Into A Pond! | New Video (at www.worldstarhiphop.com)
+2015-09-25 14:06:28	sudokode	trust me, I'm an expert
+2015-09-25 14:06:47	ℹ 	Mode #archlinux [+o tigrmesh] by ChanServ
+2015-09-25 14:06:54	@tigrmesh	enough off topic chat
+2015-09-25 14:07:06	◥	l3lu3 (~l3lu3@unaffiliated/l3lu3) has joined #archlinux
+2015-09-25 14:07:08	◥	Debesis (0x@unaffiliated/debesis) has joined #archlinux
+2015-09-25 14:07:38	◥	J0k3r (~sysrq@unaffiliated/proximacentauri1) has joined #archlinux
+2015-09-25 14:07:48	◣	eric_lagergren (~eric_lage@134.39.119.22) has quit (Remote host closed the connection)
+2015-09-25 14:08:10	◥	PoPpiLLs (~damien@cpe-184-56-231-127.neo.res.rr.com) has joined #archlinux
+2015-09-25 14:09:50	bshah	hammertime! :-)
+2015-09-25 14:10:21	◥	nick2000 (~sailfish@37-136-106-66.rev.dnainternet.fi) has joined #archlinux
+2015-09-25 14:11:52	◣	Derpadong (~derpadong@unaffiliated/derpadong) has quit (Quit: Leaving)
+2015-09-25 14:14:19	sudokode	!halt
+2015-09-25 14:14:20	phrik	HAMMER ZEIT
+2015-09-25 14:14:50	◣	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2015-09-25 14:14:53	◣	faiden (~faiden@c-266171d5.05-89-626f723.cust.bredbandsbolaget.se) has quit (Ping timeout: 260 seconds)
+2015-09-25 14:15:03	◥	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has joined #archlinux
+2015-09-25 14:15:12	netz	lol
+2015-09-25 14:15:46	Asterisk	I don't even know what I would do with turbogarlic.
+2015-09-25 14:15:54	@tigrmesh	i thought this was pretty interesting  https://wiki.archlinux.org/index.php/System_maintenance
+2015-09-25 14:15:55	phrik	Title: System maintenance - ArchWiki (at wiki.archlinux.org)
+2015-09-25 14:16:04	@tigrmesh	turbogarlic?
+2015-09-25 14:16:09	◥	faiden (~faiden@c-266171d5.05-89-626f723.cust.bredbandsbolaget.se) has joined #archlinux
+2015-09-25 14:16:48	hemite	when I do ip link set dev wlan1 up my device still does not come up
+2015-09-25 14:17:16	◣	sertsa (~sertsa@69.39.10.225) has quit (Quit: Konversation terminated!)
+2015-09-25 14:17:17	◣	NordiQ (~NordiQ@172.96.42.60) has quit (Remote host closed the connection)
+2015-09-25 14:17:40	◣	githogori (~githogori@c-73-222-69-223.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2015-09-25 14:18:07	◣	G1n0 (G1n0@es2-84-91-4-192.netvisao.pt) has quit (Ping timeout: 246 seconds)
+2015-09-25 14:18:07	◥	natsurou (~natsurou@190.43.126.170) has joined #archlinux
+2015-09-25 14:18:24	◣	bensums (~bensums@c213-89-8-208.bredband.comhem.se) has quit (Ping timeout: 252 seconds)
+2015-09-25 14:18:32	◥	durance (~ginny@unaffiliated/durance) has joined #archlinux
+2015-09-25 14:18:39	netz	Asterisk: fend off turbo vampires?
+2015-09-25 14:18:55	◥	bensums (~bensums@c213-89-8-208.bredband.comhem.se) has joined #archlinux
+2015-09-25 14:19:07	Tom^	TIM
+2015-09-25 14:19:15	@tigrmesh	https://wiki.archlinux.org/index.php/Enhance_system_stability
+2015-09-25 14:19:16	phrik	Title: Enhance system stability - ArchWiki (at wiki.archlinux.org)
+2015-09-25 14:19:29	◣	LambdaComplex (~Lambda_Co@96-36-154-7.unas.gnvl.sc.charter.com) has quit (Quit: Leaving)
+2015-09-25 14:19:43	◥	ixil (~ixil@h203-28-242-10.trinity.unimelb.edu.au) has joined #archlinux
+2015-09-25 14:19:49	◥	yomisei (~void@ip18862ed7.dynamic.kabel-deutschland.de) has joined #archlinux
+2015-09-25 14:20:28	hemite	when I do ip link set dev wlan1 up my device still does not come up
+2015-09-25 14:21:00	@tigrmesh	is there any output?
+2015-09-25 14:21:23	hemite	tigrmesh, no
+2015-09-25 14:21:35	hemite	ip link still shows it as down
+2015-09-25 14:21:58	◣	durance (~ginny@unaffiliated/durance) has left #archlinux
+2015-09-25 14:22:00	@tigrmesh	is wlan1 the name of the device?
+2015-09-25 14:22:17	hemite	yes I have wlan0 which I'm currently using
+2015-09-25 14:22:19	netz	hemite: rfkill list?
+2015-09-25 14:22:24	◣	johefernan (~joan@189.221.140.186.cable.dyn.cableonline.com.mx) has quit (Quit: Konversation terminated!)
+2015-09-25 14:22:27	hemite	and wlan1 which is the usb device
+2015-09-25 14:22:28	◥	Zava (~Zava@86.93.43.117) has joined #archlinux
+2015-09-25 14:22:34	hemite	netz, just rfkill wlan1 ?
+2015-09-25 14:22:46	Tom^	why using the old iface names?
+2015-09-25 14:22:47	netz	no, rfkill list. is it hard/soft blocked?
+2015-09-25 14:23:05	netz	because ln -s /dev/null /some/path/i/do/not/remember.rules
+2015-09-25 14:23:27	hemite	netz, it doesn't show ant of the devices as soft/hard blocked
+2015-09-25 14:24:13	◣	Bluewind (~Bluewind@archlinux/developer/Bluewind) has quit (Ping timeout: 260 seconds)
+2015-09-25 14:24:33	netz	ah, idk.
+2015-09-25 14:24:35	hemite	So I'm confused =\
+2015-09-25 14:24:37	netz	!give hemite bail
+2015-09-25 14:24:38	phrik	hemite: Looks like netz is bailing out on this one - good luck!
+2015-09-25 14:24:52	◥	youngbaks (~youngbaks@154.76.23.73) has joined #archlinux
+2015-09-25 14:25:04	hemite	=(
+2015-09-25 14:25:47	◥	yeomra (~yeomra@gprs-inet-65-54.elisa.ee) has joined #archlinux
+2015-09-25 14:26:05	◥	LambdaComplex (~Lambda_Co@96-36-154-7.unas.gnvl.sc.charter.com) has joined #archlinux
+2015-09-25 14:27:35	◥	MethylatorX (~quassel@unaffiliated/methylatorx) has joined #archlinux
+2015-09-25 14:27:46	◣	zrj (~raw_rw@84.240.17.161) has quit (Quit: leaving)
+2015-09-25 14:27:47	◥	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has joined #archlinux
+2015-09-25 14:28:00	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 14:28:04	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Max SendQ exceeded)
+2015-09-25 14:28:28	◥	GriefNorth (~sanek@tvsviaz.ru) has joined #archlinux
+2015-09-25 14:28:47	◣	l3lu3 (~l3lu3@unaffiliated/l3lu3) has quit (Quit: leaving)
+2015-09-25 14:28:55	◥	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has joined #archlinux
+2015-09-25 14:29:53	◣	urodna_ (~urodna@unaffiliated/urodna) has quit (Quit: urodna_)
+2015-09-25 14:30:17	MethylatorX	hey do we have git channel here?
+2015-09-25 14:30:22	◣	s4wtooth (~pope@ip72-211-108-22.no.no.cox.net) has quit (Ping timeout: 246 seconds)
+2015-09-25 14:30:26	netz	on freenode, i think
+2015-09-25 14:30:37	netz	not a specific archlinux git channel though
+2015-09-25 14:30:54	◥	Bluewind (~Bluewind@archlinux/developer/Bluewind) has joined #archlinux
+2015-09-25 14:31:41	◣	Debesis (0x@unaffiliated/debesis) has quit (Ping timeout: 240 seconds)
+2015-09-25 14:31:43	◣	arselinux (~dicks@173-24-183-225.client.mchsi.com) has quit (Remote host closed the connection)
+2015-09-25 14:32:04	MethylatorX	we should have AUR Channel
+2015-09-25 14:33:00	sudokode	make one
+2015-09-25 14:33:01	◣	cfricke (~cfricke@unaffiliated/cfricke) has quit (Ping timeout: 240 seconds)
+2015-09-25 14:34:14	◣	nick2000 (~sailfish@37-136-106-66.rev.dnainternet.fi) has quit (Quit: IRC for Sailfish 0.9)
+2015-09-25 14:34:23	◥	githogori (~githogori@c-73-222-69-223.hsd1.ca.comcast.net) has joined #archlinux
+2015-09-25 14:35:22	MethylatorX	==> #aur
+2015-09-25 14:35:27	MethylatorX	please join
+2015-09-25 14:35:44	◣	Griff`Ron (~GriffChro@2601:603:4400:4478:6257:18ff:feff:67e8) has quit (Ping timeout: 240 seconds)
+2015-09-25 14:35:48	◥	Miner_48er (~Miner_48e@68.67.255.139) has joined #archlinux
+2015-09-25 14:35:50	netz	MethylatorX: it exists, and is not for the AUR
+2015-09-25 14:35:56	◣	netz (~netz@unaffiliated/ntzrmtthihu777) has quit (Quit: WeeChat 1.3)
+2015-09-25 14:36:09	◥	netz (~netz@unaffiliated/ntzrmtthihu777) has joined #archlinux
+2015-09-25 14:36:47	MethylatorX	this is the official one #archlinux-aur
+2015-09-25 14:36:58	◣	uvoa (~uvoa@199.180.249.106) has quit (Ping timeout: 268 seconds)
+2015-09-25 14:37:05	MethylatorX	why freenode doesn't allow  channels listing
+2015-09-25 14:37:09	MethylatorX	that's weird
+2015-09-25 14:37:23	netz	MethylatorX: msg alis help
+2015-09-25 14:37:26	ser_barry	MethylatorX: see /msg alis help list
+2015-09-25 14:38:04	◣	sdothum (~sdothum@dsl-173-206-133-237.tor.primus.ca) has quit (Quit: ZNC - 1.6.0 - http://znc.in)
+2015-09-25 14:38:10	◥	gotwf (~gotwf@gw02-boi.teamcool.net) has joined #archlinux
+2015-09-25 14:38:12	MethylatorX	that's a search engine
+2015-09-25 14:38:12	◣	valkyr1e (~valkyr1e@unaffiliated/hydralisk) has quit (Ping timeout: 268 seconds)
+2015-09-25 14:38:22	◣	zyxelthrone (~nepgear@2601:18a:c303:8e18:6618:bb97:f7e4:bce9) has quit (Quit: WeeChat 1.3)
+2015-09-25 14:39:44	◣	sangy (~sangy@unaffiliated/sangy) has quit (Ping timeout: 240 seconds)
+2015-09-25 14:40:00	MethylatorX	Since no one is answering at #git, How to list fFree/Public C projects, i'd like to read some C code.
+2015-09-25 14:40:03	netz	exactly.
+2015-09-25 14:40:05	◣	foozle (~foozle@office181.kiec.kh.edu.tw) has quit (Quit: leaving)
+2015-09-25 14:41:01	TingPing	MethylatorX, well there is no 'master list' of everything ever made. github is full of free code though
+2015-09-25 14:41:29	◥	sQVe (~sQVe@unaffiliated/sqve) has joined #archlinux
+2015-09-25 14:41:55	gotwf	MethylatorX: head over to freebsd, download a source file from one of their ports, and have at it.
+2015-09-25 14:42:34	MethylatorX	i do that when i'm on a computer, How about if i was traveling 
+2015-09-25 14:42:34	◣	sQVe (~sQVe@unaffiliated/sqve) has quit (Client Quit)
+2015-09-25 14:42:35	gotwf	MethylatorX: as in "ports collection", as all this stuff gets compiled on the fly
+2015-09-25 14:42:43	gotwf	MethylatorX: else also do same thing at Gentoo
+2015-09-25 14:42:59	◣	youngbaks (~youngbaks@154.76.23.73) has quit (Ping timeout: 256 seconds)
+2015-09-25 14:43:36	TingPing	if you aren't on a computer how to look at code.. maybe buy a book?
+2015-09-25 14:43:45	gotwf	MethylatorX: are you serious or punking me?
+2015-09-25 14:44:21	gotwf	MethylatorX: Any open source project that's coded in C is going to have a source repo, usually with a gui web front ent
+2015-09-25 14:44:28	gotwf	Browse some C files.
+2015-09-25 14:44:58	MethylatorX	yeah 
+2015-09-25 14:45:06	Halfwit	Oh my. 
+2015-09-25 14:45:22	Halfwit	Look at Cloudefs stuff
+2015-09-25 14:45:25	MethylatorX	in source forge i can search projects in specific languages
+2015-09-25 14:45:45	MethylatorX	i can read those while on train/plane
+2015-09-25 14:45:49	MethylatorX	Thanks
+2015-09-25 14:46:34	◣	Profiler (~TDSoul@digi00808.digicube.fr) has quit (Quit: ZNC - http://znc.in)
+2015-09-25 14:47:09	◥	fyuw (~fyuw@unaffiliated/fyuw/x-1922023) has joined #archlinux
+2015-09-25 14:47:14	◣	SgrA (~sgra@unaffiliated/sgra) has quit (Ping timeout: 264 seconds)
+2015-09-25 14:47:14	◣	ndrei (~avo@213.55.102.97) has quit (Ping timeout: 264 seconds)
+2015-09-25 14:48:58	◥	Profiler (~TDSoul@digi00808.digicube.fr) has joined #archlinux
+2015-09-25 14:49:55	◥	vlatkoB (~IRC_clien@unaffiliated/vlatkob) has joined #archlinux
+2015-09-25 14:53:08	◥	oxhak (~OxHaK@unaffiliated/oxhak) has joined #archlinux
+2015-09-25 14:53:14	◣	samperand (~samperand@118-93-33-119.dsl.dyn.ihug.co.nz) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-09-25 14:53:36	◣	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has quit (Ping timeout: 252 seconds)
+2015-09-25 14:53:40	◥	NordiQ (~NordiQ@172.96.42.60) has joined #archlinux
+2015-09-25 14:53:53	◣	vash (~null@unaffiliated/vash) has quit (Read error: Connection reset by peer)
+2015-09-25 14:54:37	Boohbah	MethylatorX: https://github.com/torvalds/linux
+2015-09-25 14:54:38	phrik	Title: torvalds/linux · GitHub (at github.com)
+2015-09-25 14:55:05	MethylatorX	Thanks
+2015-09-25 14:55:25	◥	vash (~null@unaffiliated/vash) has joined #archlinux
+2015-09-25 14:55:41	◥	nl6720 (~nl6720@62.85.17.131) has joined #archlinux
+2015-09-25 14:55:54	◥	hitori (~hitori@unaffiliated/hitori) has joined #archlinux
+2015-09-25 14:58:41	◥	mosu_ (~wuff@p548DFA68.dip0.t-ipconnect.de) has joined #archlinux
+2015-09-25 14:59:48	◥	petersr (~PeterSR@94.144.63.89) has joined #archlinux
+2015-09-25 15:00:06	◣	petersr (~PeterSR@94.144.63.89) has quit (Client Quit)
+2015-09-25 15:01:13	◥	headkase (~headkase@CPEb8a386104205-CM68b6fcc81310.cpe.net.cable.rogers.com) has joined #archlinux
+2015-09-25 15:01:26	◥	SgrA (~sgra@unaffiliated/sgra) has joined #archlinux
+2015-09-25 15:02:02	◣	mosu (~wuff@p548DFC73.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2015-09-25 15:02:25	◣	headkase (~headkase@CPEb8a386104205-CM68b6fcc81310.cpe.net.cable.rogers.com) has quit (Client Quit)
+2015-09-25 15:02:47	◥	headkase (~headkase@CPEb8a386104205-CM68b6fcc81310.cpe.net.cable.rogers.com) has joined #archlinux
+2015-09-25 15:04:30	◥	arcsin (~arcsin@unaffiliated/proxa) has joined #archlinux
+2015-09-25 15:06:09	◥	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has joined #archlinux
+2015-09-25 15:07:03	◣	IngCr3at1on (uid82237@gateway/web/irccloud.com/x-uwkdawqrxpcparbd) has quit (Quit: Connection closed for inactivity)
+2015-09-25 15:07:08	◣	\x1p2 (~schism@unaffiliated/schy) has quit (Ping timeout: 265 seconds)
+2015-09-25 15:07:42	◣	headkase (~headkase@CPEb8a386104205-CM68b6fcc81310.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2015-09-25 15:08:05	◥	Rena (~rena@bas13-kitchener06-3096692676.dsl.bell.ca) has joined #archlinux
+2015-09-25 15:08:23	◣	AvianFlu (~avianflu@192.241.155.12) has quit (Ping timeout: 255 seconds)
+2015-09-25 15:08:46	◥	krzkrz (~foo@unaffiliated/krz) has joined #archlinux
+2015-09-25 15:09:00	◥	Matty_r (~Matt@CPE-124-186-107-104.lns9.woo.bigpond.net.au) has joined #archlinux
+2015-09-25 15:09:14	◣	du5tball (~du5tball@ppp-188-174-135-186.dynamic.mnet-online.de) has quit (Ping timeout: 264 seconds)
+2015-09-25 15:09:33	◥	Moguri (~quassel@c-67-185-127-210.hsd1.wa.comcast.net) has joined #archlinux
+2015-09-25 15:09:46	◥	UtkarshRay (~utkarsh@2607:3f00:1:169::e42c) has joined #archlinux
+2015-09-25 15:10:02	◣	yomisei (~void@ip18862ed7.dynamic.kabel-deutschland.de) has quit (Read error: Connection reset by peer)
+2015-09-25 15:10:30	◣	Rena (~rena@bas13-kitchener06-3096692676.dsl.bell.ca) has quit (Client Quit)
+2015-09-25 15:10:34	◥	zoidb0rg2 (~zoidb0rg@gateway/vpn/privateinternetaccess/zoidb0rg) has joined #archlinux
+2015-09-25 15:10:55	◥	Rena (~rena@bas13-kitchener06-3096692676.dsl.bell.ca) has joined #archlinux
+2015-09-25 15:11:50	◥	zylex` (~zylex@ip52.skonshus1.riksnet.nu) has joined #archlinux
+2015-09-25 15:11:50	◣	nando293921 (~fernando@64.189.57.212) has quit (Ping timeout: 264 seconds)
+2015-09-25 15:12:01	pemb	afternuun, no dice
+2015-09-25 15:12:10	◣	yeomra (~yeomra@gprs-inet-65-54.elisa.ee) has quit (Quit: WeeChat 1.3)
+2015-09-25 15:12:11	pemb	powertop reports USB autosuspend is off
+2015-09-25 15:12:33	zylex`	hey guys, anybody knows why after last -Syu my sound crackles when i raise or lower volume?
+2015-09-25 15:12:40	pemb	it still spins down
+2015-09-25 15:12:57	◥	frankyboy_ (~franky@109.252.17.38) has joined #archlinux
+2015-09-25 15:13:22	liq	zylex`: depends on your packages which got upgraded I suppose
+2015-09-25 15:14:00	afternuun	pemb: there was a tool way back, namde sgparm or something. IIRC, it was merged with hdparm?
+2015-09-25 15:14:04	afternuun	!g sgparm
+2015-09-25 15:14:05	phrik	afternuun: Southern Great Plains - ARM: <https://www.arm.gov/sites/sgp>
+2015-09-25 15:14:08	zylex`	liq, i forgot :) but something with sound was there for sure
+2015-09-25 15:14:13	afternuun	!g sgparm sata
+2015-09-25 15:14:14	phrik	afternuun: Andy Schroder - Annual Optimal Orientation of Fixed Tilt Solar ...: <http://andyschroder.com/SolarEnergyResearch/OptimalTilt/>
+2015-09-25 15:14:23	liq	zylex`: less /var/log/pacman.log
+2015-09-25 15:14:47	liq	zylex`: you can try downgrading some of the related packages
+2015-09-25 15:14:48	◥	evade (~evade@2601:681:4002:7bcd:2216:d8ff:fe34:6e25) has joined #archlinux
+2015-09-25 15:15:07	pemb	it's sdparm I think
+2015-09-25 15:16:01	zylex`	[2015-09-25 03:05] [ALPM] upgraded pulseaudio (6.0-2 -> 7.0-1)
+2015-09-25 15:16:08	◥	headkase (~headkase@CPEb8a386104205-CM68b6fcc81310.cpe.net.cable.rogers.com) has joined #archlinux
+2015-09-25 15:16:11	zylex`	could it be that?
+2015-09-25 15:17:43	◥	aaro (~aaro@unaffiliated/xyox/x-040147) has joined #archlinux
+2015-09-25 15:17:43	liq	zylex`: Did you upgrade your kernel?
+2015-09-25 15:17:44	◣	djapo (~archie@unaffiliated/djapo) has quit (Ping timeout: 240 seconds)
+2015-09-25 15:18:03	◣	e5229 (~e5229@pc-152-45-101-190.cm.vtr.net) has quit (Ping timeout: 250 seconds)
+2015-09-25 15:18:16	◥	valkyr1e (~valkyr1e@unaffiliated/hydralisk) has joined #archlinux
+2015-09-25 15:18:35	liq	zylex`: I would think it could be the pulseaudio package, but if you upgraded your kernel (long shot). Try rebooting first, if its still problem. Try downgrading the pulseaudio package
+2015-09-25 15:19:04	liq	Im just guesing here. I have never used pulse
+2015-09-25 15:19:05	zylex`	liq, no i got 4.1.5-1-ARCH since it came
+2015-09-25 15:19:15	liq	try downgrading that package then
+2015-09-25 15:19:16	◣	darkbit (~darkbit@49.144.218.238) has quit (Ping timeout: 252 seconds)
+2015-09-25 15:19:20	◣	headkase (~headkase@CPEb8a386104205-CM68b6fcc81310.cpe.net.cable.rogers.com) has quit (Client Quit)
+2015-09-25 15:19:24	zylex`	i just rebooted :) thats when it started to crackle
+2015-09-25 15:19:38	liq	pacman -U /var/cache/pacman/pulse-package
+2015-09-25 15:19:39	zylex`	its not super annoying, just wondered if anyone had same problem
+2015-09-25 15:20:03	pemb	afternuun, I'm looking at my dmesg, this doesn't look good
+2015-09-25 15:20:15	pemb	it could be that powertop is simply lying to me
+2015-09-25 15:20:25	◥	raehik (~raehik@cpc1-rdng20-2-0-cust636.15-3.cable.virginm.net) has joined #archlinux
+2015-09-25 15:20:25	pemb	and autosuspend is still on
+2015-09-25 15:20:26	◣	Kitt3n (~Kitt3n@unaffiliated/kitt3n) has quit (Read error: Connection reset by peer)
+2015-09-25 15:20:45	pemb	but I get like, "sd 5:0:0:0: [sdb] tag#0 uas_eh_abort_handler 0 uas-tag 1 inflight: CMD"
+2015-09-25 15:20:53	◥	ndrei (~avo@197.156.77.66) has joined #archlinux
+2015-09-25 15:20:56	afternuun	pemb: IIRC there is a script to check active settings
+2015-09-25 15:21:18	afternuun	uas_eh_abort_handler?
+2015-09-25 15:21:31	afternuun	I think that has something to do with interrupt?
+2015-09-25 15:21:51	afternuun	!g usb power uas_eh_abort_handler
+2015-09-25 15:21:52	phrik	afternuun: uas problem in linux 3.15.1, need advice on the problem [SOLVED ...: <https://bbs.archlinux.org/viewtopic.php?id=183190>
+2015-09-25 15:22:14	Boohbah	zylex`: core/linux 4.1.6-1
+2015-09-25 15:22:21	sudokode	https://www.youtube.com/watch?v=2e06C-yUwlc&feature=iv&src_vid=E8SEVsxV070
+2015-09-25 15:22:22	phrik	Title: Silicon Brain: 1,000,000 ARM cores - Computerphile - YouTube (at www.youtube.com)
+2015-09-25 15:22:23	Boohbah	zylex`: pacman -Syu
+2015-09-25 15:22:24	sudokode	jesus
+2015-09-25 15:22:50	◥	Kitt3n (~Kitt3n@unaffiliated/kitt3n) has joined #archlinux
+2015-09-25 15:22:50	zylex`	:: Synchronizing package databases...
+2015-09-25 15:22:51	zylex`	 core is up to date
+2015-09-25 15:22:51	zylex`	 extra is up to date
+2015-09-25 15:22:51	zylex`	 community is up to date
+2015-09-25 15:22:51	zylex`	 multilib is up to date
+2015-09-25 15:22:51	zylex`	 archlinuxfr is up to date
+2015-09-25 15:22:53	zylex`	:: Starting full system upgrade...
+2015-09-25 15:22:55	zylex`	 there is nothing to do
+2015-09-25 15:22:56	ℹ 	Mode #archlinux [+o evilgrawity] by ChanServ
+2015-09-25 15:22:56	◣	evilgrawity has kicked zylex` (COMBO BREAKER)
+2015-09-25 15:23:02	grandpatrolling	derp
+2015-09-25 15:23:05	pemb	lel
+2015-09-25 15:23:11	grandpatrolling	kik
+2015-09-25 15:23:12	◥	zylex` (~zylex@ip52.skonshus1.riksnet.nu) has joined #archlinux
+2015-09-25 15:23:16	zylex`	*facepalm*
+2015-09-25 15:23:18	afternuun	pemb: oh, you have usb3?
+2015-09-25 15:23:22	grandpatrolling	!give zylex` welcome
+2015-09-25 15:23:23	phrik	zylex`: Welcome to #archlinux – Tell us how you fucked up.
+2015-09-25 15:23:35	Boohbah	pacman -Q linux; uname -r
+2015-09-25 15:23:42	◣	tong (~tong@114.241.14.229) has quit (Remote host closed the connection)
+2015-09-25 15:23:47	Boohbah	stale mirrors?
+2015-09-25 15:24:02	zylex`	i upgrade my system daily
+2015-09-25 15:24:29	Boohbah	zylex`: you mentioned 4.1.5
+2015-09-25 15:24:32	zylex`	oh
+2015-09-25 15:24:38	zylex`	typo
+2015-09-25 15:24:42	Boohbah	...
+2015-09-25 15:24:46	pemb	yeah
+2015-09-25 15:24:48	pemb	usb3.0
+2015-09-25 15:24:52	zylex`	Linux archburken 4.1.6-1-ARCH #1 SMP PREEMPT Mon Aug 17 08:52:28 CEST 2015 x86_64 GNU/Linux
+2015-09-25 15:25:36	◥	licensed_ (~licensed@unaffiliated/licensed) has joined #archlinux
+2015-09-25 15:25:53	◣	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has quit (Quit: Quit:  Catch you on the back nine.)
+2015-09-25 15:26:10	sudokode	3.0?
+2015-09-25 15:26:13	sudokode	lol so old
+2015-09-25 15:26:51	pemb	i mean, I think it's 3.0
+2015-09-25 15:27:11	pemb	could be a later version
+2015-09-25 15:27:15	afternuun	I never did get my 3.0s working properly on my 2 previous laptops.
+2015-09-25 15:27:17	pemb	I can get 100+ MB/s
+2015-09-25 15:27:41	◣	Xenoth (~Xenoth@104-56-166-31.lightspeed.cicril.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2015-09-25 15:27:45	pemb	I have a thinkpad :)
+2015-09-25 15:27:54	afternuun	nice
+2015-09-25 15:28:06	sudokode	everyone has a thinkpad these days
+2015-09-25 15:28:09	afternuun	the most I get is 1/6th that
+2015-09-25 15:28:16	◣	kotto (~kotto@189-74-61-51.cbace700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 246 seconds)
+2015-09-25 15:28:20	sudokode	afternuun: on usb?
+2015-09-25 15:28:41	◣	licensed (~licensed@unaffiliated/licensed) has quit (Ping timeout: 240 seconds)
+2015-09-25 15:29:01	afternuun	sudokode: yes. no more than 20+MB/s
+2015-09-25 15:29:06	sudokode	that's like 1.1
+2015-09-25 15:29:14	sudokode	:(
+2015-09-25 15:29:19	pemb	that's 2.0
+2015-09-25 15:29:26	pemb	1.1 would be way slower
+2015-09-25 15:29:27	sudokode	was 2.0 that slow?
+2015-09-25 15:29:31	pemb	yes
+2015-09-25 15:29:39	◥	semeion (~semeion@unaffiliated/semeion) has joined #archlinux
+2015-09-25 15:29:51	pemb	at least that's how I remember it
+2015-09-25 15:30:09	◣	redpill (~redpill@unaffiliated/redpill) has quit (Read error: Connection reset by peer)
+2015-09-25 15:30:27	sudokode	!shrug
+2015-09-25 15:30:28	phrik	¯\_(ツ)_/¯
+2015-09-25 15:30:32	◥	GegenRung (~gegenrung@fsf/member/gegenrung) has joined #archlinux
+2015-09-25 15:31:43	◣	llinguini (~llinguini@mobile-130-126-255-80.near.illinois.edu) has quit (Quit: Leaving)
+2015-09-25 15:31:48	◥	Defcronyke (~Defcronyk@121.92.148.146.bc.googleusercontent.com) has joined #archlinux
+2015-09-25 15:31:49	◣	Defcronyke (~Defcronyk@121.92.148.146.bc.googleusercontent.com) has quit (Excess Flood)
+2015-09-25 15:32:02	◣	CR0W (foo@unaffiliated/em64t) has quit (Ping timeout: 264 seconds)
+2015-09-25 15:32:31	◥	darkbit (~darkbit@49.144.218.238) has joined #archlinux
+2015-09-25 15:32:49	◣	txtsd (~txtsd@103.224.6.189) has quit (Ping timeout: 246 seconds)
+2015-09-25 15:33:37	afternuun	!g setpci external hdd spinup
+2015-09-25 15:33:38	phrik	afternuun: How can I determine the speed of my PCI Express interface ...: <http://forum.piriform.com/?showtopic=39212>
+2015-09-25 15:33:48	charlie5	hi all ... when one does a pacman -Syu, will pacman tell if a reboot is required ?
+2015-09-25 15:33:53	sheep	charlie5: no
+2015-09-25 15:34:02	◣	stochastix (~stochasti@unaffiliated/stochastix) has quit (Ping timeout: 264 seconds)
+2015-09-25 15:34:06	charlie5	is there a way to tell ?
+2015-09-25 15:34:16	sheep	charlie5: a general rule is to reboot whenever the kernel or systemd gets upgraded
+2015-09-25 15:34:33	◣	mys_721tx (~mys_721tx@wikipedia/mys-721tx) has quit (Quit: Bye.)
+2015-09-25 15:35:17	charlie5	sheep: ok, thanks ... i'll keep an eye out for those upgrades
+2015-09-25 15:35:57	◥	zrj (~raw_rw@212.59.11.230) has joined #archlinux
+2015-09-25 15:36:40	◣	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has quit (Read error: Connection reset by peer)
+2015-09-25 15:36:48	◣	Penguin (~xwQ5kwYl6@20264.odci.gov.united-states.rltk.us) has quit (Ping timeout: 248 seconds)
+2015-09-25 15:39:09	◥	nerd (~e^0@unaffiliated/e0/x-7387528) has joined #archlinux
+2015-09-25 15:39:20	◣	evade (~evade@2601:681:4002:7bcd:2216:d8ff:fe34:6e25) has quit (Ping timeout: 240 seconds)
+2015-09-25 15:40:19	◥	comma8 (~comma8@c-71-59-251-114.hsd1.or.comcast.net) has joined #archlinux
+2015-09-25 15:40:21	◥	nvnehi (~nvnehi@c-73-207-49-33.hsd1.ga.comcast.net) has joined #archlinux
+2015-09-25 15:40:51	◣	netz (~netz@unaffiliated/ntzrmtthihu777) has quit (Quit: WeeChat 1.3)
+2015-09-25 15:41:08	◥	e5229 (~e5229@pc-152-45-101-190.cm.vtr.net) has joined #archlinux
+2015-09-25 15:41:34	◥	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has joined #archlinux
+2015-09-25 15:42:13	◥	kotto (~kotto@191.223.56.138) has joined #archlinux
+2015-09-25 15:43:06	◣	joiguru (~joiguru@203.110.240.200) has quit (Quit: Leaving)
+2015-09-25 15:45:27	pemb	i'll bite the bullet and implement a stopgap polling solution
+2015-09-25 15:45:49	pemb	which is basically to play music 24/7
+2015-09-25 15:46:01	pemb	from the external hard drive =D
+2015-09-25 15:47:05	◥	llinguini (~llinguini@mobile-130-126-255-80.near.illinois.edu) has joined #archlinux
+2015-09-25 15:49:10	◥	nirjhor (~nirjhor@180.234.236.193) has joined #archlinux
+2015-09-25 15:49:10	◣	nl6720 (~nl6720@62.85.17.131) has quit (Quit: IRC for Sailfish 0.9)
+2015-09-25 15:49:12	◥	tumbler (~tumbler@unaffiliated/tumbler) has joined #archlinux
+2015-09-25 15:49:26	◥	UnknownShadow (~UnknownSh@62.85.17.131) has joined #archlinux
+2015-09-25 15:49:28	nirjhor	hi
+2015-09-25 15:49:33	◥	eric_lagergren (~eric_lage@c-76-121-113-163.hsd1.wa.comcast.net) has joined #archlinux
+2015-09-25 15:49:55	nirjhor	I need to install a package called "gir1.2-webkit-3.0" (it was named this in ubuntu), is it available in arch ?
+2015-09-25 15:50:01	◥	nando293921 (~fernando@64.189.57.212) has joined #archlinux
+2015-09-25 15:50:27	◥	Sonderblade (~Sonderbla@h-52-183.a157.priv.bahnhof.se) has joined #archlinux
+2015-09-25 15:50:34	◣	usommerl_ (~root@p579D2238.dip0.t-ipconnect.de) has quit (Quit: WeeChat 1.3)
+2015-09-25 15:50:48	◥	shanemikel (~smuxi@c-98-234-62-11.hsd1.ca.comcast.net) has joined #archlinux
+2015-09-25 15:51:37	◥	fredp2-away (~fredp@unaffiliated/fredp) has joined #archlinux
+2015-09-25 15:52:17	◣	denbeiren (~quassel@ptr-178-51-217-57.dyn.mobistar.be) has quit (Ping timeout: 250 seconds)
+2015-09-25 15:52:31	◣	weemsledeux (~textual@unaffiliated/weems) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-25 15:53:23	◣	cewood (~cewood@eth59-167-133-100.static.internode.on.net) has quit (Ping timeout: 255 seconds)
+2015-09-25 15:55:07	LambdaComplex	nirjhor: What is it?
+2015-09-25 15:55:18	liq	nirjhor: https://www.archlinux.org/packages/
+2015-09-25 15:55:21	phrik	Title: Arch Linux - Package Search (at www.archlinux.org)
+2015-09-25 15:55:32	liq	nirjhor: or check the AUR
+2015-09-25 15:55:57	afternuun	pemb: I had seen something in autofs docs once.
+2015-09-25 15:56:02	afternuun	did not follow it up.
+2015-09-25 15:56:06	◥	djapo (~archie@unaffiliated/djapo) has joined #archlinux
+2015-09-25 15:56:09	afternuun	something like keepalive
+2015-09-25 15:56:18	afternuun	!g linux mount keepalive
+2015-09-25 15:56:20	phrik	afternuun: Using TCP keepalive under Linux - The Linux Documentation Project: <http://tldp.org/HOWTO/TCP-Keepalive-HOWTO/usingkeepalive.html>
+2015-09-25 15:56:32	afternuun	!g linux usb mount keepalive
+2015-09-25 15:56:33	phrik	afternuun: linux - How do I make a USB-docked hard drive not "disconnect ...: <http://superuser.com/questions/663103/how-do-i-make-a-usb-docked-hard-drive-not-disconnect-from-the-connected-system>
+2015-09-25 15:56:37	pemb	i'll look into it
+2015-09-25 15:56:52	pemb	but tomorrow, now I need to get some sleep
+2015-09-25 15:56:57	◣	LambdaComplex (~Lambda_Co@96-36-154-7.unas.gnvl.sc.charter.com) has quit (Quit: Leaving)
+2015-09-25 15:57:00	afternuun	me too. But I don't wanna.
+2015-09-25 15:57:06	afternuun	I should do.
+2015-09-25 15:57:10	◣	nirjhor (~nirjhor@180.234.236.193) has left #archlinux ("Konversation terminated!")
+2015-09-25 15:57:11	afternuun	clinic tomorrow …
+2015-09-25 15:57:22	pemb	Class tomorrow. Assignment due tomorrow.
+2015-09-25 15:57:38	pemb	Haven't started working on that assignment.
+2015-09-25 15:57:39	afternuun	did you finish it?
+2015-09-25 15:58:09	pemb	I'm a procrastinator.
+2015-09-25 15:58:53	pemb	It's some MATLAB stuff, it's kinda disgusting, but I'll breeze through the code.
+2015-09-25 15:59:12	pemb	There's the report too, though.
+2015-09-25 16:01:57	afternuun	remember to triple check!
+2015-09-25 16:02:26	◥	mithrandeer (~mithrande@pool-72-66-74-149.washdc.fios.verizon.net) has joined #archlinux
+2015-09-25 16:03:56	Sonderblade	can the size of the font in the arch console installer be adjusted?
+2015-09-25 16:04:06	Sonderblade	on highdpi screens it is microscopic and unreadable
+2015-09-25 16:04:24	◥	lubayo (~lubayo@197.237.131.43) has joined #archlinux
+2015-09-25 16:05:13	◥	TheParad0x (~androirc@78.111.169.56) has joined #archlinux
+2015-09-25 16:06:03	pemb	I have to get ready for the wcd FL too
+2015-09-25 16:06:23	zekesonxx	Sonderblade, get a magnifying glass
+2015-09-25 16:06:48	◥	txtsd (~txtsd@103.224.6.189) has joined #archlinux
+2015-09-25 16:06:54	◥	Penguin (~xwQ5kwYl6@20264.odci.gov.united-states.rltk.us) has joined #archlinux
+2015-09-25 16:07:11	◣	NeverDie (~NeverDie@cpe-184-152-22-98.nyc.res.rr.com) has quit (Quit: http://radiux.io/)
+2015-09-25 16:07:27	◥	sQVe_ (~sQVe@unaffiliated/sqve) has joined #archlinux
+2015-09-25 16:07:29	◣	sQVe_ (~sQVe@unaffiliated/sqve) has quit (Remote host closed the connection)
+2015-09-25 16:07:30	◥	korjjj (~korjjj@unaffiliated/korjjj) has joined #archlinux
+2015-09-25 16:07:53	NordiQ	Is there an IRC channel dedicated to Linux security?
+2015-09-25 16:08:01	◥	Saturn812 (~Saturn812@87.76.14.52) has joined #archlinux
+2015-09-25 16:08:10	pemb	Sonerblade, use setfont
+2015-09-25 16:08:40	gehidore	##security?
+2015-09-25 16:09:16	◥	Voovode (~Alex@owbqbf.static.otenet.gr) has joined #archlinux
+2015-09-25 16:09:26	◥	weemsledeux (~textual@unaffiliated/weems) has joined #archlinux
+2015-09-25 16:09:53	NordiQ	gehidore: Sure enough lol thanks
+2015-09-25 16:10:44	pemb	afternuun, off to get some shuteye
+2015-09-25 16:11:00	afternuun	pemb: o/
+2015-09-25 16:12:18	◥	smirky (~vasilbog@cce02cs4040-fa12-z.ams.hpecore.net) has joined #archlinux
+2015-09-25 16:14:23	◣	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has quit (Ping timeout: 250 seconds)
+2015-09-25 16:15:26	◣	yzld2002 (~Icedove@192.241.237.99) has quit (Remote host closed the connection)
+2015-09-25 16:16:30	◥	tong (~tong@114.241.14.229) has joined #archlinux
+2015-09-25 16:17:01	◣	tong (~tong@114.241.14.229) has quit (Client Quit)
+2015-09-25 16:17:34	◥	tong (~tong@114.241.14.229) has joined #archlinux
+2015-09-25 16:20:15	◥	BlindHunter (~Alex@178.172.239.244) has joined #archlinux
+2015-09-25 16:22:27	Cloudef	Halfwit: you need patched GTK3 to remove window decoration on wayland
+2015-09-25 16:22:43	Halfwit	Cloudef: I read up on that, yeah.
+2015-09-25 16:22:48	Halfwit	Cloudef: Thank you though.
+2015-09-25 16:22:52	◣	faiden (~faiden@c-266171d5.05-89-626f723.cust.bredbandsbolaget.se) has quit (Ping timeout: 272 seconds)
+2015-09-25 16:23:11	Cloudef	The patch is quite simple though. It simply enables feature that is already there for X11...
+2015-09-25 16:23:27	Cloudef	namely the GTK_CSD switch
+2015-09-25 16:24:24	◥	faiden (~faiden@c-266171d5.05-89-626f723.cust.bredbandsbolaget.se) has joined #archlinux
+2015-09-25 16:25:01	◣	Enkidu_ak (~abrown@unaffiliated/enkidu-ak/x-8729472) has quit (Ping timeout: 240 seconds)
+2015-09-25 16:26:00	◥	Enkidu_ak (~abrown@unaffiliated/enkidu-ak/x-8729472) has joined #archlinux
+2015-09-25 16:26:07	◣	UnknownShadow (~UnknownSh@62.85.17.131) has quit
+2015-09-25 16:27:09	◥	ox33 (~ox33@ip1f1321cb.dynamic.kabel-deutschland.de) has joined #archlinux
+2015-09-25 16:27:15	◥	hardfalcon (~hardfalco@falcon.hardfalcon.net) has joined #archlinux
+2015-09-25 16:27:30	◥	in2rd (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has joined #archlinux
+2015-09-25 16:27:59	ℹ 	mosu_ is now known as mosu
+2015-09-25 16:28:07	◣	llinguini (~llinguini@mobile-130-126-255-80.near.illinois.edu) has quit (Ping timeout: 246 seconds)
+2015-09-25 16:28:13	◣	castlelore (~brian@cpe-66-8-186-100.hawaii.res.rr.com) has quit (Quit: WeeChat 1.3)
+2015-09-25 16:28:19	◣	ox33 (~ox33@ip1f1321cb.dynamic.kabel-deutschland.de) has quit (Client Quit)
+2015-09-25 16:28:31	◣	AliasNumber10 (~AliasNumb@cpe-76-167-192-248.san.res.rr.com) has quit (Remote host closed the connection)
+2015-09-25 16:28:33	◥	jlle (~jlle@81-223-189-174.itzling.xdsl-line.inode.at) has joined #archlinux
+2015-09-25 16:28:51	◥	alpar (~alpar@188.24.94.217) has joined #archlinux
+2015-09-25 16:30:08	◣	Penguin (~xwQ5kwYl6@20264.odci.gov.united-states.rltk.us) has quit (Ping timeout: 248 seconds)
+2015-09-25 16:30:24	◥	j605 (~j605@unaffiliated/j605) has joined #archlinux
+2015-09-25 16:30:30	◣	Jesperhead (~chatzilla@cpe-67-11-189-84.satx.res.rr.com) has quit (Quit: ChatZilla 0.9.92 [Firefox 40.0.3/20150826023504])
+2015-09-25 16:31:29	◣	happy-dude (uid62780@gateway/web/irccloud.com/x-otercnpewsqbplcc) has quit (Quit: Connection closed for inactivity)
+2015-09-25 16:31:47	◣	Enkidu_ak (~abrown@unaffiliated/enkidu-ak/x-8729472) has quit (Ping timeout: 256 seconds)
+2015-09-25 16:32:04	◥	mikcol (~mikkelcor@130.225.93.174) has joined #archlinux
+2015-09-25 16:32:15	◥	Enkidu_ak (~abrown@unaffiliated/enkidu-ak/x-8729472) has joined #archlinux
+2015-09-25 16:32:49	◥	firstdayonthejob (~firstdayo@86.9.151.126) has joined #archlinux
+2015-09-25 16:33:02	◥	Penguin (~xwQ5kwYl6@20264.odci.gov.united-states.rltk.us) has joined #archlinux
+2015-09-25 16:33:19	◥	fungle (~fungible@c-67-180-240-59.hsd1.ca.comcast.net) has joined #archlinux
+2015-09-25 16:33:31	wasamasa	they got rid of just enabling it with the environment variable?
+2015-09-25 16:33:54	Cloudef	wasamasa: the logic for that env variable is disabled by preprocessor define for wayland and mir
+2015-09-25 16:34:06	ℹ 	ariss is now known as miyo
+2015-09-25 16:34:06	wasamasa	Cloudef: ugh
+2015-09-25 16:34:37	Cloudef	https://aur.archlinux.org/packages/gtk3-optional-csd/
+2015-09-25 16:34:38	phrik	Title: AUR (en) - gtk3-optional-csd (at aur.archlinux.org)
+2015-09-25 16:35:04	◥	darkbasic_ (~quassel@niko.linuxsystems.it) has joined #archlinux
+2015-09-25 16:35:06	◥	l3lu3 (~l3lu3@unaffiliated/l3lu3) has joined #archlinux
+2015-09-25 16:35:23	Cloudef	https://aur.archlinux.org/cgit/aur.git/tree/gtk3-make-csd-optional.patch?h=gtk3-optional-csd&id=8c99e473f4705ca1df3416f0b0b612e56e0e90af
+2015-09-25 16:35:24	phrik	Title: aur.git - AUR Package Repositories (at aur.archlinux.org)
+2015-09-25 16:35:27	◥	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has joined #archlinux
+2015-09-25 16:35:29	Cloudef	^ the patch
+2015-09-25 16:35:37	◣	darkbasic (~quassel@niko.linuxsystems.it) has quit (Ping timeout: 250 seconds)
+2015-09-25 16:36:26	◣	ndrei (~avo@197.156.77.66) has quit (Ping timeout: 264 seconds)
+2015-09-25 16:36:37	wasamasa	urrnustly
+2015-09-25 16:36:55	◣	armyriad (~armyriad@198.8.80.57) has quit (Ping timeout: 250 seconds)
+2015-09-25 16:37:10	Halfwit	Thank you, I'll give it a try.
+2015-09-25 16:37:24	◥	armyriad (~armyriad@173.254.206.186) has joined #archlinux
+2015-09-25 16:39:17	◣	fredp2-away (~fredp@unaffiliated/fredp) has quit (Ping timeout: 255 seconds)
+2015-09-25 16:39:25	ℹ 	Booloki-away is now known as Booloki
+2015-09-25 16:41:38	◣	alpar (~alpar@188.24.94.217) has quit (Quit: Leaving.)
+2015-09-25 16:41:51	◥	tomeff (~tomeff@ip-89-176-75-234.net.upcbroadband.cz) has joined #archlinux
+2015-09-25 16:41:56	Halfwit	wasamasa: wasa wasa wasa wasa (That's the sound of a wasa masa going past you)
+2015-09-25 16:42:19	◥	spareproject (~user@97e3a4e7.skybroadband.com) has joined #archlinux
+2015-09-25 16:42:33	◣	jlle (~jlle@81-223-189-174.itzling.xdsl-line.inode.at) has quit (Quit: WeeChat 1.3)
+2015-09-25 16:43:03	◥	breiti (~breiti@2a02:2450:11a0:8001:a568:4bed:813e:f893) has joined #archlinux
+2015-09-25 16:43:08	ℹ 	ap0_deta1hed is now known as ap0calypse
+2015-09-25 16:43:20	◣	hellslinger (~hellsling@c-76-113-59-113.hsd1.nm.comcast.net) has quit (Ping timeout: 255 seconds)
+2015-09-25 16:44:17	◣	djapo (~archie@unaffiliated/djapo) has quit (Ping timeout: 250 seconds)
+2015-09-25 16:44:27	◥	alpar (~alpar@188.24.94.217) has joined #archlinux
+2015-09-25 16:44:52	◥	asch (~asch@unaffiliated/asch) has joined #archlinux
+2015-09-25 16:44:59	⚡	wasamasa is still not over americans not being able to pronounce his nickname properly
+2015-09-25 16:45:05	Cloudef	kaiji?
+2015-09-25 16:45:08	◣	dacoit (~dacoit@unaffiliated/dacoit) has quit (Ping timeout: 255 seconds)
+2015-09-25 16:45:15	ℹ 	zoidb0rg2 is now known as zoidb0rg
+2015-09-25 16:46:13	Halfwit	Vah see lee?
+2015-09-25 16:46:53	◥	djapo (~archie@unaffiliated/djapo) has joined #archlinux
+2015-09-25 16:47:25	Halfwit	Oh this builds slow on this laptop.
+2015-09-25 16:48:05	wasamasa	Halfwit: well, that's my real name
+2015-09-25 16:48:22	wasamasa	https://en.wikipedia.org/wiki/Wasabr%C3%B6d
+2015-09-25 16:48:23	phrik	Title: Wasabröd - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2015-09-25 16:48:55	Halfwit	That's the same weird, light-gutteral o sound as the danish?
+2015-09-25 16:49:26	◣	vash (~null@unaffiliated/vash) has quit (Read error: Connection reset by peer)
+2015-09-25 16:49:33	wasamasa	the s is the problem
+2015-09-25 16:50:54	◥	vash (~null@unaffiliated/vash) has joined #archlinux
+2015-09-25 16:51:22	◣	miyo (~miyo@unaffiliated/miyo) has quit (Quit: Fly me to the moon.)
+2015-09-25 16:51:40	◣	djapo (~archie@unaffiliated/djapo) has quit (Ping timeout: 252 seconds)
+2015-09-25 16:52:10	◣	weemsledeux (~textual@unaffiliated/weems) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-25 16:52:17	◥	kelnoky (~shao@95.91.228.106) has joined #archlinux
+2015-09-25 16:52:53	Halfwit	Cloudef: Thank you, worked as expected!
+2015-09-25 16:54:11	◥	cduez (~cduez@cha77-h01-177.dsl.sta.abo.bbox.fr) has joined #archlinux
+2015-09-25 16:55:37	◣	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has quit (Ping timeout: 246 seconds)
+2015-09-25 16:55:56	◣	vash (~null@unaffiliated/vash) has quit (Read error: Connection reset by peer)
+2015-09-25 16:56:39	◣	minimalism (~minimal@unaffiliated/minimalism) has quit (Quit: leaving)
+2015-10-04 16:43:52	◥	evilcorp (~dean@c27-253-67-106.thoms4.vic.optusnet.com.au) has joined #archlinux
+2015-10-04 16:43:52	ℹ 	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <+> Be kind to the people who are helping you. Be kind to the people you are trying to help. <+> "Think before you type" —Earnestly"
+2015-10-04 16:43:52	ℹ 	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Sat, 03 Oct 2015 20:17:48
+2015-10-04 16:43:52	ℹ 	Channel #archlinux: 1546 nicks (0 ops, 0 voices, 1546 normals)
+2015-10-04 16:43:54	ℹ 	Channel created on Sun, 15 Feb 2004 16:08:31
+2015-10-04 16:45:14	reddraggone9	TIL uninstalling gnome-keyring was a bad idea. Problem is, I did that a few weeks ago and didn't run into any problems until I replaced my wifi card.
+2015-10-04 16:45:34	◣	Poliwhirl (~androirc@e560.ip14.netikka.fi) has quit (Disconnected by services)
+2015-10-04 16:45:41	reddraggone9	The arch wiki continues to be amazing though.
+2015-10-04 16:45:46	◥	NeverTired (uid108572@gateway/web/irccloud.com/x-wulmbwvpdyyxukjs) has joined #archlinux
+2015-10-04 16:46:13	toeshred	cant you remove the gnome keyring directory in your home?
+2015-10-04 16:46:28	◥	vlatkoB (~IRC_clien@unaffiliated/vlatkob) has joined #archlinux
+2015-10-04 16:46:30	toeshred	wherever it gets stored
+2015-10-04 16:47:02	toeshred	which would reset your keyring as if you never used it before.
+2015-10-04 16:47:16	reddraggone9	I dunno?
+2015-10-04 16:47:19	◣	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-04 16:47:31	axum	I'm curious now how gnome-keyring has anything to do with your wifi card. I thought NetworkManager was the one handling all network device info?
+2015-10-04 16:47:35	reddraggone9	I ran into [this](https://wiki.archlinux.org/index.php/NetworkManager#No_prompt_for_password_of_secured_Wi-Fi_networks)
+2015-10-04 16:47:37	phrik	Title: NetworkManager - ArchWiki (at wiki.archlinux.org)
+2015-10-04 16:47:37	◥	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has joined #archlinux
+2015-10-04 16:47:53	◥	Poliwhirl_ (5e166030@gateway/web/freenode/ip.94.22.96.48) has joined #archlinux
+2015-10-04 16:47:53	⚡	reddraggone9 shrugs
+2015-10-04 16:48:34	toeshred	maybe keyring wants to be a middle man between the user and NetworkManager.
+2015-10-04 16:48:46	axum	reddraggone9: Suppose you could always not use NetworkManager too. 
+2015-10-04 16:48:54	axum	toeshred: seems so
+2015-10-04 16:49:03	reddraggone9	But it works so nice with Gnome :D
+2015-10-04 16:49:19	Poliwhirl_	Odd my system is crashing
+2015-10-04 16:49:27	axum	reddraggone9: why remove keyring then? :P
+2015-10-04 16:49:33	reddraggone9	I didn't think I was using it.
+2015-10-04 16:49:36	◥	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has joined #archlinux
+2015-10-04 16:49:38	◣	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has quit (Client Quit)
+2015-10-04 16:49:40	reddraggone9	Turns out I was wrong.
+2015-10-04 16:49:45	Halfwit	Yay! 
+2015-10-04 16:49:50	Halfwit	You're learning.
+2015-10-04 16:49:58	toeshred	i just use nmcli
+2015-10-04 16:50:03	reddraggone9	I just figured I would have found out much sooner if I broke something.
+2015-10-04 16:50:54	zerol0g1k	axum gnome tries to have something to do with *everything*
+2015-10-04 16:51:16	◣	txtsd (~txtsd@103.224.6.208) has quit (Quit: WeeChat 1.3)
+2015-10-04 16:51:19	reddraggone9	But it all works so well together *cough* in general *cough*
+2015-10-04 16:51:32	Poliwhirl_	How do I download archlinux http "style"?
+2015-10-04 16:51:42	◥	txtsd (~txtsd@103.224.6.208) has joined #archlinux
+2015-10-04 16:52:03	axum	zerol0g1k: Yeah. that's generally why  I dont try to separate off anything from it. KDE, Gnome, Unity: gotta go all the way with any of those it seems like
+2015-10-04 16:52:04	◣	chaky (~ncakelic@unaffiliated/chaky) has quit (Quit: leaving)
+2015-10-04 16:52:32	axum	but then again, that's why they're DE's and not WM's 
+2015-10-04 16:52:39	◥	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has joined #archlinux
+2015-10-04 16:52:43	◣	BlueRavenGT (~BlueRaven@8-22-13-219.utopiafiber.net) has quit (Ping timeout: 272 seconds)
+2015-10-04 16:53:14	◥	vimal2012 (~fedora@unaffiliated/vimal2012) has joined #archlinux
+2015-10-04 16:53:26	Poliwhirl_	How do I download Arch Linux from http://?
+2015-10-04 16:53:29	◣	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has quit (Client Quit)
+2015-10-04 16:53:52	zerol0g1k	point browser to archlinux.org. read the front page
+2015-10-04 16:53:52	◥	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has joined #archlinux
+2015-10-04 16:53:58	zerol0g1k	didnt take me much more than that
+2015-10-04 16:53:59	Halfwit	Poliwhirl_: This is 101 shit.
+2015-10-04 16:54:16	◥	lochsloy (~brandon@c-71-202-166-183.hsd1.ca.comcast.net) has joined #archlinux
+2015-10-04 16:54:18	Poliwhirl_	I clicked on 1 of the mirrors
+2015-10-04 16:54:49	zerol0g1k	axum thats why im gnome/kde/unity-free
+2015-10-04 16:54:53	◣	jmad980 (~ayy@104.244.79.55) has quit (Ping timeout: 260 seconds)
+2015-10-04 16:55:12	Poliwhirl_	Ok, I'm a bit stupid (a lot)
+2015-10-04 16:55:33	Halfwit	zerol0g1k: But Termite is so good... 
+2015-10-04 16:56:14	Poliwhirl_	It was weird yesterday I was downloading Arch through transmission
+2015-10-04 16:56:16	◣	woznme (~ident@45.114.116.124) has quit (Ping timeout: 244 seconds)
+2015-10-04 16:56:19	Poliwhirl_	My system crashed
+2015-10-04 16:56:22	Poliwhirl_	twice
+2015-10-04 16:56:23	zerol0g1k	Halfwit, maybe. but if its part of the aforementioned three 'environments', ill never know
+2015-10-04 16:56:36	Poliwhirl_	Core 3 and 4 was 100% loaded
+2015-10-04 16:56:48	Poliwhirl_	I was chatting here on the chat at the same time
+2015-10-04 16:57:01	Halfwit	zerol0g1k: Sadness :(
+2015-10-04 16:57:16	◥	woznme (~ident@45.114.116.124) has joined #archlinux
+2015-10-04 16:57:23	zerol0g1k	meh. im happy with Terminology
+2015-10-04 16:57:31	Poliwhirl_	But I still don't like linux file system
+2015-10-04 16:57:38	◣	ralpheeee (~ralpheeee@cable-78-34-58-104.netcologne.de) has quit (Quit: WeeChat 1.3)
+2015-10-04 16:57:40	pickfire	I am happy with st.
+2015-10-04 16:57:54	netz	Poliwhirl_: oh? why not?
+2015-10-04 16:58:00	axum	Poliwhirl_: install one of the BSD's then?
+2015-10-04 16:58:09	Poliwhirl_	BSD's?
+2015-10-04 16:58:18	Halfwit	OpenBSD, freeBSD, 
+2015-10-04 16:58:20	Halfwit	etc
+2015-10-04 16:58:29	netz	Poliwhirl_: do you mean you dislike ext/zfs/btrfs or do you dislike the filesystem heirarchy?
+2015-10-04 16:58:45	Poliwhirl_	Not native english speaker
+2015-10-04 16:58:52	Poliwhirl_	Or what do you call it
+2015-10-04 16:59:06	Poliwhirl_	I don't understand
+2015-10-04 16:59:24	Halfwit	What language do you natively speak?
+2015-10-04 16:59:39	Poliwhirl_	natively = main right
+2015-10-04 16:59:48	Halfwit	Yes
+2015-10-04 16:59:58	Poliwhirl_	Swedish, Finnish
+2015-10-04 17:00:02	◣	Kirito (~Kirito@pdpc/supporter/student/kirito) has quit (Ping timeout: 240 seconds)
+2015-10-04 17:00:05	Poliwhirl_	Live in Finland
+2015-10-04 17:00:13	vimal2012	What is the best way to backup newly installed arch linux? (No documents, only operating system).  I have no plans of upgrading this newly installed arch linux for another one year. So if anything happens to operating system, I want to restore it to today's state (something like factory resetting). Can I use dd command?  Or any better commands for this purpose?
+2015-10-04 17:00:32	pickfire	rsync?
+2015-10-04 17:00:34	◥	chaky (~ncakelic@unaffiliated/chaky) has joined #archlinux
+2015-10-04 17:00:40	pickfire	Or dd maybe.
+2015-10-04 17:00:44	Halfwit	er archlinux.fi 
+2015-10-04 17:00:46	netz	vimal2012: rsync very carefully :P
+2015-10-04 17:00:47	◣	necrogami (~necrogami@unaffiliated/necrogami) has quit (Ping timeout: 264 seconds)
+2015-10-04 17:00:48	Poliwhirl_	Where are you guys from?
+2015-10-04 17:00:53	◣	arselinux (~dicks@173-24-183-225.client.mchsi.com) has quit (Remote host closed the connection)
+2015-10-04 17:00:56	vimal2012	netz: Why carefully?
+2015-10-04 17:00:57	netz	Poliwhirl_: Texas
+2015-10-04 17:00:58	Halfwit	#archlinux.se
+2015-10-04 17:00:59	axum	Poliwhirl: United States
+2015-10-04 17:01:02	Poliwhirl_	I don't like finnish
+2015-10-04 17:01:04	pickfire	Poliwhirl_: Malaysia
+2015-10-04 17:01:12	netz	vimal2012: if you don't want /home and such
+2015-10-04 17:01:23	pickfire	rsync --exclude /home
+2015-10-04 17:01:26	Poliwhirl_	or swedish
+2015-10-04 17:01:38	Poliwhirl_	I want to read english
+2015-10-04 17:01:41	◣	Big_G (~Big_G@c-76-104-131-61.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2015-10-04 17:01:46	Halfwit	I understand.
+2015-10-04 17:01:51	vimal2012	netz: You mean there is a risk of overwriting new /home folder with old /home folder?
+2015-10-04 17:01:51	pickfire	I don't think you want /media and /mnt
+2015-10-04 17:01:52	Scimmia	vimal2012, if you have no plans to upgrade, why the hell would you choose a rolling release like Arch?
+2015-10-04 17:01:54	axum	Poliwhirl_: Linus Torvaldes is finnish if that makes you feel better
+2015-10-04 17:02:11	netz	!give vimal2012 wiki full system backup with rsync
+2015-10-04 17:02:12	phrik	vimal2012: https://wiki.archlinux.org/index.php/Full_system_backup_with_rsync
+2015-10-04 17:02:15	pickfire	axum: I think you know that.
+2015-10-04 17:02:19	vimal2012	Scimmia: compactness
+2015-10-04 17:02:24	◣	NeverDie (~NeverDie@cpe-184-152-22-98.nyc.res.rr.com) has quit (Quit: http://radiux.io/)
+2015-10-04 17:02:29	pickfire	he*
+2015-10-04 17:02:32	◥	necrogami (~necrogami@unaffiliated/necrogami) has joined #archlinux
+2015-10-04 17:02:40	Scimmia	vimal2012, there are much better choices for that
+2015-10-04 17:03:02	pickfire	vimal2012: Yeah, I like that. Sometimes you installed a lot of applications and want to start with a new system again.
+2015-10-04 17:03:09	◣	smokeink (~smoke@121.31.122.29) has quit (Ping timeout: 240 seconds)
+2015-10-04 17:03:34	Halfwit	axum: He's Finnish, I don't think that he needs any more validation of his supremacy. 
+2015-10-04 17:03:48	axum	lol
+2015-10-04 17:04:16	Poliwhirl_	His native language is Swedish*
+2015-10-04 17:04:31	Halfwit	I'm learning Danish, so far it's fun
+2015-10-04 17:04:37	◥	mirage335 (~mirage335@64.79.53.122) has joined #archlinux
+2015-10-04 17:04:46	Poliwhirl_	I wondered how you write like that so your name gets read, it wasn't /msg
+2015-10-04 17:05:15	Poliwhirl_	100 KiB
+2015-10-04 17:05:19	◣	wilson (~wilson@unaffiliated/wilson) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-10-04 17:05:28	Poliwhirl_	100 KiB/s
+2015-10-04 17:06:02	◣	axum (~axum@cpe-65-26-114-251.kc.res.rr.com) has quit (Quit: WeeChat 1.3)
+2015-10-04 17:06:11	◥	Zequal (~polaroid@184.175.49.236) has joined #archlinux
+2015-10-04 17:06:23	Zequal	Hey all.
+2015-10-04 17:06:42	reqgame	can someone with powerline on urxvt show a screenshot of there config, my font doesnt seem to want to work
+2015-10-04 17:07:06	Halfwit	Poliwhirl_: Tab button. Write like 'Ha[tab]', it will auto-complete to 'Halfwit'
+2015-10-04 17:07:06	◣	comma8 (~comma8@c-71-59-251-114.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2015-10-04 17:07:11	Halfwit	Poliwhirl_: As an example.
+2015-10-04 17:07:51	Zequal	One of my VirtualBox VMs is accessing the host's HTTP server and I am getting around 60-100KB/s... What's with that?
+2015-10-04 17:07:59	◣	in2rd-irc (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2015-10-04 17:08:16	Zequal	Virtual NIC taking a dump or is there more to it?
+2015-10-04 17:08:34	◣	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has quit (Quit: Quit:  Catch you on the back nine.)
+2015-10-04 17:08:43	pickfire	reqgame: You need to use a powerline font
+2015-10-04 17:09:08	◥	ex3 (~ex3@host-89-231-217-47.dynamic.mm.pl) has joined #archlinux
+2015-10-04 17:09:15	Halfwit	Zequal: Sounds like it. Virtualbox has to have some decent debugging built in, no?
+2015-10-04 17:09:17	reqgame	pickfire: i was to my knowledge. 
+2015-10-04 17:09:26	reqgame	pickfire: still wouldnt display correctly
+2015-10-04 17:09:44	◣	Poliwhirl_ (5e166030@gateway/web/freenode/ip.94.22.96.48) has quit (Ping timeout: 246 seconds)
+2015-10-04 17:10:00	reqgame	i waas using "URxvt*font: xft:Terminus:pixelsize=8,xftDroid\ Sans\ for\ Powerline::pixelsize=8
+2015-10-04 17:10:17	Halfwit	https://github.com/powerline/powerline/issues/453
+2015-10-04 17:10:18	phrik	Title: Still unable to see the > and the < separators in my (terminal vim) and urxvt. · Issue #453 · powerline/powerline · GitHub (at github.com)
+2015-10-04 17:10:28	Halfwit	Haaaay Google!
+2015-10-04 17:11:13	Halfwit	!halfwit
+2015-10-04 17:11:35	◥	blunaxela (~alex@45.56.20.105) has joined #archlinux
+2015-10-04 17:11:45	reqgame	well ok then
+2015-10-04 17:12:25	Zequal	Halfwit: I'll follow up with you in a bit.
+2015-10-04 17:12:31	Zequal	Halfwit: Investigating it now.
+2015-10-04 17:12:41	Halfwit	Zequal: I don't know anything about Virtualbox though
+2015-10-04 17:13:02	Zequal	Halfwit: No problem, if you're curious as I am. I'll just share what I learn.
+2015-10-04 17:13:20	Halfwit	Zequal: That is most welome
+2015-10-04 17:13:24	Halfwit	welcome *
+2015-10-04 17:13:37	◣	vimal2012 (~fedora@unaffiliated/vimal2012) has left #archlinux ("Konversation terminated!")
+2015-10-04 17:13:50	◣	jonathono (~jolson@cpe-72-182-68-54.austin.res.rr.com) has quit (Ping timeout: 244 seconds)
+2015-10-04 17:14:03	◣	oxhak (~OxHaK@unaffiliated/oxhak) has quit (Remote host closed the connection)
+2015-10-04 17:15:14	pickfire	reqgame: What about the output of `fc-list | grep -i droid`?
+2015-10-04 17:15:44	◥	Poliwhirl_ (5e166030@gateway/web/freenode/ip.94.22.96.48) has joined #archlinux
+2015-10-04 17:15:49	Halfwit	fc-cache -vf is useful sometimes
+2015-10-04 17:15:53	Poliwhirl_	Hi again
+2015-10-04 17:16:11	Poliwhirl_	I am installing Arch Linux on VirtualBox
+2015-10-04 17:16:27	pickfire	reqgame: It seems like I doesn't have Droid Sans for Powerline
+2015-10-04 17:16:33	Poliwhirl_	Should I use Beginners' guide or Installations guide?
+2015-10-04 17:17:05	zerol0g1k	the latter
+2015-10-04 17:17:06	reqgame	pickfire: /usr/share/fonts/TTF then droid fonts
+2015-10-04 17:17:24	◥	iwesley (~root@103.233.80.209) has joined #archlinux
+2015-10-04 17:17:28	reqgame	i moved only 1 Droid font to ~/.fontconfig
+2015-10-04 17:17:34	Poliwhirl_	Should I use Beginners' guide or Installations guide?
+2015-10-04 17:17:36	◣	iwesley (~root@103.233.80.209) has quit (Client Quit)
+2015-10-04 17:17:41	zerol0g1k	THE LATTER
+2015-10-04 17:17:44	Halfwit	installation guide
+2015-10-04 17:17:48	Poliwhirl_	Ok
+2015-10-04 17:17:50	zerol0g1k	oh right. sorry. i forgot the language barrier thing
+2015-10-04 17:17:51	zerol0g1k	heh
+2015-10-04 17:17:53	Halfwit	Hhaha
+2015-10-04 17:18:12	pickfire	reqgame: Do you have other terminal such as lxterminal?
+2015-10-04 17:18:22	Poliwhirl_	latter?
+2015-10-04 17:18:29	Halfwit	The last option
+2015-10-04 17:18:32	reqgame	ill install one real quick
+2015-10-04 17:18:35	◥	iwesley (~root@103.233.80.209) has joined #archlinux
+2015-10-04 17:18:38	Poliwhirl_	Oh
+2015-10-04 17:18:46	Poliwhirl_	I didn't know what it means
+2015-10-04 17:18:51	◣	urodna (~urodna@unaffiliated/urodna) has quit (Quit: urodna)
+2015-10-04 17:18:53	Halfwit	That's fine.
+2015-10-04 17:18:53	Poliwhirl_	Had to google it
+2015-10-04 17:19:04	Halfwit	I don't know any Finnish.
+2015-10-04 17:19:34	◣	UtkarshRay (~Creator@2607:3f00:1:169::e42c) has quit (Remote host closed the connection)
+2015-10-04 17:19:35	Poliwhirl_	Where did you live Halfwit or did you tell me?
+2015-10-04 17:19:40	Halfwit	Poliwhirl_: Canada
+2015-10-04 17:19:43	Poliwhirl_	Oh
+2015-10-04 17:19:48	Poliwhirl_	I can't any French
+2015-10-04 17:19:49	pickfire	reqgame: What is in your ~/.Xresources for the font?
+2015-10-04 17:19:59	Poliwhirl_	I don't know any French*
+2015-10-04 17:20:08	◣	Batch (~Batch@unaffiliated/batch) has quit (Quit: Yak yak yak)
+2015-10-04 17:20:09	reqgame	pickfire: lxterminal works fine
+2015-10-04 17:20:12	Halfwit	Konevitsan Kirkonkellot 
+2015-10-04 17:20:20	◣	iwesley (~root@103.233.80.209) has quit (Client Quit)
+2015-10-04 17:20:43	Poliwhirl_	I'm not sure if you speak French but they speak French in oh Canada
+2015-10-04 17:20:48	Halfwit	And Kiitos, that's it. 
+2015-10-04 17:20:50	◥	in2rd-irc (~in2rd@pool-98-117-212-240.bltmmd.fios.verizon.net) has joined #archlinux
+2015-10-04 17:20:57	reqgame	what i pasted earlier, but i a few different ones i have been trying
+2015-10-04 17:21:09	pickfire	reqgame: If lxterminal works find, then maybe you got ~/.Xresources wrong.
+2015-10-04 17:21:25	◣	ediT (~ediT@unaffiliated/edit) has left #archlinux ("WeeChat 1.3")
+2015-10-04 17:21:32	◣	Pyrus (~pyrus@unaffiliated/pyrus) has quit (Quit: ZNC - http://znc.in)
+2015-10-04 17:21:43	Poliwhirl_	Oui/Non = Yes/No
+2015-10-04 17:21:49	Halfwit	nice
+2015-10-04 17:22:07	Poliwhirl_	I knew that but I had to google to see if it was correct
+2015-10-04 17:22:15	pickfire	reqgame: pm me
+2015-10-04 17:22:27	Halfwit	What does that even mean? 
+2015-10-04 17:22:36	Halfwit	Konevitsan kirkonkellot
+2015-10-04 17:23:55	Halfwit	Eh. whatever. 
+2015-10-04 17:23:58	Poliwhirl_	Konevitsan kirkonkellot = Orthodox "churchclock"
+2015-10-04 17:24:20	Halfwit	!yt Sentenced aika multaa muistot
+2015-10-04 17:24:21	phrik	Halfwit: Sentenced - Aika Multaa Muistot / Everything Is Nothing (with lyrics ...: <http://www.youtube.com/watch?v=zWtrc5ccRX8>
+2015-10-04 17:24:33	Halfwit	I know that one already, but I like this song.
+2015-10-04 17:24:59	zerol0g1k	sentenced was ok. their vocalist moved to Poisonblack i think. didnt like his work as much there
+2015-10-04 17:25:03	◥	charliesome (~charlieso@ppp118-209-155-26.lns20.mel8.internode.on.net) has joined #archlinux
+2015-10-04 17:25:06	Halfwit	Neither did I
+2015-10-04 17:25:13	Halfwit	But i haven't followed them since
+2015-10-04 17:25:16	zerol0g1k	me neither
+2015-10-04 17:25:32	Halfwit	That damn Buried Alive DVD was pretty much it for me.
+2015-10-04 17:25:33	zerol0g1k	have you heard Raise the Flag? (by sentenced?)
+2015-10-04 17:25:51	zerol0g1k	or is it lower the flag? dammit. googling
+2015-10-04 17:25:57	Halfwit	THE LATTER
+2015-10-04 17:26:00	Halfwit	:p
+2015-10-04 17:26:12	zerol0g1k	Hah!
+2015-10-04 17:26:16	zerol0g1k	ok so you have heard it
+2015-10-04 17:26:22	zerol0g1k	well, thats my favorite from them
+2015-10-04 17:26:39	Halfwit	When this one hits the heavy bit, if you listen to it rather loud -- hot damn.
+2015-10-04 17:26:40	◣	j0rd__ (~j0rd_@unaffiliated/j0rd-/x-9112651) has quit (Read error: Connection reset by peer)
+2015-10-04 17:26:51	Halfwit	That tone is absurd.
+2015-10-04 17:26:58	zerol0g1k	ill check it out
+2015-10-04 17:27:02	Poliwhirl_	You like this kind of music?
+2015-10-04 17:27:03	zerol0g1k	whats one more browser tab?
+2015-10-04 17:27:07	zerol0g1k	i only have like.. 30
+2015-10-04 17:27:11	Poliwhirl_	that*
+2015-10-04 17:27:17	Halfwit	I don't have a favorite really.
+2015-10-04 17:27:22	Halfwit	Poliwhirl_: Yeah. 
+2015-10-04 17:27:31	Halfwit	Poliwhirl_: I'm from the Cold White North, too.
+2015-10-04 17:27:34	Poliwhirl_	Me too
+2015-10-04 17:27:44	Poliwhirl_	But I can lissen to pop music too
+2015-10-04 17:28:00	Halfwit	Schlager?
+2015-10-04 17:28:00	◣	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has quit (Read error: Connection reset by peer)
+2015-10-04 17:28:01	◥	plww (~plw@acjw57.neoplus.adsl.tpnet.pl) has joined #archlinux
+2015-10-04 17:28:19	zerol0g1k	im listening to Dark Tranquility right now. one of my all-time fave bands
+2015-10-04 17:28:29	zerol0g1k	pithos is such a wonderful piece of software
+2015-10-04 17:28:45	Poliwhirl_	"Everything is nothing" isn't schlager, or is it?
+2015-10-04 17:28:49	Poliwhirl_	It's not
+2015-10-04 17:28:51	Halfwit	Poliwhirl_: Nooo
+2015-10-04 17:29:15	Poliwhirl_	I'm not so good at "grouping" music, sorry
+2015-10-04 17:29:16	Halfwit	Poliwhirl_: Schlager is more pop, but do you mean American pop?
+2015-10-04 17:29:34	Poliwhirl_	I didn't mean pop
+2015-10-04 17:30:02	◥	NeverDie (~NeverDie@cpe-184-152-22-98.nyc.res.rr.com) has joined #archlinux
+2015-10-04 17:30:08	Halfwit	Oh ok. 
+2015-10-04 17:30:09	◥	s_kunk (~s_kunk@unaffiliated/s-kunk/x-5139101) has joined #archlinux
+2015-10-04 17:30:37	◣	s_kunk (~s_kunk@unaffiliated/s-kunk/x-5139101) has quit (Read error: Connection reset by peer)
+2015-10-04 17:30:47	Poliwhirl_	Schlager = Iskelmä (Finnish)
+2015-10-04 17:31:20	Poliwhirl_	Nova, Spectre...
+2015-10-04 17:31:42	Halfwit	Ahhh ok
+2015-10-04 17:32:12	Poliwhirl_	It's sometime easier to focus with techno
+2015-10-04 17:32:21	Poliwhirl_	Techno, mayby
+2015-10-04 17:32:41	Poliwhirl_	No lyrics
+2015-10-04 17:32:58	Poliwhirl_	How should I partition?
+2015-10-04 17:32:59	◥	clynamen (~clynamen@93-50-191-217.ip153.fastwebnet.it) has joined #archlinux
+2015-10-04 17:33:08	Halfwit	Hm. 
+2015-10-04 17:33:13	Poliwhirl_	Like how many partitions?
+2015-10-04 17:33:30	◣	frenata (~frenata@139.0.119.194) has quit (Ping timeout: 250 seconds)
+2015-10-04 17:34:12	Halfwit	/ /home /boot and probably swap
+2015-10-04 17:34:18	Halfwit	Is what I used 
+2015-10-04 17:34:18	◥	oxhak (~OxHaK@unaffiliated/oxhak) has joined #archlinux
+2015-10-04 17:34:38	Poliwhirl_	It's says that root should be first
+2015-10-04 17:34:56	Halfwit	oh sorry, yes. that was not in any order.
+2015-10-04 17:35:18	◥	Pyrus (~pyrus@unaffiliated/pyrus) has joined #archlinux
+2015-10-04 17:35:23	Halfwit	zerol0g1k: When you realize that some of there songs are multi-part, or before-and-after, it's pretty shocking :p
+2015-10-04 17:35:27	Halfwit	their 
+2015-10-04 17:35:37	◣	silverwyrda (~AnonSW@2001:41d0:a:6934::1) has quit (Quit: WeeChat 1.3)
+2015-10-04 17:35:49	zerol0g1k	halfwit i like complex compositions, so im always cool with that sort of thing
+2015-10-04 17:35:59	zerol0g1k	bah. too fast for the tab key
+2015-10-04 17:36:05	Halfwit	Revisits on themes and the like?
+2015-10-04 17:36:07	Poliwhirl_	I got 32 GiB
+2015-10-04 17:36:16	Halfwit	Like Unforgiven I and II >.>;
+2015-10-04 17:36:33	zerol0g1k	indeed. Hangar 18 and Return to Hangar 18
+2015-10-04 17:36:34	Poliwhirl_	Should I use 100%?
+2015-10-04 17:36:45	zerol0g1k	the Leaving Song parts 1 and 2
+2015-10-04 17:36:52	Halfwit	Poliwhirl_: Oh, that's plenty. There's a wiki part for suggested sizes
+2015-10-04 17:37:14	Poliwhirl_	I got 32 GiB should I leave anything?
+2015-10-04 17:37:19	zerol0g1k	I Won't See You Tonight pt 1 and 2  
+2015-10-04 17:37:33	◥	s_kunk (~s_kunk@unaffiliated/s-kunk/x-5139101) has joined #archlinux
+2015-10-04 17:38:06	Halfwit	I don't think you would need to, Poliwhirl_ 
+2015-10-04 17:38:16	Poliwhirl_	But should I?
+2015-10-04 17:38:22	Poliwhirl_	It's on VirtualBox?
+2015-10-04 17:38:40	Halfwit	i don't know much about Virtualbox.
+2015-10-04 17:38:56	Halfwit	zerol0g1k: I wrote one! :p
+2015-10-04 17:39:18	Poliwhirl_	I don't use 100% of the space then
+2015-10-04 17:39:32	zerol0g1k	lol
+2015-10-04 17:39:47	Poliwhirl_	First Sector: I leave it empty
+2015-10-04 17:40:06	Halfwit	zerol0g1k: Too bad that i never finished recording them. :(
+2015-10-04 17:40:16	◣	s_kunk (~s_kunk@unaffiliated/s-kunk/x-5139101) has quit (Read error: Connection reset by peer)
+2015-10-04 17:40:30	zerol0g1k	Halfwit, oh you write music? thats awesome :)
+2015-10-04 17:40:44	Poliwhirl_	swap file I got 4 GiB ram so I have 8 GiB swap
+2015-10-04 17:40:51	Halfwit	That's correct
+2015-10-04 17:41:02	Halfwit	zerol0g1k: Yeah, well, I have a lot to say :p
+2015-10-04 17:41:04	Fjorgynn	depends
+2015-10-04 17:41:14	Fjorgynn	You can have more or less swap also
+2015-10-04 17:41:16	zerol0g1k	Halfwit, i can relate :D
+2015-10-04 17:41:25	Fjorgynn	you don't really need more than 8 GB of swap 
+2015-10-04 17:41:33	Poliwhirl_	Yeah
+2015-10-04 17:41:50	Poliwhirl_	Do I need less?
+2015-10-04 17:42:01	Halfwit	Damn, Myspace needs flash.
+2015-10-04 17:42:09	Fjorgynn	flash is the future
+2015-10-04 17:42:35	Poliwhirl_	Why do I have 1007KiB free space?
+2015-10-04 17:42:47	Poliwhirl_	before Linux Filesystem?
+2015-10-04 17:42:57	Halfwit	Alignments
+2015-10-04 17:43:12	Fjorgynn	 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s2-diskpartrecommend-ppc.html#id4394007
+2015-10-04 17:43:14	phrik	Title: 16.17.5. Recommended Partitioning Scheme (at access.redhat.com)
+2015-10-04 17:43:15	◥	j0rd__ (~j0rd_@unaffiliated/j0rd-/x-9112651) has joined #archlinux
+2015-10-04 17:43:30	Fjorgynn	TAble 16:2
+2015-10-04 17:43:33	Poliwhirl_	Should I have boot before Linux Filesystem
+2015-10-04 17:44:08	Halfwit	Holy shit. 
+2015-10-04 17:44:14	Halfwit	Myspace stores things forever.
+2015-10-04 17:44:18	Fjorgynn	:)
+2015-10-04 17:44:20	zerol0g1k	lol
+2015-10-04 17:44:50	Poliwhirl_	Should I have boot before /
+2015-10-04 17:44:52	◣	rol31 (~bf3@46.166.190.195) has quit (Quit: leaving)
+2015-10-04 17:44:59	Halfwit	I should download these and finish them.
+2015-10-04 17:45:11	Halfwit	Lost the tracks years ago 
+2015-10-04 17:45:24	zerol0g1k	oh thats awesome that you were able to recover them
+2015-10-04 17:45:27	zerol0g1k	gratz dude
+2015-10-04 17:45:32	Poliwhirl_	Gratz
+2015-10-04 17:45:32	◥	Zava (~Zava@86.93.43.117) has joined #archlinux
+2015-10-04 17:45:42	Fjorgynn	Poliwhirl_: I have no idea if you need /boot before / but I usually do that
+2015-10-04 17:45:50	Halfwit	The solo is just wrong though ;-;
+2015-10-04 17:46:33	zerol0g1k	so tear it open, cut out the solo, and keep what you like. 
+2015-10-04 17:46:37	Fjorgynn	I've never really had a separate /home
+2015-10-04 17:47:05	Halfwit	Fjorgynn: It's because the bios will look at the beginning of the disk for the bootloader, normally
+2015-10-04 17:47:25	zerol0g1k	my /home is separate. it works best for me that way for me
+2015-10-04 17:47:35	◥	pnsrc2 (~pnsrc@unaffiliated/pnsrc) has joined #archlinux
+2015-10-04 17:47:45	Fjorgynn	Halfwit: can you change the device name like switch from sda2 to sda1 in like cfdisk?
+2015-10-04 17:48:02	Fjorgynn	or must you delete the sda1 and create a new?
+2015-10-04 17:48:12	Halfwit	idk. I just switch the SATA cable, 
+2015-10-04 17:48:19	Fjorgynn	x)
+2015-10-04 17:48:21	netz	Fjorgynn: with gpt you can sort the partitions :P
+2015-10-04 17:48:25	Poliwhirl_	Do I need hexcodes?
+2015-10-04 17:48:41	netz	Poliwhirl_: gpt hex codes? depends on what you're doing
+2015-10-04 17:48:55	⚡	Fjorgynn are just using Architect Linux installer for Arch. Found it to be simpler
+2015-10-04 17:49:32	◣	circle (~circle@unaffiliated/circle) has quit (Ping timeout: 250 seconds)
+2015-10-04 17:50:01	Poliwhirl_	freeBSD boot
+2015-10-04 17:50:11	Poliwhirl_	Is that the right GUID?
+2015-10-04 17:50:26	◣	pnsrc (~pnsrc@unaffiliated/pnsrc) has quit (Ping timeout: 255 seconds)
+2015-10-04 17:50:52	◥	s_kunk (~s_kunk@unaffiliated/s-kunk/x-5139101) has joined #archlinux
+2015-10-04 17:50:52	◣	j0rd__ (~j0rd_@unaffiliated/j0rd-/x-9112651) has quit (Read error: Connection reset by peer)
+2015-10-04 17:50:58	◣	s_kunk (~s_kunk@unaffiliated/s-kunk/x-5139101) has quit (Read error: Connection reset by peer)
+2015-10-04 17:51:34	◥	fredp2 (~fredp@unaffiliated/fredp) has joined #archlinux
+2015-10-04 17:51:47	netz	Poliwhirl_: are you installing freebsd?
+2015-10-04 17:51:52	Halfwit	Alright, time for night night.
+2015-10-04 17:52:09	Poliwhirl_	No
+2015-10-04 17:52:48	Poliwhirl_	No hex code then 
+2015-10-04 17:52:50	grawity	1) you have X KiB before your first partition because partitions work best when they're aligned to a certain multiple of 2; 2) it doesn't matter what order /, /boot, BBP, ESP are in; 3) sure you need hexcodes; it's not gonna accept Morse; 4) "freebsd boot" is only right for *FreeBSD* boot
+2015-10-04 17:52:58	grawity	if there's no specific hex code, use a generic one
+2015-10-04 17:53:20	Poliwhirl_	I used none
+2015-10-04 17:53:23	Poliwhirl_	Does that work?
+2015-10-04 17:53:32	grawity	maybe, maybe not
+2015-10-04 17:53:39	grawity	better use "Linux filesystem" or something such
+2015-10-04 17:54:21	Poliwhirl_	I used Linux filesystem
+2015-10-04 17:54:48	◥	fflam (~mdt@ip72-192-136-18.sd.sd.cox.net) has joined #archlinux
+2015-10-04 17:55:32	Fjorgynn	I just mostly 83 and 82 for swap
+2015-10-04 17:55:34	Fjorgynn	I think
+2015-10-04 17:55:58	Halfwit	grawity: TIL about the ordering.
+2015-10-04 17:55:59	grawity	that'd work if this were a MBR partition
+2015-10-04 17:56:06	Halfwit	grawity: Makes sense though. 
+2015-10-04 17:56:32	grawity	Halfwit: often the only requirement (if any) is that a partition would be within the range of LBA (if the bootloader can't do LBA48) or CHS (if it can't do LBA either)
+2015-10-04 17:56:52	grawity	and, well, *sometimes* its size, like I couldn't get WinXP to boot from a 2 TB partition
+2015-10-04 17:57:05	grawity	yet it booted fine from a /boot partition at the very end of 2 TB
+2015-10-04 17:57:20	Halfwit	Haha
+2015-10-04 17:57:23	grawity	I don't remember the order being special anywhere though
+2015-10-04 17:57:34	grawity	I mean, MBR has the 'active' flag for that
+2015-10-04 17:57:45	grawity	so does GPT, if you're on BIOS
+2015-10-04 17:57:57	grawity	ANYWAY
+2015-10-04 17:58:42	Halfwit	You do carry on :p
+2015-10-04 17:58:53	Halfwit	Oh shit. Night.
+2015-10-04 17:58:54	Halfwit	o/
+2015-10-04 17:59:06	Fjorgynn	awesome
+2015-10-04 17:59:16	Fjorgynn	it's only 9 am
+2015-10-04 17:59:22	Halfwit	!ugn
+2015-10-04 17:59:23	phrik	Good (ugt) night to all from Halfwit!
+2015-10-04 17:59:47	grawity	it's 10am and I haven't slept any
+2015-10-04 17:59:57	grawity	gotta finish that webcomic archive binge
+2015-10-04 18:00:10	grawity	(actually I was done by 3am, I just decided to re-read it)
+2015-10-04 18:00:14	◥	zoidb0rg (~zoidb0rg@unaffiliated/zoidb0rg) has joined #archlinux
+2015-10-04 18:00:50	◣	Poliwhirl_ (5e166030@gateway/web/freenode/ip.94.22.96.48) has quit (Ping timeout: 246 seconds)
+2015-10-04 18:01:50	◣	fflam (~mdt@ip72-192-136-18.sd.sd.cox.net) has quit (Quit: WeeChat 1.3)
+2015-10-04 18:02:06	◣	txtsd (~txtsd@103.224.6.208) has quit (Read error: Connection reset by peer)
+2015-10-04 18:02:33	netz	can someone do me a favor? zgrep TPM /proc/config.gz
+2015-10-04 18:02:58	◣	woznme (~ident@45.114.116.124) has quit (Quit: gone)
+2015-10-04 18:03:04	netz	on the stock kernel
+2015-10-04 18:03:27	◣	blunaxela (~alex@45.56.20.105) has quit (Read error: Connection reset by peer)
+2015-10-04 18:03:42	◥	rol31 (~bf3@179.43.169.130) has joined #archlinux
+2015-10-04 18:04:02	◥	woznme (~ident@45.114.116.124) has joined #archlinux
+2015-10-04 18:04:26	Fjorgynn	maybe in virtualbox
+2015-10-04 18:04:52	◥	GriefNorth (~GriefNort@2a02:2698:5c22:7395:d63d:7eff:fe31:e153) has joined #archlinux
+2015-10-04 18:05:14	netz	Fjorgynn: hmm?
+2015-10-04 18:06:06	◣	besenwesen (~besenwese@unaffiliated/besenwesen) has quit (Quit: ☠)
+2015-10-04 18:06:11	Fjorgynn	what's the difference between zgrep and grep btw?
+2015-10-04 18:06:25	◥	UtkarshRay (~Creator@2607:3f00:1:169::e42c) has joined #archlinux
+2015-10-04 18:06:27	dagle	zgrep is on gziped files.
+2015-10-04 18:06:55	◣	charlie5 (~rod@ppp118-211-202-26.lns20.syd4.internode.on.net) has quit (Quit: Leaving.)
+2015-10-04 18:07:02	◥	besenwesen (~besenwese@unaffiliated/besenwesen) has joined #archlinux
+2015-10-04 18:07:20	netz	^
+2015-10-04 18:07:31	Fjorgynn	nothing happens
+2015-10-04 18:07:40	Fjorgynn	should it output something?
+2015-10-04 18:07:47	◥	fflam (~mdt@ip72-192-136-18.sd.sd.cox.net) has joined #archlinux
+2015-10-04 18:07:49	Boohbah	echo $?
+2015-10-04 18:08:22	netz	Boohbah: heyo o/
+2015-10-04 18:08:35	◥	charlie5 (~rod@ppp118-211-202-26.lns20.syd4.internode.on.net) has joined #archlinux
+2015-10-04 18:08:40	◥	txtsd (~txtsd@103.224.6.208) has joined #archlinux
+2015-10-04 18:08:48	◣	toeshred (~chris@cpe-45-48-241-145.socal.res.rr.com) has left #archlinux ("WeeChat 1.0.1")
+2015-10-04 18:08:52	◥	j0rd__ (~j0rd_@unaffiliated/j0rd-/x-9112651) has joined #archlinux
+2015-10-04 18:09:09	Boohbah	hi netz
+2015-10-04 18:09:36	netz	recompiling kernel for two reasons: one, new release, two, want to fiddle with the tpm kernel module
+2015-10-04 18:10:03	netz	Fjorgynn: this *is* the stock kernel right, from the repos?
+2015-10-04 18:10:45	Fjorgynn	yeah but it took so long time. Need a faster computer
+2015-10-04 18:11:14	◣	zrj (~raw_rw@84.240.17.161) has quit (Quit: leaving)
+2015-10-04 18:12:29	netz	Fjorgynn: its just like grepping a normal file, plus decompression on the fly
+2015-10-04 18:12:56	◣	kristof (~kristof@unaffiliated/kristof) has quit (Ping timeout: 255 seconds)
+2015-10-04 18:14:22	netz	so it won't say anything unless it finds a match 
+2015-10-04 18:14:22	◣	lochsloy (~brandon@c-71-202-166-183.hsd1.ca.comcast.net) has quit (Quit: Lost terminal)
+2015-10-04 18:14:56	◥	lochsloy (~brandon@c-71-202-166-183.hsd1.ca.comcast.net) has joined #archlinux
+2015-10-04 18:15:03	◣	lochsloy (~brandon@c-71-202-166-183.hsd1.ca.comcast.net) has quit (Client Quit)
+2015-10-04 18:15:34	◥	lochsloy (~brandon@c-71-202-166-183.hsd1.ca.comcast.net) has joined #archlinux
+2015-10-04 18:16:12	◥	neckutrek (~neckutrek@h-88-107.a163.priv.bahnhof.se) has joined #archlinux
+2015-10-04 18:16:40	◣	reqgame (~reqgame@c-73-51-13-109.hsd1.il.comcast.net) has quit (Quit: WeeChat 1.3)

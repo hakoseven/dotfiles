@@ -1,0 +1,194 @@
+2015-09-25 10:48:45	GustavoAraujo	https://scontent.xx.fbcdn.net/hphotos-xap1/v/t34.0-12/12048497_1622693501314280_1415067835_n.jpg?oh=9b43d93bc740402acc4679e8fbc3c651&oe=5606DE8C
+2015-09-25 10:53:32	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 10:56:20	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 10:59:50	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 11:28:05	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 11:28:13	GustavoAraujo	Nope
+2015-09-25 11:28:20	GustavoAraujo	On youtube?
+2015-09-25 11:30:58	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 11:31:12	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 11:33:11	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 11:34:08	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 11:43:20	dean	did you see
+2015-09-25 11:46:03	GustavoAraujo	Let me check
+2015-09-25 11:54:01	GustavoAraujo	Well
+2015-09-25 11:54:52	GustavoAraujo	I dont think you are wrong, but i think a week is a short time to really experiment a distro - I mean deeply -.
+2015-09-25 11:55:18	dean	well a week long enough when i need a distro where i need to do lots of production work
+2015-09-25 11:55:23	dean	the amount of times i recompiled llvm
+2015-09-25 11:55:24	dean	urgghhh
+2015-09-25 11:55:28	dean	30 minutes later
+2015-09-25 11:55:48	dean	also i found the package maintainers on gentoo to be a bit lax
+2015-09-25 11:56:07	dean	they really need to test their package dependencies a bit more before putting them in production
+2015-09-25 11:56:13	dean	*looks at nvidia-settings*
+2015-09-25 11:56:59	GustavoAraujo	I have had issues with nvidia in every fucking distro
+2015-09-25 11:57:01	GustavoAraujo	Hahah
+2015-09-25 11:57:24	GustavoAraujo	But yes, arch looks like ubuntu after gentoo
+2015-09-25 11:57:33	dean	though it gives me a new appreciation for the arch devs
+2015-09-25 11:57:39	dean	they do an amazing job
+2015-09-25 11:57:53	dean	gentoo is just a bit rough round the edges for my liking
+2015-09-25 11:58:18	dean	they really need to make the blocked packages messages more user intuitive
+2015-09-25 11:59:49	GustavoAraujo	Hmmmm maybe
+2015-09-25 12:00:13	GustavoAraujo	I will have a better understanding about gentoo in a year
+2015-09-25 12:00:43	GustavoAraujo	I'm still too noob in gentoo
+2015-09-25 12:00:52	GustavoAraujo	But arch is great
+2015-09-25 12:01:05	GustavoAraujo	That's why I have arch on my system as well
+2015-09-25 12:01:14	dean	haha i picked it up quickly, just what they consider stable packages is ancient. and when you start mixing and matching it gets messy
+2015-09-25 12:01:41	GustavoAraujo	The downside of arch is those aur packages which people just forget to update properly
+2015-09-25 12:01:51	dean	i do like gentoo though, i just needed something that is the same amount of os freedom just NOT THAT MUCH ;)
+2015-09-25 12:02:00	dean	thats when you flag them in AUR
+2015-09-25 12:02:13	dean	and if you not, you can ask to adopt the package if the maintaineer is nowhere to be seen
+2015-09-25 12:02:19	dean	its the same with overlays in gentoo though
+2015-09-25 12:02:37	GustavoAraujo	Yup, the same with ccr in chakra
+2015-09-25 12:03:33	GustavoAraujo	But some times it does not work to flag them and if you dont have much time to adopt the package it's better to kee you quite
+2015-09-25 12:03:40	dean	i've become good friends with the lead dev of blender
+2015-09-25 12:03:42	GustavoAraujo	Keep*
+2015-09-25 12:03:43	dean	hes from melbourne
+2015-09-25 12:04:00	GustavoAraujo	Ohh that's interesnting
+2015-09-25 12:04:14	dean	he used to used to use gentoo, but got tired of dependency issues. so he has been on arch for the past year or so
+2015-09-25 12:04:26	dean	and when your a lead c++ dev for blender, you have all my respects
+2015-09-25 12:04:30	dean	he is a full-time paid dev as well
+2015-09-25 12:04:55	GustavoAraujo	Also i think sometimes we dont need bleeding edge stuff... We do that like a drug but its unecessary
+2015-09-25 12:05:16	GustavoAraujo	I agree about this blender guy
+2015-09-25 12:05:34	GustavoAraujo	My stable distro of choice is pclinuxos
+2015-09-25 12:05:42	GustavoAraujo	It just makes sense 
+2015-09-25 12:05:48	GustavoAraujo	You have to try it
+2015-09-25 12:05:54	dean	i've been tempted to put bsd in a vm and see how painful it really is
+2015-09-25 12:06:00	dean	you know you can go one up from gentoo right
+2015-09-25 12:06:01	dean	slackware
+2015-09-25 12:06:03	dean	haha
+2015-09-25 12:06:11	GustavoAraujo	But try it not not dean, try it like a normal person haha
+2015-09-25 12:06:15	dean	no dependecy manager at all, its all up to you to figure it out
+2015-09-25 12:07:12	GustavoAraujo	Slackware is a mess... Seriously... How can you maintain a distro without dep checking?
+2015-09-25 12:07:14	GustavoAraujo	Haha
+2015-09-25 12:07:24	GustavoAraujo	Sounds like a nightmare
+2015-09-25 12:08:09	GustavoAraujo	Maybe it's good for people who just use emacs and all its programs 
+2015-09-25 12:08:11	GustavoAraujo	Haha
+2015-09-25 12:09:19	dean	for me. i'll stick to arch. because mainly really, i like the bleeedin' edge
+2015-09-25 12:09:27	dean	and people who say arch breaks all the time are full of shit
+2015-09-25 12:09:39	dean	i had tiny small break in my 2 1/2 year old install
+2015-09-25 12:09:52	dean	and that was just the cups systemd service
+2015-09-25 12:11:48	GustavoAraujo	Yup
+2015-09-25 12:12:03	GustavoAraujo	Actually thats not a better distro
+2015-09-25 12:12:22	GustavoAraujo	The best is the one that fits your needs
+2015-09-25 12:12:32	dean	unless you use ubuntu
+2015-09-25 12:12:36	dean	and then you are just a lowly pleb
+2015-09-25 12:12:40	GustavoAraujo	Hahahahhaha
+2015-09-25 12:12:42	dean	to be fair i use ubuntu server all the time
+2015-09-25 12:12:53	GustavoAraujo	I use xubuntu
+2015-09-25 12:12:54	dean	cause its actually really good as a headless server
+2015-09-25 12:13:04	GustavoAraujo	Which does not use systemd
+2015-09-25 12:13:18	dean	well ubuntu actually now has three init systems in place.. haha
+2015-09-25 12:13:23	dean	upstart, openrc and systemd
+2015-09-25 12:13:30	dean	and you can use whichever one you want. haha
+2015-09-25 12:13:53	dean	one thing i tempted to do with my arch reinstall actually is to remove systemd and put openrc on it
+2015-09-25 12:13:56	GustavoAraujo	Ubuntu is fine, but you have to do fresh installs after 6 months haha
+2015-09-25 12:14:59	dean	headless server you are usually fine tbh
+2015-09-25 12:15:18	dean	i never use ubuntu as a desktop os ever
+2015-09-25 12:15:23	dean	just the headless server application
+2015-09-25 12:16:58	GustavoAraujo	Dude, lets change the subject
+2015-09-25 12:17:08	GustavoAraujo	Give me a visa to go to au
+2015-09-25 12:17:10	GustavoAraujo	Hahahaha
+2015-09-25 12:17:30	GustavoAraujo	Brazil is having a heavy crisis
+2015-09-25 12:18:35	dean	you mention this everytime i speak to you
+2015-09-25 12:18:54	dean	i think the world is in a general crisis now
+2015-09-25 12:19:01	dean	a capitalist crisis
+2015-09-25 12:20:12	GustavoAraujo	Maybe
+2015-09-25 12:21:16	dean	you know what i'm sick of
+2015-09-25 12:21:23	dean	people being too fucking ultra politically correct
+2015-09-25 12:21:31	dean	to the point no one can have a sense of humour anymore
+2015-09-25 12:21:35	dean	thank god for south park
+2015-09-25 12:22:33	GustavoAraujo	If you hate that... You would be crazy living here
+2015-09-25 12:23:06	dean	oh its global
+2015-09-25 12:23:25	GustavoAraujo	We call that "politicamente correto"
+2015-09-25 12:23:30	GustavoAraujo	Almost the same word
+2015-09-25 12:24:11	GustavoAraujo	I have watched Psicose with my girl yesterday
+2015-09-25 12:24:17	GustavoAraujo	Awesome film
+2015-09-25 12:24:34	dean	haha i shall look it up
+2015-09-25 12:24:42	dean	brb need some sunshine.. office has none
+2015-09-25 12:25:08	GustavoAraujo	Go and take a picture for me
+2015-09-25 12:29:45	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 12:48:38	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 12:49:19	GustavoAraujo	A lot of trees
+2015-09-25 12:49:26	GustavoAraujo	That's good
+2015-09-25 12:49:42	dean	its the outer suburbs of melbourne
+2015-09-25 12:49:46	dean	where my work is
+2015-09-25 12:49:49	GustavoAraujo	i will take one shot of my strees later for you
+2015-09-25 12:50:02	GustavoAraujo	Street*
+2015-09-25 12:50:43	dean	awesome sauce
+2015-09-25 12:51:13	GustavoAraujo	i was playing a mega drive game with my wii pro controller
+2015-09-25 12:51:20	GustavoAraujo	I love this controller
+2015-09-25 12:51:37	dean	haha last emulation i did was testing star ocean 3 at 2k
+2015-09-25 12:51:47	GustavoAraujo	It's light as a paper and its d-pad is the best
+2015-09-25 12:51:50	dean	seems that pcsx2 has done major overhauls on their gfx plugin
+2015-09-25 12:52:02	dean	remember how depth of field kind of looked all fucked, with the double vision kind of effect
+2015-09-25 12:52:24	dean	as it was a ps2 trick to try and give that effect on old crt tv's
+2015-09-25 12:52:38	GustavoAraujo	I should try star ocen 3 ... I will have to finiah it
+2015-09-25 12:52:45	GustavoAraujo	Finish*
+2015-09-25 12:52:48	dean	haha, i bought it when i came out
+2015-09-25 12:52:50	dean	got to the final boss
+2015-09-25 12:52:52	dean	never finished it
+2015-09-25 12:53:03	GustavoAraujo	Hahahahahhaa
+2015-09-25 12:53:09	dean	happened with star ocean 2 as well
+2015-09-25 12:53:14	dean	the only game i really did that with
+2015-09-25 12:53:19	GustavoAraujo	The same for me in crono trigger
+2015-09-25 12:53:38	dean	chrono cross didn't do it for me.
+2015-09-25 12:53:51	dean	though as always yasunori mitsuda out does himself on both of those ost's
+2015-09-25 12:53:57	dean	he also did xenogears and xenosaga
+2015-09-25 12:54:44	GustavoAraujo	I think i will never have time to play pc games cause I have a big list of console games to play
+2015-09-25 12:55:01	dean	haha i played a lot when i had the consoles
+2015-09-25 12:55:06	GustavoAraujo	There is an awesome rpg on the mega drive which I juasr forgot now ....
+2015-09-25 12:55:18	dean	that new one that is on the steam store as well
+2015-09-25 12:55:29	GustavoAraujo	Nope
+2015-09-25 12:55:40	GustavoAraujo	It's a classic one let me check
+2015-09-25 12:55:41	dean	all i can think of when it comes to mega drive is phantasy star
+2015-09-25 12:56:12	dean	the snes owned that area of the market back in the day
+2015-09-25 12:56:38	dean	actually lets be fair, the snes owned the mega drive overall hardware wise
+2015-09-25 12:56:53	dean	and i don't even like nintendo
+2015-09-25 12:57:02	dean	but where credit is due, the snes was great
+2015-09-25 12:58:37	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 12:59:46	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 13:00:30	GustavoAraujo	Let me take my jxd... That game is on it
+2015-09-25 13:00:32	GustavoAraujo	Well
+2015-09-25 13:00:41	GustavoAraujo	I dont care about hardware
+2015-09-25 13:00:57	GustavoAraujo	The games in both consoles were equaly great titles
+2015-09-25 13:01:43	GustavoAraujo	And actually I can name more great mega drives games than snses ones
+2015-09-25 13:06:28	dean	i could probably name more snes than megadrive
+2015-09-25 13:06:36	dean	unfortunately the megadrive got tained by sega cd and the 32x
+2015-09-25 13:06:44	dean	are you thinking of lunar btw
+2015-09-25 13:06:44	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 13:06:51	dean	the megadrive/sega-cd jrpg
+2015-09-25 13:06:51	ℹ 	[GustavoAraujo] is away: Offline
+2015-09-25 13:09:04	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 13:09:32	GustavoAraujo	Not yet, i need to play some rpgs in my list
+2015-09-25 13:09:45	GustavoAraujo	And ther are a lot on it
+2015-09-25 13:10:30	GustavoAraujo	In the last 9 months I have being basically reading books
+2015-09-25 13:10:40	GustavoAraujo	And watching movies
+2015-09-25 13:10:47	GustavoAraujo	No time for games
+2015-09-25 13:15:34	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 13:16:33	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 13:17:24	GustavoAraujo	Agreed... I think the 16 bit era was a great time to be a kid
+2015-09-25 13:17:34	GustavoAraujo	I enjoyed it
+2015-09-25 13:17:53	GustavoAraujo	Hey
+2015-09-25 13:18:06	GustavoAraujo	Have you heard about a brazilian series called Narcos?
+2015-09-25 13:18:32	GustavoAraujo	- you never watched anything that I recommended you...
+2015-09-25 13:19:05	GustavoAraujo	People said it's a good one, i will try the episode one now
+2015-09-25 13:19:36	GustavoAraujo	Sounds great
+2015-09-25 13:19:38	GustavoAraujo	Haha
+2015-09-25 13:22:03	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 13:25:15	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 13:25:26	GustavoAraujo	http://www.youtube.com/watch?v=zdjp53iaeso
+2015-09-25 13:25:36	GustavoAraujo	Take a look at this genesis game
+2015-09-25 13:25:45	dean	i would but im at work :(
+2015-09-25 13:28:24	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 13:28:35	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 13:29:09	GustavoAraujo	Really, this game is awesome... Bookmark it
+2015-09-25 13:29:19	dean	and done
+2015-09-25 13:29:22	dean	i'll check it out on the train
+2015-09-25 13:31:24	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 13:32:02	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 13:32:19	GustavoAraujo	Great sound track as well
+2015-09-25 13:32:38	GustavoAraujo	I will play it this weekend :P
+2015-09-25 13:36:41	dean	haha. this week i have to build a network and server box for a graphics design business
+2015-09-25 13:40:49	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
+2015-09-25 14:30:03	◥	GustavoAraujo (100007209372966@facebook) is back on server
+2015-09-25 14:32:34	◣	GustavoAraujo (100007209372966@facebook) has quit (Leaving...)
