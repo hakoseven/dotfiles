@@ -1,266 +1,207 @@
-"           ██
-"          ░░
-"  ██    ██ ██ ██████████  ██████  █████
-" ░██   ░██░██░░██░░██░░██░░██░░█ ██░░░██
-" ░░██ ░██ ░██ ░██ ░██ ░██ ░██ ░ ░██  ░░
-"  ░░████  ░██ ░██ ░██ ░██ ░██   ░██   ██
-"   ░░██   ░██ ███ ░██ ░██░███   ░░█████
-"    ░░    ░░ ░░░  ░░  ░░ ░░░     ░░░░░
-"
-"  ▓▓▓▓▓▓▓▓▓▓
-" ░▓ author ▓ xero <x@xero.nu>
-" ░▓ code   ▓ http://code.xero.nu/dotfiles
-" ░▓ mirror ▓ http://git.io/.files
-" ░▓▓▓▓▓▓▓▓▓▓
-" ░░░░░░░░░░
-"
-" use vim settings, rather than vi settings
-" must be first, because it changes other options as a side effect
+" based on http://github.com/jferris/config_files/blob/master/vimrc
+
+" Use Vim settings, rather then Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
 set nocompatible
 
-" paste without auto indentation
-set paste
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
 
-" hide buffers, not close them
-set hidden
+set nobackup
+set nowritebackup
+set history=50		" keep 50 lines of command line history
+set ruler		" show the cursor position all the time
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
 
-" maintain undo history between sessions
-set undofile
-set undodir=~/.vim/undo
-set noswapfile
+" Don't use Ex mode, use Q for formatting
+map Q gq
 
-" lazy file name tab completion
-set wildmode=longest,list,full
-set wildmenu
-set wildignorecase
+" This is an alternative that also works in block mode, but the deleted
+" text is lost and it only works for putting the current register.
+"vnoremap p "_dp
 
-" case insensitive search
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
+  syntax on
+  set hlsearch
+endif
+
+" Switch wrap off for everything
+set nowrap
+
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+  " Enable file type detection.
+  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+  " 'cindent' is on in C files, etc.
+  " Also load indent files, to automatically do language-dependent indenting.
+  filetype plugin indent on
+
+  " Set File type to 'text' for files ending in .txt
+  autocmd BufNewFile,BufRead *.txt setfiletype text
+
+  " Enable soft-wrapping for text files
+  autocmd FileType text,markdown,html,xhtml,eruby setlocal wrap linebreak nolist
+
+  " Put these in an autocmd group, so that we can delete them easily.
+  augroup vimrcEx
+  au!
+
+  " For all text files set 'textwidth' to 78 characters.
+  " autocmd FileType text setlocal textwidth=78
+
+  " When editing a file, always jump to the last known cursor position.
+  " Don't do it when the position is invalid or when inside an event handler
+  " (happens when dropping a file on gvim).
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
+  " Automatically load .vimrc source when saved
+  autocmd BufWritePost .vimrc source $MYVIMRC
+
+  augroup END
+
+else
+
+  set autoindent		" always set autoindenting on
+
+endif " has("autocmd")
+
+" if has("folding")
+  " set foldenable
+  " set foldmethod=syntax
+  " set foldlevel=1
+  " set foldnestmax=2
+  " set foldtext=strpart(getline(v:foldstart),0,50).'\ ...\ '.substitute(getline(v:foldend),'^[\ #]*','','g').'\ '
+" endif
+
+" Softtabs, 2 spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" Always display the status line
+set laststatus=2
+
+" \ is the leader character
+let mapleader = ","
+
+" Edit the README_FOR_APP (makes :R commands work)
+map <Leader>R :e doc/README_FOR_APP<CR>
+
+" Leader shortcuts for Rails commands
+map <Leader>m :Rmodel 
+map <Leader>c :Rcontroller 
+map <Leader>v :Rview 
+map <Leader>u :Runittest 
+map <Leader>f :Rfunctionaltest 
+map <Leader>tm :RTmodel 
+map <Leader>tc :RTcontroller 
+map <Leader>tv :RTview 
+map <Leader>tu :RTunittest 
+map <Leader>tf :RTfunctionaltest 
+map <Leader>sm :RSmodel 
+map <Leader>sc :RScontroller 
+map <Leader>sv :RSview 
+map <Leader>su :RSunittest 
+map <Leader>sf :RSfunctionaltest 
+
+" Hide search highlighting
+map <Leader>h :set invhls <CR>
+
+" Opens an edit command with the path of the currently edited file filled in
+" Normal mode: <Leader>e
+map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+
+" Opens a tab edit command with the path of the currently edited file filled in
+" Normal mode: <Leader>t
+map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
+
+" Inserts the path of the currently edited file into a command
+" Command mode: Ctrl+P
+cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
+
+" Duplicate a selection
+" Visual mode: D
+vmap D y'>p
+
+" Press Shift+P while in visual mode to replace the selection without
+" overwriting the default register
+vmap P p :call setreg('"', getreg('0')) <CR>
+
+" For Haml
+au! BufRead,BufNewFile *.haml         setfiletype haml
+
+" No Help, please
+nmap <F1> <Esc>
+
+" Press ^F from insert mode to insert the current file name
+imap <C-F> <C-R>=expand("%")<CR>
+
+" Maps autocomplete to tab
+imap <Tab> <C-N>
+
+imap <C-L> <Space>=><Space>
+
+" Display extra whitespace
+" set list listchars=tab:»·,trail:·
+
+" Edit routes
+command! Rroutes :e config/routes.rb
+command! Rschema :e db/schema.rb
+
+" Local config
+if filereadable(".vimrc.local")
+  source .vimrc.local
+endif
+
+" Use Ack instead of Grep when available
+if executable("ack")
+  set grepprg=ack\ -H\ --nogroup\ --nocolor\ --ignore-dir=tmp\ --ignore-dir=coverage
+endif
+
+" Color scheme
+" colorscheme vividchalk
+" highlight NonText guibg=#060606
+" highlight Folded  guibg=#0A0A0A guifg=#9090D0
+
+" Numbers
+set number
+set numberwidth=5
+
+" Snippets are activated by Shift+Tab
+let g:snippetsEmu_key = "<S-Tab>"
+
+" Tab completion options
+" (only complete to the longest unambiguous match, and show a menu)
+set completeopt=longest,menu
+set wildmode=list:longest,list:full
+set complete=.,t
+
+" case only matters with mixed case expressions
 set ignorecase
 set smartcase
 
-" the /g flag on :s substitutions by default
-set gdefault
+" Tags
+let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
+set tags=./tags;
 
-" make backspace behave in a sane manner
-set backspace=indent,eol,start
+let g:fuf_splitPathMatching=1
 
-" searching
-set hlsearch
-set incsearch
+" Open URL
+command -bar -nargs=1 OpenURL :!open <args>
+function! OpenURL()
+  let s:uri = matchstr(getline("."), '[a-z]*:\/\/[^ >,;:]*')
+  echo s:uri
+  if s:uri != ""
+	  exec "!open \"" . s:uri . "\""
+  else
+	  echo "No URI found in line."
+  endif
+endfunction
+map <Leader>w :call OpenURL()<CR>
 
-" use indents of 4 spaces
-set shiftwidth=2
-
-" tabs are spaces, not tabs
-set expandtab
-
-" an indentation every four columns
-set tabstop=2
-
-" let backspace delete indent
-set softtabstop=2
-
-" remove trailing whitespaces and ^M chars
-autocmd FileType c,cpp,java,php,js,python,twig,xml,yml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
-
-" let mapleader=","
-vnoremap <silent> <leader>y :w !xsel -i -b<CR>
-nnoremap <silent> <leader>y V:w !xsel -i -b<CR>
-nnoremap <silent> <leader>p :silent :r !xsel -o -b<CR>
-
-" ┏━╸┏━┓┏┳┓┏┳┓┏━┓┏┓╻╺┳┓┏━┓
-" ┃  ┃ ┃┃┃┃┃┃┃┣━┫┃┗┫ ┃┃┗━┓
-" ┗━╸┗━┛╹ ╹╹ ╹╹ ╹╹ ╹╺┻┛┗━┛
-
-" make ; work like : for commands (lazy shifting)
-nnoremap ; :
-
-" json pretty print
-command J :%!python -mjson.tool
-
-" remove trailing white space
-command Nows :%s/\s\+$//
-
-" remove blank lines
-command Nobl :g/^\s*$/d
-
-" toggle spellcheck
-command Spell :setlocal spell! spell?
-
-" ╻┏┓╻╺┳╸┏━╸┏━┓┏━╸┏━┓┏━╸┏━╸
-" ┃┃┗┫ ┃ ┣╸ ┣┳┛┣╸ ┣━┫┃  ┣╸ 
-" ╹╹ ╹ ╹ ┗━╸╹┗╸╹  ╹ ╹┗━╸┗━╸
-
-" show matching brackets/parenthesis
-set showmatch
-
-" disable startup message
-set shortmess+=I
-
-" syntax highlighting and colors
-syntax on
-colorscheme getfresh
-filetype off
-
-" stop unnecessary rendering
-set lazyredraw
-
-" show line numbers
-set number
-
-" no line wrapping
-set nowrap
-
-" no folding
-set foldlevel=99
-set foldminlines=99
-
-" don't wrap long lines
-set nowrap
-
-" highlight column
-set cursorcolumn
-
-" ┏━┓╻  ╻ ╻┏━╸╻┏┓╻   ┏━┓╺┳╸╻ ╻┏━╸┏━╸
-" ┣━┛┃  ┃ ┃┃╺┓┃┃┗┫   ┗━┓ ┃ ┃ ┃┣╸ ┣╸ 
-" ╹  ┗━╸┗━┛┗━┛╹╹ ╹   ┗━┛ ╹ ┗━┛╹  ╹  
-" i struggle with the decision to use plugins or a more vanilla vim. but right now i'm feeling sytanx completion, linting, and visual git diffs. don't judge me.
-" to install from the shell run:
-" git clone https://github.com/gmarik/Vundle.vim.git ~/dotfiles/vim/.vim/bundle/Vundle.vim && vim +BundleInstall +qall && PYTHON=/usr/bin/python2 ~/dotfiles/vim/.vim/bundle/YouCompleteMe/install.sh --clang-completer && pacman -S the_silver_searcher
-if 1 " boolean for plugin loading
-  set rtp+=~/.vim/bundle/Vundle.vim
-  call vundle#begin()
-  Plugin 'gmarik/Vundle.vim'
-  Plugin 'Valloric/YouCompleteMe'
-  Plugin 'scrooloose/syntastic'
-  Plugin 'airblade/vim-gitgutter'
-  Plugin 'isa/vim-matchit'
-  Plugin 'shawncplus/phpcomplete.vim'
-  Plugin 'mustache/vim-mustache-handlebars'
-  Plugin 'rking/ag.vim'
-  Plugin 'itchyny/lightline.vim'
-  Plugin 'tpope/vim-fugitive'
-  call vundle#end()
-  filetype plugin indent on
-
-  " syntatic http://git.io/syntastic.vim
-  " linters: (from aur) nodejs-jshint, nodejs-jsonlint, csslint, checkbashisms
-  let g:syntastic_always_populate_loc_list = 1
-  let g:syntastic_auto_loc_list = 1
-  let g:syntastic_check_on_open = 1
-  let g:syntastic_check_on_wq = 0
-  highlight SyntasticErrorSign ctermfg=red ctermbg=237
-  highlight SyntasticWarningSign ctermfg=yellow ctermbg=237
-  highlight SyntasticStyleErrorSign ctermfg=red ctermbg=237
-  highlight SyntasticStyleWarningSign ctermfg=yellow ctermbg=237
-
-  " git-gutter http://git.io/vimgitgutter
-  let g:gitgutter_realtime = 1
-  let g:gitgutter_eager = 1
-  let g:gitgutter_diff_args = '-w'
-  let g:gitgutter_sign_added = '+'
-  let g:gitgutter_sign_modified = '~'
-  let g:gitgutter_sign_removed = '-'
-  let g:gitgutter_sign_removed_first_line = '^'
-  let g:gitgutter_sign_modified_removed = ':'
-  let g:gitgutter_max_signs = 1500
-  highlight clear SignColumn
-  highlight GitGutterAdd ctermfg=green ctermbg=237
-  highlight GitGutterChange ctermfg=yellow ctermbg=237
-  highlight GitGutterDelete ctermfg=red ctermbg=237
-  highlight GitGutterChangeDelete ctermfg=red ctermbg=237
-
-  " vim mustache http://git.io/vim-stash
-  let g:mustache_abbreviations = 1
-
-  " ag, the silver searcher http://git.io/AEu3dQ + http://git.io/d9N0MA
-  let g:agprg="ag -i --vimgrep"
-  let g:ag_highlight=1
-  " map \ to the ag command for quick searching
-  nnoremap \ :Ag<SPACE>
-
-  " ┏━┓╺┳╸┏━┓╺┳╸╻ ╻┏━┓╻  ╻┏┓╻┏━╸
-  " ┗━┓ ┃ ┣━┫ ┃ ┃ ┃┗━┓┃  ┃┃┗┫┣╸ 
-  " ┗━┛ ╹ ╹ ╹ ╹ ┗━┛┗━┛┗━╸╹╹ ╹┗━╸
-  " lightline http://git.io/lightline
-  " █▓▒░ wizard status line
-  set laststatus=2
-  let g:lightline = {
-    \ 'colorscheme': 'bavette',
-    \ 'active': {
-    \   'left': [ [ 'filename' ],
-    \             [ 'readonly', 'fugitive' ] ],
-    \   'right': [ [ 'percent', 'lineinfo' ],
-    \              [ 'fileencoding', 'filetype' ],
-    \              [ 'fileformat', 'syntastic' ] ]
-    \ },
-    \ 'component_function': {
-    \   'modified': 'WizMod',
-    \   'readonly': 'WizRO',
-    \   'fugitive': 'WizGit',
-    \   'filename': 'WizName',
-    \   'filetype': 'WizType',
-    \   'fileformat' : 'WizFormat',
-    \   'fileencoding': 'WizEncoding',
-    \   'mode': 'WizMode',
-    \ },
-    \ 'component_expand': {
-    \   'syntastic': 'SyntasticStatuslineFlag',
-    \ },
-    \ 'component_type': {
-    \   'syntastic': 'error',
-    \ },
-    \ 'separator': { 'left': '▓▒░', 'right': '░▒▓' },
-    \ 'subseparator': { 'left': '▒', 'right': '░' }
-    \ }
-
-  function! WizMod()
-    return &ft =~ 'help\|vimfiler' ? '' : &modified ? '»' : &modifiable ? '' : ''
-  endfunction
-
-  function! WizRO()
-    return &ft !~? 'help\|vimfiler' && &readonly ? 'x' : ''
-  endfunction
-
-  function! WizGit()
-    if &ft !~? 'help\|vimfiler' && exists("*fugitive#head")
-      return fugitive#head()
-    endif
-    return ''
-  endfunction
-
-  function! WizName()
-    return ('' != WizMod() ? WizMod() . ' ' : '') .
-          \ ('' != expand('%:t') ? expand('%:t') : '[none]') 
-  endfunction
-
-  function! WizType()
-    return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype : '') : ''
-  endfunction
-
-  function! WizFormat()
-    return ''
-  endfunction
-
-  function! WizEncoding()
-    return winwidth(0) > 70 ? (strlen(&fenc) ? &enc : &enc) : ''
-  endfunction
-
-  augroup AutoSyntastic
-    autocmd!
-    autocmd BufWritePost *.c,*.cpp call s:syntastic()
-  augroup END
-  function! s:syntastic()
-    SyntasticCheck
-    call lightline#update()
-  endfunction
-endif
-
-
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-
-" Always show statusline
-set laststatus=2
-
-" Use 256 colours (Use this setting only if your terminal supports 256 colours)
-set t_Co=256
