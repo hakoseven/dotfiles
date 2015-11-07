@@ -1,0 +1,10 @@
+background yes
+out_to_console yes
+out_to_x no
+update_interval 1
+
+TEXT
+${if_mpd_playing}^fg(\#989584)^i(/home/clement/.dzen/)${if_empty ${exec mpc | grep -i pause | cut -c 2-6}} ^fg(\#cd546c)${mpd_title}${else} ^fg(\#545454)Pause${endif}${endif}            \
+^fg(\#989584)^i(/home/clement/.dzen/cpu.xbm)${execi 60 /home/clement/.xmonad/bar/bar_cpu.sh}            \
+^fg(\#989584)^i(/home/clement/.dzen/mem.xbm)${execi 60 /home/clement/.xmonad/bar/bar_ram.sh}            \
+^fg(\#989584)^i(/home/clement/.dzen/clock.xmb) ^fg(\#cd546c)${time %H:%M}  

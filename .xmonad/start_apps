@@ -1,0 +1,13 @@
+ fg(#404040)^i(/home/clement/.dzen/arch.xbm)^fg() xterm
+ ^fg(#404040)^i(/home/clement/.dzen/fs_01.xbm)^fg() firefox-developer
+ ^fg(#404040)^i(/home/clement/.dzen/diskette.xbm)^fg() zathura
+ ^fg(#404040)^i(/home/clement/.dzen/plug.xbm)^fg() lowriter
+ ^fg(#404040)^i(/home/clement/.dzen/stop.xbm)^fg() localc
+ ^fg(#404040)^i(/home/clement/.dzen/ac.xbm)^fg() loimpress
+ ^fg(#404040)^i(/home/clement/.dzen/fox.xbm)^fg() gimp
+ ^fg(#404040)^i(/home/clement/.dzen/mem.xbm)^fg() servoy
+----------
+ ^fg(#404040)^i(/home/clement/.dzen/play.xbm)^fg() gmrun
+ ^fg(#404040)^i(/home/clement/.dzen/full.xbm)^fg() systemctl suspend
+ ^fg(#404040)^i(/home/clement/.dzen/half.xbm)^fg() systemctl reboot
+ ^fg(#404040)^i(/home/clement/.dzen/empty.xbm)^fg() systemctl poweroff
