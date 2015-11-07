@@ -9,4 +9,4 @@ Requierement:
 * irssi
 * zsh
 
-![Snippets](https://raw.githubusercontent.com/seytz/dotfiles/master/screen/bbb.png)
+![Snippets](https://raw.githubusercontent.com/seytz/dotfiles/master/conf.png)
